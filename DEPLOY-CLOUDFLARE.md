@@ -1,44 +1,48 @@
-# Checklist de deploy — Cloudflare Workers
+# Deploy no Cloudflare Workers — configuração v2
 
-## Configuração do painel
+## Estrutura
+
+O Wrangler publica somente a pasta `public/`.
+
+```text
+/
+├── wrangler.jsonc
+├── package.json
+├── .gitignore
+├── README.md
+└── public/
+    ├── index.html
+    ├── 404.html
+    ├── _headers
+    ├── robots.txt
+    ├── sitemap.xml
+    ├── news-sitemap.xml
+    ├── rss.xml
+    ├── assets/
+    ├── data/
+    └── criptomoedas/
+```
+
+Isso impede que `.git`, `.wrangler`, README e outros arquivos internos sejam enviados como assets.
+
+## Cloudflare
 
 - Root directory: `/`
-- Build command: vazio / None
+- Build command: nenhum
 - Deploy command: `npx wrangler deploy`
 - Production branch: `main`
 
-## Testes após deploy
+## Após o deploy
 
-1. Home:
-   https://blog.gabriel-speed01.workers.dev/
+Testar:
 
-2. CSS:
-   https://blog.gabriel-speed01.workers.dev/assets/styles.css
+- https://blog.gabriel-speed01.workers.dev/
+- https://blog.gabriel-speed01.workers.dev/assets/styles.css
+- https://blog.gabriel-speed01.workers.dev/data/articles.json
+- https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/
+- https://blog.gabriel-speed01.workers.dev/sitemap.xml
+- https://blog.gabriel-speed01.workers.dev/news-sitemap.xml
+- https://blog.gabriel-speed01.workers.dev/rss.xml
+- https://blog.gabriel-speed01.workers.dev/robots.txt
 
-3. JSON:
-   https://blog.gabriel-speed01.workers.dev/data/articles.json
-
-4. Notícia:
-   https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/
-
-5. Sitemap:
-   https://blog.gabriel-speed01.workers.dev/sitemap.xml
-
-6. News Sitemap:
-   https://blog.gabriel-speed01.workers.dev/news-sitemap.xml
-
-7. RSS:
-   https://blog.gabriel-speed01.workers.dev/rss.xml
-
-8. Robots:
-   https://blog.gabriel-speed01.workers.dev/robots.txt
-
-9. Página inexistente:
-   https://blog.gabriel-speed01.workers.dev/pagina-que-nao-existe
-   Deve retornar o conteúdo de `404.html` com status HTTP 404.
-
-## Observação
-
-`html_handling: auto-trailing-slash` garante que uma pasta contendo `index.html`,
-como `/criptomoedas/noticia/index.html`, seja acessível canonicamente como
-`/criptomoedas/noticia/`.
+Uma URL inexistente deve renderizar `404.html` e retornar HTTP 404.

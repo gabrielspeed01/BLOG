@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://blog.gabriel-speed01.workers.dev/</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-</urlset>
+<rss version="2.0">
+  <channel>
+    <title>BLOG — Notícias</title>
+    <link>https://blog.gabriel-speed01.workers.dev/</link>
+    <description>Notícias de tecnologia, criptomoedas e entretenimento.</description>
+    <language>pt-BR</language>
+    <lastBuildDate>Sun, 10 Aug 2026 07:21:00 GMT</lastBuildDate>
+    <item>
+      <title>Senado dos EUA avança Clarity Act e aproxima nova votação sobre regras para criptomoedas</title>
+      <link>https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/</link>
+      <guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/</guid>
+      <description>Movimento procedural prepara o projeto para votação após o recesso de agosto; proposta tenta definir como ativos digitais serão enquadrados e fiscalizados nos Estados Unidos.</description>
+      <pubDate>Sun, 10 Aug 2026 07:10:00 GMT</pubDate>
+      <category>Criptomoedas</category>
+    </item>
+  </channel>
+</rss>
