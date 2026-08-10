@@ -1,19 +1,45 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sobre o BLOG — BLOG</title><link rel="stylesheet" href="/assets/styles.css"></head>
-<body><header class="site-header">
-  <div class="topbar"><div class="container topbar__inner">
-    <a class="brand" href="/" aria-label="BLOG - Página inicial"><span class="brand__mark">B</span><span class="brand__text">BLOG</span></a>
-    <nav class="main-nav main-nav--article"><a href="/tecnologia/">Tecnologia</a><a href="/criptomoedas/">Criptomoedas</a><a href="/entretenimento/">Entretenimento</a><a href="/#ultimas">Últimas</a></nav>
-  </div></div>
-</header><main class="container section"><article class="article-page"><span class="eyebrow">Institucional</span><h1>Quem somos</h1>
-<div class="article-page__body"><p>O BLOG é um portal em desenvolvimento dedicado a Tecnologia, Criptomoedas e Entretenimento.</p>
-<p>Nosso objetivo é combinar velocidade jornalística, contexto, fontes confiáveis e organização temática para produzir conteúdo útil para leitores e mecanismos de busca.</p></div></article></main><footer class="site-footer">
-  <div class="container footer-grid">
-    <div><div class="brand brand--footer"><span class="brand__mark">B</span><span class="brand__text">BLOG</span></div>
-    <p>Notícias, contexto e conteúdo em Tecnologia, Criptomoedas e Entretenimento.</p></div>
-    <div><h2>Categorias</h2><a href="/tecnologia/">Tecnologia</a><a href="/criptomoedas/">Criptomoedas</a><a href="/entretenimento/">Entretenimento</a></div>
-    <div><h2>Editorial</h2><a href="/sobre/">Sobre</a><a href="/contato/">Contato</a><a href="/politica-editorial/">Política editorial</a><a href="/politica-de-correcoes/">Correções</a><a href="/rss.xml">RSS</a></div>
-  </div>
-  <div class="container footer-bottom">© 2026 BLOG</div>
-</footer></body></html>
+# BLOG
+
+MVP estático de um portal de notícias sobre **Tecnologia, Criptomoedas e Entretenimento**.
+
+## Arquitetura atual
+
+- `index.html`: home do portal.
+- `artigo.html`: visualização de artigo por `?slug=`.
+- `assets/styles.css`: layout responsivo.
+- `assets/app.js`: renderização, filtros, busca e artigos.
+- `data/articles.json`: contrato de entrada de conteúdo.
+- `docs/PIPELINE.md`: desenho da automação editorial.
+- `robots.txt` e `sitemap.xml`: base de SEO.
+
+## Cloudflare Pages
+
+Este repositório foi planejado para hospedagem estática gratuita no Cloudflare Pages.
+
+Configuração sugerida:
+
+- Production branch: `main`
+- Build command: `exit 0`
+- Build output directory: `/`
+
+Ao conectar o repositório ao Cloudflare Pages, cada push pode gerar um novo deploy automaticamente.
+
+## Conteúdo automatizado
+
+A primeira versão do site lê notícias a partir de `data/articles.json`.
+
+A futura IA poderá:
+
+1. monitorar RSS, APIs e fontes;
+2. agrupar notícias do mesmo evento;
+3. buscar fontes primárias;
+4. produzir artigo original;
+5. atualizar `data/articles.json`;
+6. fazer commit no GitHub;
+7. deixar o Cloudflare publicar automaticamente.
+
+Leia `docs/PIPELINE.md` para o contrato editorial.
+
+## Observação sobre o conteúdo atual
+
+Os artigos existentes estão marcados como **DEMONSTRAÇÃO** e servem apenas para validar o layout. Não representam notícias factuais.

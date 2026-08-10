@@ -1,5 +1,5 @@
-User-agent: *
-Allow: /
-
-# Atualizar quando o domínio definitivo for escolhido.
-# Sitemap: https://DOMINIO/sitemap.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <!-- O domínio público ainda não foi definido. A automação deverá inserir URLs absolutas aqui assim que o domínio/URL do Cloudflare Pages for configurado. -->
+</urlset>
