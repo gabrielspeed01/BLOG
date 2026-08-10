@@ -11,8 +11,8 @@
   <meta property="og:url" content="https://blog.gabriel-speed01.workers.dev/">
   <link rel="canonical" href="https://blog.gabriel-speed01.workers.dev/">
   <title>BLOG — Tecnologia, Cripto e Entretenimento</title>
-  <link rel="stylesheet" href="./assets/styles.css">
-  <script defer src="./assets/app.js"></script>
+  <link rel="stylesheet" href="./assets/styles.css?v=20260810-0437">
+  <script defer src="./assets/app.js?v=20260810-0437"></script>
 </head>
 <body data-page="home">
   <header class="site-header">

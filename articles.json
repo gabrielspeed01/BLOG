@@ -26,7 +26,10 @@ function relativeDate(iso) {
 
 function articleUrl(article) {
   if (article.url) return article.url;
-  return `./artigo.html?slug=${encodeURIComponent(article.slug)}`;
+  if (article.category && article.slug) {
+    return `/${encodeURIComponent(article.category)}/${encodeURIComponent(article.slug)}/`;
+  }
+  return "/";
 }
 
 function badge(article) {
