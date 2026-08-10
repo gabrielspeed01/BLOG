@@ -10,7 +10,7 @@ function escapeHtml(value="") {
 }
 
 function categoryLabel(category) {
-  return ({ tecnologia:"Tecnologia", criptomoedas:"Criptomoedas", entretenimento:"Entretenimento" })[category] || category;
+  return ({ tecnologia:"Tecnologia", criptomoedas:"Criptomoedas", entretenimento:"Entretenimento", politica:"Política" })[category] || category;
 }
 
 function relativeDate(iso) {
@@ -26,7 +26,10 @@ function relativeDate(iso) {
 
 function articleUrl(article) {
   if (article.url) return article.url;
-  return `./artigo.html?slug=${encodeURIComponent(article.slug)}`;
+  if (article.category && article.slug) {
+    return `/${encodeURIComponent(article.category)}/${encodeURIComponent(article.slug)}/`;
+  }
+  return "/";
 }
 
 function badge(article) {
@@ -49,7 +52,7 @@ function heroCard(article, main=false) {
 }
 
 function newsCard(article) {
-  const klass = article.category === "criptomoedas" ? "thumb--crypto" : article.category === "entretenimento" ? "thumb--ent" : "";
+  const klass = article.category === "criptomoedas" ? "thumb--crypto" : article.category === "entretenimento" ? "thumb--ent" : article.category === "politica" ? "thumb--politica" : "";
   const thumb = article.featuredImage?.url
     ? `<a class="thumb thumb--image" href="${articleUrl(article)}" aria-label="${escapeHtml(article.title)}"><img src="${escapeHtml(article.featuredImage.url)}" alt="${escapeHtml(article.featuredImage.alt || article.title)}" width="${article.featuredImage.width || 1200}" height="${article.featuredImage.height || 675}" loading="lazy"></a>`
     : `<a class="thumb ${klass}" data-letter="${escapeHtml(categoryLabel(article.category).slice(0,1))}" href="${articleUrl(article)}" aria-label="${escapeHtml(article.title)}"></a>`;

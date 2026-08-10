@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Notícias de tecnologia, criptomoedas e entretenimento em um só lugar.">
+  <meta name="description" content="Notícias de tecnologia, criptomoedas, entretenimento e política em um só lugar.">
   <meta name="theme-color" content="#07111f">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="BLOG — Tecnologia, Cripto e Entretenimento">
+  <meta property="og:title" content="BLOG — Tecnologia, Cripto, Entretenimento e Política">
   <meta property="og:description" content="Notícias recentes, contexto e conteúdo relevante.">
   <meta property="og:url" content="https://blog.gabriel-speed01.workers.dev/">
   <link rel="canonical" href="https://blog.gabriel-speed01.workers.dev/">
-  <title>BLOG — Tecnologia, Cripto e Entretenimento</title>
-  <link rel="stylesheet" href="./assets/styles.css">
-  <script defer src="./assets/app.js"></script>
+  <title>BLOG — Tecnologia, Cripto, Entretenimento e Política</title>
+  <link rel="stylesheet" href="./assets/styles.css?v=20260810-0454">
+  <script defer src="./assets/app.js?v=20260810-0454"></script>
 </head>
 <body data-page="home">
   <header class="site-header">
@@ -24,9 +24,10 @@
         </a>
         <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
         <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
-          <a href="./?categoria=tecnologia" data-category-link="tecnologia">Tecnologia</a>
-          <a href="./?categoria=criptomoedas" data-category-link="criptomoedas">Criptomoedas</a>
-          <a href="./?categoria=entretenimento" data-category-link="entretenimento">Entretenimento</a>
+          <a href="/tecnologia/" data-category-link="tecnologia">Tecnologia</a>
+          <a href="/criptomoedas/" data-category-link="criptomoedas">Criptomoedas</a>
+          <a href="/entretenimento/" data-category-link="entretenimento">Entretenimento</a>
+          <a href="/politica/" data-category-link="politica">Política</a>
           <a href="#ultimas">Últimas</a>
         </nav>
         <button class="search-button" id="searchButton" aria-label="Pesquisar">⌕</button>
@@ -39,6 +40,7 @@
         <a href="./?q=bitcoin">Bitcoin</a>
         <a href="./?q=streaming">Streaming</a>
         <a href="./?q=games">Games</a>
+        <a href="./?q=eleicoes">Eleições</a>
       </div>
     </div>
   </header>
@@ -72,6 +74,7 @@
           <button class="pill" data-filter="tecnologia">Tecnologia</button>
           <button class="pill" data-filter="criptomoedas">Cripto</button>
           <button class="pill" data-filter="entretenimento">Entretenimento</button>
+          <button class="pill" data-filter="politica">Política</button>
         </div>
       </div>
 
@@ -89,7 +92,7 @@
           <section class="sidebar-card about-card">
             <span class="eyebrow">Sobre o projeto</span>
             <h2>Notícia rápida, contexto de verdade.</h2>
-            <p>Portal focado em tecnologia, criptomoedas e entretenimento, com conteúdo organizado para SEO e um pipeline preparado para automação editorial.</p>
+            <p>Portal focado em tecnologia, criptomoedas, entretenimento e política, com conteúdo organizado para SEO e um pipeline preparado para automação editorial.</p>
           </section>
         </aside>
       </div>
@@ -104,20 +107,25 @@
           </div>
         </div>
         <div class="category-grid">
-          <a class="category-tile" href="./?categoria=tecnologia">
+          <a class="category-tile" href="/tecnologia/">
             <span>01</span>
             <h3>Tecnologia</h3>
             <p>IA, software, hardware, segurança e grandes empresas.</p>
           </a>
-          <a class="category-tile" href="./?categoria=criptomoedas">
+          <a class="category-tile" href="/criptomoedas/">
             <span>02</span>
             <h3>Criptomoedas</h3>
             <p>Bitcoin, Ethereum, ETFs, blockchain e mercado.</p>
           </a>
-          <a class="category-tile" href="./?categoria=entretenimento">
+          <a class="category-tile" href="/entretenimento/">
             <span>03</span>
             <h3>Entretenimento</h3>
             <p>Filmes, séries, streaming, games e cultura pop.</p>
+          </a>
+          <a class="category-tile" href="/politica/">
+            <span>04</span>
+            <h3>Política</h3>
+            <p>Eleições, Congresso, pesquisas, candidatos e decisões institucionais.</p>
           </a>
         </div>
       </div>
@@ -132,9 +140,10 @@
       </div>
       <div>
         <h2>Categorias</h2>
-        <a href="./?categoria=tecnologia">Tecnologia</a>
-        <a href="./?categoria=criptomoedas">Criptomoedas</a>
-        <a href="./?categoria=entretenimento">Entretenimento</a>
+        <a href="/tecnologia/">Tecnologia</a>
+        <a href="/criptomoedas/">Criptomoedas</a>
+        <a href="/entretenimento/">Entretenimento</a>
+        <a href="/politica/">Política</a>
       </div>
       <div>
         <h2>Editorial</h2>
