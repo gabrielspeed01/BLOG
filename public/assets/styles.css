@@ -550,3 +550,22 @@ button,a,input{
     font-size:29px;
   }
 }
+
+/* Footer simplified after removing Editorial and description */
+.footer-grid{
+  grid-template-columns:2fr 1fr;
+  align-items:start;
+}
+.footer-grid > div:first-child{
+  min-width:0;
+}
+@media(max-width:820px){
+  .footer-grid{
+    grid-template-columns:1fr 1fr;
+  }
+}
+@media(max-width:520px){
+  .footer-grid{
+    grid-template-columns:1fr;
+  }
+}
