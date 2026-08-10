@@ -1,0 +1,66 @@
+BLOG — SUBSTITUIÇÃO COMPLETA DO REPOSITÓRIO
+
+IMPORTANTE:
+Não envie os arquivos individualmente renomeando-os no GitHub.
+
+A estrutura correta precisa permanecer exatamente assim:
+
+/
+├── wrangler.jsonc
+├── package.json
+├── .gitignore
+├── README.md
+├── DEPLOY-CLOUDFLARE.md
+└── public/
+    ├── index.html
+    ├── 404.html
+    ├── _headers
+    ├── robots.txt
+    ├── sitemap.xml
+    ├── news-sitemap.xml
+    ├── rss.xml
+    ├── artigo.html
+    ├── assets/
+    │   ├── app.js
+    │   └── styles.css
+    ├── data/
+    │   └── articles.json
+    └── criptomoedas/
+        └── senado-eua-avanca-clarity-act-regras-criptomoedas/
+            └── index.html
+
+PASSOS RECOMENDADOS:
+
+1. Baixe este ZIP.
+2. Extraia o ZIP no seu computador.
+3. Abra a pasta extraída.
+4. Confirme que existe uma pasta chamada "public".
+5. No repositório GitHub, remova os arquivos antigos que foram enviados incorretamente.
+6. Faça upload da ESTRUTURA COMPLETA preservando as pastas.
+7. Não mova o conteúdo de public/ para a raiz.
+8. Faça commit no branch main.
+9. O Cloudflare executará:
+   npx wrangler deploy
+
+CONFIGURAÇÃO CLOUDFLARE:
+Root directory: /
+Build command: None
+Deploy command: npx wrangler deploy
+Production branch: main
+
+TESTE APÓS DEPLOY:
+Home:
+https://blog.gabriel-speed01.workers.dev/
+
+Notícia:
+https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/
+
+Sitemap:
+https://blog.gabriel-speed01.workers.dev/sitemap.xml
+
+RSS:
+https://blog.gabriel-speed01.workers.dev/rss.xml
+
+Se o build disser:
+assets.directory ... /public does not exist
+então a pasta public/ não foi enviada ao GitHub.
