@@ -14,3 +14,12 @@ Configuração no Cloudflare:
 - Production branch: `main`
 
 Veja `DEPLOY-CLOUDFLARE.md`.
+
+## Verticais editoriais
+
+- Tecnologia
+- Criptomoedas
+- Entretenimento
+- Política
+
+A vertical Política utiliza `/politica/` e segue regras editoriais mais rígidas para cobertura eleitoral, pesquisas, declarações, alegações e conteúdo político sensível.

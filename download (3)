@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-10T07:47:00Z",
+  "instructions": "Este arquivo é o contrato de entrada do portal. A automação futura deve validar fontes, evitar duplicatas e adicionar apenas artigos originais com status=published.",
+  "articles": [
+    {
+      "id": "crypto-2026-08-10-clarity-act",
+      "sourceEventId": "us-senate-clarity-act-2026-08-08",
+      "slug": "senado-eua-avanca-clarity-act-regras-criptomoedas",
+      "url": "/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/",
+      "status": "published",
+      "demo": false,
+      "category": "criptomoedas",
+      "subCategory": "regulacao",
+      "title": "Senado dos EUA avança Clarity Act e aproxima nova votação sobre regras para criptomoedas",
+      "summary": "Movimento procedural prepara o projeto para votação após o recesso de agosto; proposta tenta definir como ativos digitais serão enquadrados e fiscalizados nos Estados Unidos.",
+      "author": "Redação BLOG",
+      "publishedAt": "2026-08-10T07:10:00Z",
+      "updatedAt": "2026-08-10T07:10:00Z",
+      "views": 0,
+      "tags": [
+        "criptomoedas",
+        "regulação",
+        "Clarity Act",
+        "Estados Unidos"
+      ],
+      "entities": [
+        "CLARITY Act",
+        "Senado dos Estados Unidos",
+        "SEC",
+        "CFTC"
+      ],
+      "seo": {
+        "title": "Senado dos EUA avança Clarity Act sobre criptomoedas",
+        "description": "Senado dos EUA prepara nova etapa do Clarity Act, projeto que busca definir regras para o mercado de criptomoedas e ativos digitais.",
+        "canonical": "https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/"
+      },
+      "featuredImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
+        "alt": "Fachada oeste do Capitólio dos Estados Unidos, sede do Congresso em Washington",
+        "source": "Wikimedia Commons",
+        "credit": "Martin Falbisoner",
+        "license": "CC BY-SA",
+        "width": 1280,
+        "height": 853
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "O Senado dos Estados Unidos deu um novo passo no processo legislativo do CLARITY Act, proposta que pretende criar uma estrutura federal mais definida para o mercado de ativos digitais. Em 8 de agosto, o líder da maioria no Senado, John Thune, apresentou uma medida procedural que prepara uma votação após o recesso de agosto."
+        },
+        {
+          "type": "paragraph",
+          "text": "A movimentação não significa que o projeto já foi aprovado. Ela abre caminho para que o Senado volte a discutir e votar a proposta quando os parlamentares retornarem, em um momento no qual a indústria de criptomoedas acompanha de perto a definição de regras para tokens, corretoras e outros participantes do mercado."
+        },
+        {
+          "type": "heading",
+          "text": "O que o CLARITY Act pretende mudar"
+        },
+        {
+          "type": "paragraph",
+          "text": "A proposta busca reduzir a incerteza sobre o enquadramento regulatório de ativos digitais nos Estados Unidos. Entre os pontos centrais está a tentativa de estabelecer critérios mais claros para diferenciar ativos tratados como valores mobiliários daqueles enquadrados como commodities, além de distribuir responsabilidades entre órgãos reguladores."
+        },
+        {
+          "type": "paragraph",
+          "text": "O Comitê Bancário do Senado já havia aprovado o texto em maio por 15 votos a 9, permitindo que o projeto seguisse para o plenário. A maioria republicana do comitê afirma que a legislação cria proteções para consumidores, regras de divulgação e instrumentos contra fraudes e financiamento ilícito."
+        },
+        {
+          "type": "heading",
+          "text": "Projeto ainda enfrenta resistência"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apesar do avanço, o projeto continua sendo alvo de críticas. Integrantes democratas do Comitê Bancário argumentam que o texto mantém lacunas relacionadas a financiamento ilícito, proteção de investidores e conflitos de interesse. Essas divergências ajudam a explicar por que a tramitação ainda depende de novas negociações."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a Reuters, a liderança republicana espera conseguir os votos necessários para avançar com a matéria após o recesso, mas a resistência democrata permanece relevante. Por isso, o próximo passo procedural não deve ser interpretado como garantia de aprovação final."
+        },
+        {
+          "type": "heading",
+          "text": "Por que isso importa para o mercado cripto"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nos Estados Unidos, empresas do setor discutem há anos quais atividades devem ficar sob supervisão da Securities and Exchange Commission (SEC) e quais podem ser tratadas como commodities sob a Commodity Futures Trading Commission (CFTC). Uma lei de estrutura de mercado pode alterar obrigações de registro, divulgação e operação para empresas que atendem investidores norte-americanos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para usuários e investidores, o efeito prático dependerá do texto final aprovado e de como os reguladores implementarem as regras. Por enquanto, o principal fato é que o CLARITY Act voltou a avançar no calendário legislativo e deverá ganhar nova atenção quando o Senado retomar os trabalhos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esta matéria tem caráter exclusivamente informativo e não constitui recomendação de investimento, compra ou venda de criptomoedas."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — U.S. Senate advances landmark crypto bill before heading on August recess",
+          "url": "https://www.reuters.com/legal/government/us-senate-advances-landmark-crypto-bill-before-heading-august-recess-2026-08-08/"
+        },
+        {
+          "name": "U.S. Senate Committee on Banking — avanço do CLARITY Act por 15–9",
+          "url": "https://www.banking.senate.gov/newsroom/majority/chairman-scott-senate-banking-committee-advance-clarity-act-in-historic-bipartisan-vote"
+        },
+        {
+          "name": "U.S. Senate Committee on Banking — análise da minoria sobre riscos e lacunas",
+          "url": "https://www.banking.senate.gov/newsroom/minority/national-security-advisory-clarity-act-fails-to-address-key-vulnerabilities-exploited-by-criminals-terrorists-and-foreign-adversaries"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 84,
+        "trend": 73
+      },
+      "absoluteUrl": "https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/"
+    },
+    {
+      "id": "demo-tech-001",
+      "slug": "ia-muda-forma-como-softwares-sao-criados",
+      "status": "published",
+      "demo": true,
+      "category": "tecnologia",
+      "title": "IA muda a forma como softwares são criados e acelera novas ferramentas",
+      "summary": "Conteúdo demonstrativo para validar o layout e o pipeline editorial do portal.",
+      "author": "Redação BLOG",
+      "publishedAt": "2026-08-10T05:30:00Z",
+      "updatedAt": "2026-08-10T05:30:00Z",
+      "views": 980,
+      "tags": [
+        "IA",
+        "software",
+        "tecnologia"
+      ],
+      "entities": [
+        "Inteligência Artificial"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Esta é uma matéria de demonstração criada exclusivamente para validar o layout do portal. Ela não deve ser tratada como uma notícia factual."
+        },
+        {
+          "type": "heading",
+          "text": "Como funcionará o conteúdo real"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando o pipeline editorial estiver conectado, cada matéria será criada a partir de múltiplas fontes, priorizando fontes primárias e armazenando os fatos utilizados na produção do texto."
+        },
+        {
+          "type": "paragraph",
+          "text": "O objetivo é que a automação detecte acontecimentos recentes, agrupe coberturas do mesmo evento e produza conteúdo original com contexto próprio."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "demo-ent-001",
+      "slug": "streaming-disputa-atencao-com-novas-franquias",
+      "status": "published",
+      "demo": true,
+      "category": "entretenimento",
+      "title": "Streaming disputa atenção com novas temporadas, franquias e grandes estreias",
+      "summary": "Exemplo de como notícias de entretenimento serão apresentadas na home.",
+      "author": "Redação BLOG",
+      "publishedAt": "2026-08-10T04:20:00Z",
+      "updatedAt": "2026-08-10T04:20:00Z",
+      "views": 760,
+      "tags": [
+        "streaming",
+        "séries",
+        "filmes"
+      ],
+      "entities": [
+        "Streaming"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo de demonstração. A versão real do portal utilizará fontes verificadas antes da publicação."
+        },
+        {
+          "type": "heading",
+          "text": "Entretenimento como motor de volume"
+        },
+        {
+          "type": "paragraph",
+          "text": "Notícias sobre filmes, séries, streaming e games poderão gerar matérias rápidas e páginas evergreen relacionadas, como datas de estreia, elenco, cronologias e explicações."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "demo-crypto-001",
+      "slug": "bitcoin-instituicoes-e-etfs-mantem-cripto-no-radar",
+      "status": "published",
+      "demo": true,
+      "category": "criptomoedas",
+      "title": "Bitcoin, instituições e ETFs mantêm o mercado cripto no radar",
+      "summary": "Card demonstrativo para a vertical de criptomoedas.",
+      "author": "Redação BLOG",
+      "publishedAt": "2026-08-10T03:40:00Z",
+      "updatedAt": "2026-08-10T03:40:00Z",
+      "views": 870,
+      "tags": [
+        "bitcoin",
+        "etf",
+        "blockchain"
+      ],
+      "entities": [
+        "Bitcoin"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Este texto é apenas demonstrativo e não contém recomendação financeira."
+        },
+        {
+          "type": "heading",
+          "text": "Abordagem editorial"
+        },
+        {
+          "type": "paragraph",
+          "text": "A vertical de criptomoedas será informativa e jornalística, com atenção especial à precisão, às fontes e à distinção entre fato, análise e rumor."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "demo-tech-002",
+      "slug": "seguranca-digital-ganha-novos-desafios-com-ia",
+      "status": "published",
+      "demo": true,
+      "category": "tecnologia",
+      "title": "Segurança digital ganha novos desafios com a adoção acelerada de IA",
+      "summary": "Modelo de notícia secundária para tecnologia e cibersegurança.",
+      "author": "Redação BLOG",
+      "publishedAt": "2026-08-09T22:00:00Z",
+      "updatedAt": "2026-08-09T22:00:00Z",
+      "views": 540,
+      "tags": [
+        "segurança",
+        "IA",
+        "cibersegurança"
+      ],
+      "entities": [
+        "Cibersegurança"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo demonstrativo para teste do portal."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "demo-ent-002",
+      "slug": "games-e-series-compartilham-universos",
+      "status": "published",
+      "demo": true,
+      "category": "entretenimento",
+      "title": "Games e séries compartilham universos e aproximam públicos diferentes",
+      "summary": "Exemplo de pauta cruzando games, séries e cultura pop.",
+      "author": "Redação BLOG",
+      "publishedAt": "2026-08-09T19:00:00Z",
+      "updatedAt": "2026-08-09T19:00:00Z",
+      "views": 620,
+      "tags": [
+        "games",
+        "séries",
+        "cultura pop"
+      ],
+      "entities": [
+        "Games"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo demonstrativo para teste do portal."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "demo-crypto-002",
+      "slug": "stablecoins-crescem-como-infraestrutura-digital",
+      "status": "published",
+      "demo": true,
+      "category": "criptomoedas",
+      "title": "Stablecoins ganham espaço como infraestrutura para pagamentos digitais",
+      "summary": "Exemplo de pauta evergreen ligada à vertical cripto.",
+      "author": "Redação BLOG",
+      "publishedAt": "2026-08-09T17:30:00Z",
+      "updatedAt": "2026-08-09T17:30:00Z",
+      "views": 410,
+      "tags": [
+        "stablecoins",
+        "pagamentos",
+        "blockchain"
+      ],
+      "entities": [
+        "Stablecoins"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo demonstrativo para teste do portal."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "demo-tech-003",
+      "slug": "hardware-para-ia-vira-corrida-entre-fabricantes",
+      "status": "published",
+      "demo": true,
+      "category": "tecnologia",
+      "title": "Hardware para IA vira nova corrida entre fabricantes de chips",
+      "summary": "Exemplo visual para a seção de últimas notícias.",
+      "author": "Redação BLOG",
+      "publishedAt": "2026-08-09T15:10:00Z",
+      "updatedAt": "2026-08-09T15:10:00Z",
+      "views": 690,
+      "tags": [
+        "hardware",
+        "chips",
+        "IA"
+      ],
+      "entities": [
+        "Semicondutores"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo demonstrativo para teste do portal."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "demo-ent-003",
+      "slug": "calendario-streaming-se-torna-conteudo-evergreen",
+      "status": "published",
+      "demo": true,
+      "category": "entretenimento",
+      "title": "Calendários de streaming podem transformar notícias rápidas em conteúdo evergreen",
+      "summary": "Demonstração do modelo híbrido entre notícia e conteúdo de longa duração.",
+      "author": "Redação BLOG",
+      "publishedAt": "2026-08-09T13:20:00Z",
+      "updatedAt": "2026-08-09T13:20:00Z",
+      "views": 350,
+      "tags": [
+        "streaming",
+        "seo",
+        "evergreen"
+      ],
+      "entities": [
+        "Streaming"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo demonstrativo para teste do portal."
+        }
+      ],
+      "sources": []
+    }
+  ],
+  "siteUrl": "https://blog.gabriel-speed01.workers.dev",
+  "categories": [
+    {
+      "slug": "tecnologia",
+      "name": "Tecnologia"
+    },
+    {
+      "slug": "criptomoedas",
+      "name": "Criptomoedas"
+    },
+    {
+      "slug": "entretenimento",
+      "name": "Entretenimento"
+    },
+    {
+      "slug": "politica",
+      "name": "Política"
+    }
+  ]
+}
