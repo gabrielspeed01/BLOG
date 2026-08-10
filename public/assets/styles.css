@@ -70,3 +70,21 @@ a{color:inherit;text-decoration:none}button,input{font:inherit}.container{width:
 }
 
 @media(max-width:1050px) and (min-width:821px){.category-grid{grid-template-columns:repeat(2,1fr)}}
+
+
+/* Sticky footer for short category/institutional pages */
+html, body{
+  min-height:100%;
+}
+body.page-shell{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+body.page-shell > main{
+  flex:1 0 auto;
+}
+body.page-shell > .site-footer{
+  margin-top:auto;
+  flex-shrink:0;
+}
