@@ -1,45 +1,18 @@
-# BLOG
-
-MVP estático de um portal de notícias sobre **Tecnologia, Criptomoedas e Entretenimento**.
-
-## Arquitetura atual
-
-- `index.html`: home do portal.
-- `artigo.html`: visualização de artigo por `?slug=`.
-- `assets/styles.css`: layout responsivo.
-- `assets/app.js`: renderização, filtros, busca e artigos.
-- `data/articles.json`: contrato de entrada de conteúdo.
-- `docs/PIPELINE.md`: desenho da automação editorial.
-- `robots.txt` e `sitemap.xml`: base de SEO.
-
-## Cloudflare Pages
-
-Este repositório foi planejado para hospedagem estática gratuita no Cloudflare Pages.
-
-Configuração sugerida:
-
-- Production branch: `main`
-- Build command: `exit 0`
-- Build output directory: `/`
-
-Ao conectar o repositório ao Cloudflare Pages, cada push pode gerar um novo deploy automaticamente.
-
-## Conteúdo automatizado
-
-A primeira versão do site lê notícias a partir de `data/articles.json`.
-
-A futura IA poderá:
-
-1. monitorar RSS, APIs e fontes;
-2. agrupar notícias do mesmo evento;
-3. buscar fontes primárias;
-4. produzir artigo original;
-5. atualizar `data/articles.json`;
-6. fazer commit no GitHub;
-7. deixar o Cloudflare publicar automaticamente.
-
-Leia `docs/PIPELINE.md` para o contrato editorial.
-
-## Observação sobre o conteúdo atual
-
-Os artigos existentes estão marcados como **DEMONSTRAÇÃO** e servem apenas para validar o layout. Não representam notícias factuais.
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>BLOG — Notícias</title>
+    <link>https://blog.gabriel-speed01.workers.dev/</link>
+    <description>Notícias de tecnologia, criptomoedas e entretenimento.</description>
+    <language>pt-BR</language>
+    <lastBuildDate>Sun, 10 Aug 2026 07:21:00 GMT</lastBuildDate>
+    <item>
+      <title>Senado dos EUA avança Clarity Act e aproxima nova votação sobre regras para criptomoedas</title>
+      <link>https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/</link>
+      <guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/</guid>
+      <description>Movimento procedural prepara o projeto para votação após o recesso de agosto; proposta tenta definir como ativos digitais serão enquadrados e fiscalizados nos Estados Unidos.</description>
+      <pubDate>Sun, 10 Aug 2026 07:10:00 GMT</pubDate>
+      <category>Criptomoedas</category>
+    </item>
+  </channel>
+</rss>

@@ -1,39 +1,15 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Leia a notícia completa no BLOG.">
-  <meta name="robots" content="index,follow">
-  <title>Notícia — BLOG</title>
-  <link rel="stylesheet" href="./assets/styles.css">
-  <script defer src="./assets/app.js"></script>
-</head>
-<body data-page="article">
-  <header class="site-header">
-    <div class="topbar"><div class="container topbar__inner">
-      <a class="brand" href="./"><span class="brand__mark">B</span><span class="brand__text">BLOG</span></a>
-      <nav class="main-nav main-nav--article">
-        <a href="./?categoria=tecnologia">Tecnologia</a>
-        <a href="./?categoria=criptomoedas">Criptomoedas</a>
-        <a href="./?categoria=entretenimento">Entretenimento</a>
-      </nav>
-    </div></div>
-  </header>
-  <main class="container article-shell">
-    <article id="articleContent" class="article-page">
-      <div class="skeleton skeleton--article"></div>
-    </article>
-    <aside class="article-aside">
-      <div class="sidebar-card">
-        <span class="eyebrow">Continue lendo</span>
-        <h2>Relacionadas</h2>
-        <div id="relatedNews"></div>
-      </div>
-    </aside>
-  </main>
-  <footer class="site-footer">
-    <div class="container footer-bottom">© <span id="year"></span> BLOG</div>
-  </footer>
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BLOG</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-10T07:10:00Z</news:publication_date>
+      <news:title>Senado dos EUA avança Clarity Act e aproxima nova votação sobre regras para criptomoedas</news:title>
+    </news:news>
+  </url>
+</urlset>
