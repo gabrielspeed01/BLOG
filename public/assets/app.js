@@ -89,7 +89,7 @@ function renderHome() {
     ? filtered.slice(0,12).map(newsCard).join("")
     : '<div class="empty-state"><h3>Nenhuma notícia encontrada</h3><p>Tente outra busca ou categoria.</p></div>';
 
-  const ranking = [...state.articles].sort((a,b)=>(b.views||0)-(a.views||0)).slice(0,5);
+  const ranking = [...state.articles].filter(a => !a.demo).sort((a,b)=>(b.views||0)-(a.views||0)).slice(0,5);
   qs("#mostRead").innerHTML = ranking.map((a,i)=>`<li><span class="ranking__number">${String(i+1).padStart(2,"0")}</span><a href="${articleUrl(a)}">${escapeHtml(a.title)}</a></li>`).join("");
 
   qsa(".pill").forEach(btn => btn.classList.toggle("is-active", btn.dataset.filter === state.filter));
@@ -137,7 +137,7 @@ async function boot() {
     const response = await fetch(DATA_URL, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
-    state.articles = (payload.articles || []).filter(a => a.status === "published").sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt));
+    state.articles = (payload.articles || []).filter(a => a.status === "published" && !a.demo).sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt));
   } catch (error) {
     console.error("Falha ao carregar artigos", error);
     state.articles = [];
@@ -174,3 +174,9 @@ qs("#filterPills")?.addEventListener("click", e => {
 });
 
 boot();
+const mobileNav = qs("#mainNav");
+mobileNav?.addEventListener("click", e => {
+  if (!e.target.closest("a")) return;
+  mobileNav.classList.remove("is-open");
+  qs("#menuToggle")?.setAttribute("aria-expanded", "false");
+});
