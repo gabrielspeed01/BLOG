@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Atualizar quando o domínio definitivo for escolhido.
+# Sitemap: https://DOMINIO/sitemap.xml
