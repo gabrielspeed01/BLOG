@@ -1,27 +1,26 @@
-# Atualização v5 — Política
-
-A quarta vertical oficial foi adicionada ao site.
-
-## Alterações
-
-- Política adicionada ao menu principal.
-- Política adicionada aos filtros da home.
-- Novo destaque "Eleições" na barra de assuntos.
-- Quarto tile na seção Explorar.
-- Grid de categorias ajustado para 4 colunas no desktop e 2 em telas intermediárias.
-- Suporte à categoria `politica` em `assets/app.js`.
-- Identidade visual própria para cards políticos.
-- Nova página estática `/politica/`.
-- Canonical e metadata SEO da categoria.
-- `/politica/` adicionada ao sitemap principal.
-- `articles.json` passa a declarar as quatro categorias oficiais.
-- Navegação dos artigos e categorias preparada para Política.
-
-## Princípios da vertical
-
-A implementação segue a visão estratégica do projeto:
-- cobertura factual;
-- pluralidade;
-- fontes oficiais;
-- distinção entre fato, declaração, alegação, opinião, rumor e pesquisa;
-- revisão humana mais rígida para conteúdo eleitoral sensível.
+<!doctype html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Bitcoin, Ethereum, blockchain, ETFs, regulação e infraestrutura cripto.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://blog.gabriel-speed01.workers.dev/criptomoedas/">
+<title>Criptomoedas — BLOG</title>
+<link rel="stylesheet" href="../assets/styles.css?v=20260810-0454">
+</head><body>
+<header class="site-header"><div class="topbar"><div class="container topbar__inner">
+<a class="brand" href="/"><span class="brand__mark">B</span><span class="brand__text">BLOG</span></a>
+<nav class="main-nav main-nav--article">
+<a href="/tecnologia/">Tecnologia</a>
+<a href="/criptomoedas/" class='is-active'>Criptomoedas</a>
+<a href="/entretenimento/">Entretenimento</a>
+<a href="/politica/">Política</a>
+</nav></div></div></header>
+<main class="container section">
+<div class="section-heading"><div><span class="eyebrow">Categoria</span><h1>Criptomoedas</h1><p style="max-width:760px;color:#667085">Bitcoin, Ethereum, blockchain, ETFs, regulação e infraestrutura cripto.</p></div></div>
+<div class="content-layout"><div class="news-list"><article class="news-card">
+          <a class="thumb thumb--image" href="/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG" alt="Senado dos EUA avança Clarity Act e aproxima nova votação sobre regras para criptomoedas" loading="lazy"></a>
+          <div><span class="eyebrow">Criptomoedas</span><h3><a href="/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/">Senado dos EUA avança Clarity Act e aproxima nova votação sobre regras para criptomoedas</a></h3><p>Movimento procedural prepara o projeto para votação após o recesso de agosto; proposta tenta definir como ativos digitais serão enquadrados e fiscalizados nos Estados Unidos.</p></div>
+        </article></div>
+<aside class="sidebar"><section class="sidebar-card"><span class="eyebrow">BLOG</span><h2>Últimas de Criptomoedas</h2><p>Conteúdo original baseado em fontes verificadas e URLs permanentes.</p></section></aside></div>
+</main><footer class="site-footer"><div class="container footer-bottom">© 2026 BLOG</div></footer>
+</body></html>

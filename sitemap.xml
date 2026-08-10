@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-  <channel>
-    <title>BLOG — Notícias</title>
-    <link>https://blog.gabriel-speed01.workers.dev/</link>
-    <description>Notícias de tecnologia, criptomoedas e entretenimento.</description>
-    <language>pt-BR</language>
-    <lastBuildDate>Sun, 10 Aug 2026 07:21:00 GMT</lastBuildDate>
-    <item>
-      <title>Senado dos EUA avança Clarity Act e aproxima nova votação sobre regras para criptomoedas</title>
-      <link>https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/</link>
-      <guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/</guid>
-      <description>Movimento procedural prepara o projeto para votação após o recesso de agosto; proposta tenta definir como ativos digitais serão enquadrados e fiscalizados nos Estados Unidos.</description>
-      <pubDate>Sun, 10 Aug 2026 07:10:00 GMT</pubDate>
-      <category>Criptomoedas</category>
-    </item>
-  </channel>
-</rss>
+<rss version="2.0"><channel>
+<title>BLOG — Notícias</title>
+<link>https://blog.gabriel-speed01.workers.dev/</link>
+<description>Tecnologia, criptomoedas, entretenimento e política.</description>
+<language>pt-BR</language>
+<item>
+<title>Missão oficializa Renan Santos para disputar a Presidência em 2026</title>
+<link>https://blog.gabriel-speed01.workers.dev/politica/missao-oficializa-renan-santos-presidencia-2026/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/politica/missao-oficializa-renan-santos-presidencia-2026/</guid>
+<description>Partido ligado à trajetória do MBL escolheu Renan Santos em convenção nacional; registro da candidatura na Justiça Eleitoral é uma etapa própria do processo eleitoral.</description>
+<pubDate>Mon, 10 Aug 2026 07:52:00 +0000</pubDate>
+<category>Política</category>
+</item>
+<item>
+<title>The Last House estreia na Netflix com Wagner Moura e Greta Lee em thriller de ficção científica</title>
+<link>https://blog.gabriel-speed01.workers.dev/entretenimento/the-last-house-netflix-wagner-moura-estreia/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/entretenimento/the-last-house-netflix-wagner-moura-estreia/</guid>
+<description>Filme dirigido por Louis Leterrier chegou ao streaming em 7 de agosto e acompanha uma família que fica misteriosamente presa dentro da própria casa.</description>
+<pubDate>Mon, 10 Aug 2026 07:51:00 +0000</pubDate>
+<category>Entretenimento</category>
+</item>
+<item>
+<title>OpenAI desacelera modelo Astra após avaliações de cibersegurança, diz Axios</title>
+<link>https://blog.gabriel-speed01.workers.dev/tecnologia/openai-desacelera-astra-riscos-ciberseguranca/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/tecnologia/openai-desacelera-astra-riscos-ciberseguranca/</guid>
+<description>Relato aponta que a empresa decidiu ampliar testes de segurança depois que avaliações internas indicaram capacidades cibernéticas avançadas no modelo ainda não lançado.</description>
+<pubDate>Mon, 10 Aug 2026 07:50:00 +0000</pubDate>
+<category>Tecnologia</category>
+</item>
+<item>
+<title>Senado dos EUA avança Clarity Act e aproxima nova votação sobre regras para criptomoedas</title>
+<link>https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/</guid>
+<description>Movimento procedural prepara o projeto para votação após o recesso de agosto; proposta tenta definir como ativos digitais serão enquadrados e fiscalizados nos Estados Unidos.</description>
+<pubDate>Mon, 10 Aug 2026 07:10:00 +0000</pubDate>
+<category>Criptomoedas</category>
+</item>
+</channel></rss>
