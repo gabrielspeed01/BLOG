@@ -13,6 +13,10 @@ function categoryLabel(category) {
   return ({ tecnologia:"Tecnologia", criptomoedas:"Criptomoedas", entretenimento:"Entretenimento", politica:"Política" })[category] || category;
 }
 
+function displayAuthor(author="") {
+  return String(author).replace(/\bBLOG\b/g, "FirstNews");
+}
+
 function relativeDate(iso) {
   const date = new Date(iso);
   const diff = Math.max(0, Date.now() - date.getTime());
@@ -46,7 +50,7 @@ function heroCard(article, main=false) {
     <div class="hero-card__content">
       <span class="tag">${escapeHtml(categoryLabel(article.category))}</span>${badge(article)}
       <${heading}>${escapeHtml(article.title)}</${heading}>
-      <div class="meta">${escapeHtml(article.author)} · ${relativeDate(article.publishedAt)}</div>
+      <div class="meta">${escapeHtml(displayAuthor(article.author))} · ${relativeDate(article.publishedAt)}</div>
     </div>
   </a>`;
 }
@@ -62,7 +66,7 @@ function newsCard(article) {
       <span class="eyebrow">${escapeHtml(categoryLabel(article.category))}</span>${badge(article)}
       <h3><a href="${articleUrl(article)}">${escapeHtml(article.title)}</a></h3>
       <p>${escapeHtml(article.summary)}</p>
-      <div class="meta">${escapeHtml(article.author)} · ${relativeDate(article.publishedAt)}</div>
+      <div class="meta">${escapeHtml(displayAuthor(article.author))} · ${relativeDate(article.publishedAt)}</div>
     </div>
   </article>`;
 }
@@ -104,7 +108,7 @@ function renderArticle() {
     return;
   }
 
-  document.title = `${article.title} — BLOG`;
+  document.title = `${article.title} — FirstNews`;
   let meta = qs('meta[name="description"]');
   if (meta) meta.setAttribute("content", article.summary);
 
@@ -117,7 +121,7 @@ function renderArticle() {
     <span class="article-page__category">${escapeHtml(categoryLabel(article.category))}</span>${badge(article)}
     <h1>${escapeHtml(article.title)}</h1>
     <p class="article-page__lead">${escapeHtml(article.summary)}</p>
-    <div class="article-page__meta">Por ${escapeHtml(article.author)} · ${new Date(article.publishedAt).toLocaleString("pt-BR")}</div>
+    <div class="article-page__meta">Por ${escapeHtml(displayAuthor(article.author))} · ${new Date(article.publishedAt).toLocaleString("pt-BR")}</div>
     <div class="article-page__body">${body}</div>
     ${article.sources?.length ? `<div class="article-page__source"><strong>Fontes utilizadas:</strong><br>${article.sources.map(s => `<a href="${escapeHtml(s.url)}" rel="nofollow noopener" target="_blank">${escapeHtml(s.name)}</a>`).join("<br>")}</div>` : ""}
   `;
