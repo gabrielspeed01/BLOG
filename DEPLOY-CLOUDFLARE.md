@@ -1,75 +1,48 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Senado dos EUA prepara nova etapa do Clarity Act, projeto que busca definir regras para o mercado de criptomoedas e ativos digitais.">
-  <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="Senado dos EUA avança Clarity Act e aproxima nova votação sobre regras para criptomoedas">
-  <meta property="og:description" content="Movimento procedural prepara o projeto para votação após o recesso de agosto; proposta tenta definir como ativos digitais serão enquadrados e fiscalizados nos Estados Unidos.">
-  <meta property="og:url" content="https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/">
-  <link rel="canonical" href="https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG">
-  <meta property="article:published_time" content="2026-08-10T07:10:00Z">
-  <meta property="article:modified_time" content="2026-08-10T07:10:00Z">
-  <meta property="article:section" content="Criptomoedas">
-  <title>Senado dos EUA avança Clarity Act sobre criptomoedas — BLOG</title>
-  <link rel="stylesheet" href="../../assets/styles.css?v=20260810-0447">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Senado dos EUA avança Clarity Act e aproxima nova votação sobre regras para criptomoedas", "description": "Movimento procedural prepara o projeto para votação após o recesso de agosto; proposta tenta definir como ativos digitais serão enquadrados e fiscalizados nos Estados Unidos.", "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG"], "datePublished": "2026-08-10T07:10:00Z", "dateModified": "2026-08-10T07:10:00Z", "author": [{"@type": "Organization", "name": "Redação BLOG", "url": "https://blog.gabriel-speed01.workers.dev/"}], "publisher": {"@type": "Organization", "name": "BLOG", "url": "https://blog.gabriel-speed01.workers.dev/"}, "articleSection": "Criptomoedas", "keywords": ["criptomoedas", "regulação", "Clarity Act", "Estados Unidos"], "mainEntityOfPage": {"@type": "WebPage", "@id": "https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/"}, "url": "https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/"}</script>
-</head>
-<body>
-  <header class="site-header">
-    <div class="topbar"><div class="container topbar__inner">
-      <a class="brand" href="../../"><span class="brand__mark">B</span><span class="brand__text">BLOG</span></a>
-      <nav class="main-nav main-nav--article">
-        <a href="/tecnologia/">Tecnologia</a>
-        <a href="/criptomoedas/" class="is-active">Criptomoedas</a>
-        <a href="/entretenimento/">Entretenimento</a>
-        <a href="/politica/">Política</a>
-      </nav>
-    </div></div>
-  </header>
+# Deploy no Cloudflare Workers — configuração v2
 
-  <main class="container article-shell">
-    <article class="article-page">
-      <span class="article-page__category">Criptomoedas · Regulação</span>
-      <h1>Senado dos EUA avança Clarity Act e aproxima nova votação sobre regras para criptomoedas</h1>
-      <p class="article-page__lead">Movimento procedural prepara o projeto para votação após o recesso de agosto; proposta tenta definir como ativos digitais serão enquadrados e fiscalizados nos Estados Unidos.</p>
-      <div class="article-page__meta">Por Redação BLOG · Publicado em 10/08/2026 às 04:10 (BRT)</div>
+## Estrutura
 
-      <figure class="article-featured">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG"
-             alt="Fachada oeste do Capitólio dos Estados Unidos, sede do Congresso em Washington"
-             width="1280" height="853">
-        <figcaption>Capitólio dos Estados Unidos. Foto: Martin Falbisoner / Wikimedia Commons — CC BY-SA.</figcaption>
-      </figure>
+O Wrangler publica somente a pasta `public/`.
 
-      <div class="article-page__body">
-        <p>O Senado dos Estados Unidos deu um novo passo no processo legislativo do CLARITY Act, proposta que pretende criar uma estrutura federal mais definida para o mercado de ativos digitais. Em 8 de agosto, o líder da maioria no Senado, John Thune, apresentou uma medida procedural que prepara uma votação após o recesso de agosto.</p><p>A movimentação não significa que o projeto já foi aprovado. Ela abre caminho para que o Senado volte a discutir e votar a proposta quando os parlamentares retornarem, em um momento no qual a indústria de criptomoedas acompanha de perto a definição de regras para tokens, corretoras e outros participantes do mercado.</p><h2>O que o CLARITY Act pretende mudar</h2><p>A proposta busca reduzir a incerteza sobre o enquadramento regulatório de ativos digitais nos Estados Unidos. Entre os pontos centrais está a tentativa de estabelecer critérios mais claros para diferenciar ativos tratados como valores mobiliários daqueles enquadrados como commodities, além de distribuir responsabilidades entre órgãos reguladores.</p><p>O Comitê Bancário do Senado já havia aprovado o texto em maio por 15 votos a 9, permitindo que o projeto seguisse para o plenário. A maioria republicana do comitê afirma que a legislação cria proteções para consumidores, regras de divulgação e instrumentos contra fraudes e financiamento ilícito.</p><h2>Projeto ainda enfrenta resistência</h2><p>Apesar do avanço, o projeto continua sendo alvo de críticas. Integrantes democratas do Comitê Bancário argumentam que o texto mantém lacunas relacionadas a financiamento ilícito, proteção de investidores e conflitos de interesse. Essas divergências ajudam a explicar por que a tramitação ainda depende de novas negociações.</p><p>Segundo a Reuters, a liderança republicana espera conseguir os votos necessários para avançar com a matéria após o recesso, mas a resistência democrata permanece relevante. Por isso, o próximo passo procedural não deve ser interpretado como garantia de aprovação final.</p><h2>Por que isso importa para o mercado cripto</h2><p>Nos Estados Unidos, empresas do setor discutem há anos quais atividades devem ficar sob supervisão da Securities and Exchange Commission (SEC) e quais podem ser tratadas como commodities sob a Commodity Futures Trading Commission (CFTC). Uma lei de estrutura de mercado pode alterar obrigações de registro, divulgação e operação para empresas que atendem investidores norte-americanos.</p><p>Para usuários e investidores, o efeito prático dependerá do texto final aprovado e de como os reguladores implementarem as regras. Por enquanto, o principal fato é que o CLARITY Act voltou a avançar no calendário legislativo e deverá ganhar nova atenção quando o Senado retomar os trabalhos.</p><p>Esta matéria tem caráter exclusivamente informativo e não constitui recomendação de investimento, compra ou venda de criptomoedas.</p>
-      </div>
+```text
+/
+├── wrangler.jsonc
+├── package.json
+├── .gitignore
+├── README.md
+└── public/
+    ├── index.html
+    ├── 404.html
+    ├── _headers
+    ├── robots.txt
+    ├── sitemap.xml
+    ├── news-sitemap.xml
+    ├── rss.xml
+    ├── assets/
+    ├── data/
+    └── criptomoedas/
+```
 
-      <div class="article-disclaimer">
-        Conteúdo informativo. Criptoativos envolvem riscos e volatilidade; esta matéria não constitui recomendação de investimento.
-      </div>
+Isso impede que `.git`, `.wrangler`, README e outros arquivos internos sejam enviados como assets.
 
-      <div class="article-page__source">
-        <strong>Fontes consultadas</strong>
-        <ul><li><a href="https://www.reuters.com/legal/government/us-senate-advances-landmark-crypto-bill-before-heading-august-recess-2026-08-08/" rel="noopener noreferrer" target="_blank">Reuters — U.S. Senate advances landmark crypto bill before heading on August recess</a></li><li><a href="https://www.banking.senate.gov/newsroom/majority/chairman-scott-senate-banking-committee-advance-clarity-act-in-historic-bipartisan-vote" rel="noopener noreferrer" target="_blank">U.S. Senate Committee on Banking — avanço do CLARITY Act por 15–9</a></li><li><a href="https://www.banking.senate.gov/newsroom/minority/national-security-advisory-clarity-act-fails-to-address-key-vulnerabilities-exploited-by-criminals-terrorists-and-foreign-adversaries" rel="noopener noreferrer" target="_blank">U.S. Senate Committee on Banking — análise da minoria sobre riscos e lacunas</a></li></ul>
-      </div>
-    </article>
+## Cloudflare
 
-    <aside class="article-aside">
-      <div class="sidebar-card">
-        <span class="eyebrow">Contexto</span>
-        <h2>Sobre a pauta</h2>
-        <p>O CLARITY Act trata da estrutura regulatória dos mercados de ativos digitais nos Estados Unidos. A tramitação ainda não representa aprovação final.</p>
-      </div>
-    </aside>
-  </main>
+- Root directory: `/`
+- Build command: nenhum
+- Deploy command: `npx wrangler deploy`
+- Production branch: `main`
 
-  <footer class="site-footer">
-    <div class="container footer-bottom">© 2026 BLOG</div>
-  </footer>
-</body>
-</html>
+## Após o deploy
+
+Testar:
+
+- https://blog.gabriel-speed01.workers.dev/
+- https://blog.gabriel-speed01.workers.dev/assets/styles.css
+- https://blog.gabriel-speed01.workers.dev/data/articles.json
+- https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/
+- https://blog.gabriel-speed01.workers.dev/sitemap.xml
+- https://blog.gabriel-speed01.workers.dev/news-sitemap.xml
+- https://blog.gabriel-speed01.workers.dev/rss.xml
+- https://blog.gabriel-speed01.workers.dev/robots.txt
+
+Uma URL inexistente deve renderizar `404.html` e retornar HTTP 404.
