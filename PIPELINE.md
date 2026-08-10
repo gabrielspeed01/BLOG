@@ -4,28 +4,28 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<meta name="description" content="Demonstração do modelo híbrido entre notícia e conteúdo de longa duração.">
-<title>Calendários de streaming podem transformar notícias rápidas em conteúdo evergreen — BLOG</title>
+<meta name="description" content="Card demonstrativo para a vertical de criptomoedas.">
+<title>Bitcoin, instituições e ETFs mantêm o mercado cripto no radar — BLOG</title>
 <link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
 <header class="site-header">
   <div class="topbar"><div class="container topbar__inner">
     <a class="brand" href="/" aria-label="BLOG - Página inicial"><span class="brand__mark">B</span><span class="brand__text">BLOG</span></a>
-    <nav class="main-nav main-nav--article"><a href="/tecnologia/">Tecnologia</a><a href="/criptomoedas/">Criptomoedas</a><a href="/entretenimento/" class="is-active">Entretenimento</a><a href="/#ultimas">Últimas</a></nav>
+    <nav class="main-nav main-nav--article"><a href="/tecnologia/">Tecnologia</a><a href="/criptomoedas/" class="is-active">Criptomoedas</a><a href="/entretenimento/">Entretenimento</a><a href="/#ultimas">Últimas</a></nav>
   </div></div>
 </header>
 <main class="container article-shell">
   <article class="article-page">
-    <span class="article-page__category">Entretenimento</span>
+    <span class="article-page__category">Criptomoedas</span>
     <span class="demo-badge">DEMONSTRAÇÃO — NÃO INDEXAR</span>
-    <h1>Calendários de streaming podem transformar notícias rápidas em conteúdo evergreen</h1>
-    <p class="article-page__lead">Demonstração do modelo híbrido entre notícia e conteúdo de longa duração.</p>
-    <div class="article-page__meta">Por Equipe Editorial · 09/08/2026 13:20 UTC</div>
-    <div class="article-page__body"><p>Conteúdo demonstrativo para teste do portal.</p></div>
+    <h1>Bitcoin, instituições e ETFs mantêm o mercado cripto no radar</h1>
+    <p class="article-page__lead">Card demonstrativo para a vertical de criptomoedas.</p>
+    <div class="article-page__meta">Por Equipe Editorial · 10/08/2026 03:40 UTC</div>
+    <div class="article-page__body"><p>Este texto é apenas demonstrativo e não contém recomendação financeira.</p><h2>Abordagem editorial</h2><p>A vertical de criptomoedas será informativa e jornalística, com atenção especial à precisão, às fontes e à distinção entre fato, análise e rumor.</p></div>
     
   </article>
-  <aside class="article-aside"><div class="sidebar-card"><span class="eyebrow">Continue lendo</span><h2>Relacionadas</h2><a class="related-item" href="/entretenimento/streaming-disputa-atencao-com-novas-franquias/">Streaming disputa atenção com novas temporadas, franquias e grandes estreias</a><a class="related-item" href="/entretenimento/games-e-series-compartilham-universos/">Games e séries compartilham universos e aproximam públicos diferentes</a></div></aside>
+  <aside class="article-aside"><div class="sidebar-card"><span class="eyebrow">Continue lendo</span><h2>Relacionadas</h2><a class="related-item" href="/criptomoedas/stablecoins-crescem-como-infraestrutura-digital/">Stablecoins ganham espaço como infraestrutura para pagamentos digitais</a></div></aside>
 </main>
 <footer class="site-footer">
   <div class="container footer-grid">

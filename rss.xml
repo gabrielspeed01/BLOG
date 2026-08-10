@@ -1,16 +1,14 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Política editorial — BLOG</title><link rel="stylesheet" href="/assets/styles.css"></head>
+<title>Sobre o BLOG — BLOG</title><link rel="stylesheet" href="/assets/styles.css"></head>
 <body><header class="site-header">
   <div class="topbar"><div class="container topbar__inner">
     <a class="brand" href="/" aria-label="BLOG - Página inicial"><span class="brand__mark">B</span><span class="brand__text">BLOG</span></a>
     <nav class="main-nav main-nav--article"><a href="/tecnologia/">Tecnologia</a><a href="/criptomoedas/">Criptomoedas</a><a href="/entretenimento/">Entretenimento</a><a href="/#ultimas">Últimas</a></nav>
   </div></div>
-</header><main class="container section"><article class="article-page"><span class="eyebrow">Institucional</span><h1>Como produzimos conteúdo</h1>
-<div class="article-page__body"><p>O portal prioriza fontes primárias, confirmação de fatos, transparência e conteúdo original.</p>
-<p>Sites externos são utilizados como sensores de pauta e fontes de informação; não são utilizados como texto-base para simples reescrita. A IA pode auxiliar na coleta, organização, classificação, geração de rascunhos e SEO, mas deve respeitar as mesmas regras editoriais aplicadas ao conteúdo produzido manualmente.</p>
-<h2>Rumores e informações conflitantes</h2><p>Rumores devem ser claramente identificados. Quando fontes confiáveis divergirem, a divergência deverá ser apresentada ao leitor.</p>
-<h2>Criptomoedas</h2><p>A cobertura é informativa e jornalística e não deve ser apresentada como recomendação de investimento.</p></div></article></main><footer class="site-footer">
+</header><main class="container section"><article class="article-page"><span class="eyebrow">Institucional</span><h1>Quem somos</h1>
+<div class="article-page__body"><p>O BLOG é um portal em desenvolvimento dedicado a Tecnologia, Criptomoedas e Entretenimento.</p>
+<p>Nosso objetivo é combinar velocidade jornalística, contexto, fontes confiáveis e organização temática para produzir conteúdo útil para leitores e mecanismos de busca.</p></div></article></main><footer class="site-footer">
   <div class="container footer-grid">
     <div><div class="brand brand--footer"><span class="brand__mark">B</span><span class="brand__text">BLOG</span></div>
     <p>Notícias, contexto e conteúdo em Tecnologia, Criptomoedas e Entretenimento.</p></div>
