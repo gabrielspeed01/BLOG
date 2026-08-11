@@ -1,0 +1,3 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>404 — FirstNews</title><link rel="stylesheet" href="./assets/styles.css?v=20260810-0518">  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7687887444939499"
+     crossorigin="anonymous"></script>
+</head><body><main class="container section"><div class="empty-state"><h1>404</h1><h3>Página não encontrada</h3><p><a href="./">Voltar para a FirstNews</a></p></div></main></body></html>

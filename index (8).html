@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="FirstNews — notícias em tempo real sobre tecnologia, criptomoedas, entretenimento e política.">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FirstNews — notícias em tempo real">
+  <meta property="og:description" content="Notícias em tempo real, contexto e conteúdo relevante sobre tecnologia, criptomoedas, entretenimento e política.">
+  <meta property="og:url" content="https://blog.gabriel-speed01.workers.dev/">
+  <meta property="og:site_name" content="FirstNews">
+  <link rel="canonical" href="https://blog.gabriel-speed01.workers.dev/">
+  <title>FirstNews — notícias em tempo real</title>
+  <link rel="stylesheet" href="./assets/styles.css?v=20260810-0518">
+  <script defer src="./assets/app.js?v=20260810-0625"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7687887444939499"
+     crossorigin="anonymous"></script>
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="./" aria-label="FirstNews — notícias em tempo real">
+          <span class="brand__mark">F</span>
+          <span class="brand__text">FirstNews</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+        <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+          <a href="/tecnologia/" data-category-link="tecnologia">Tecnologia</a>
+          <a href="/criptomoedas/" data-category-link="criptomoedas">Criptomoedas</a>
+          <a href="/entretenimento/" data-category-link="entretenimento">Entretenimento</a>
+          <a href="/politica/" data-category-link="politica">Política</a>
+          <a href="#ultimas">Últimas</a>
+        </nav>
+        <button class="search-button" id="searchButton" aria-label="Pesquisar">⌕</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="search-panel" id="searchPanel" hidden>
+    <div class="container">
+      <form id="searchForm" class="search-form">
+        <input id="searchInput" type="search" placeholder="Busque notícias, empresas, séries..." autocomplete="off">
+        <button type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+
+  <main>
+    <section class="container hero" aria-labelledby="heroTitle">
+      <div class="hero-grid" id="heroGrid">
+        <article class="skeleton skeleton--hero"></article>
+        <article class="skeleton"></article>
+        <article class="skeleton"></article>
+      </div>
+    </section>
+
+    <section class="container section" id="ultimas">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Agora</span>
+          <h2>Últimas notícias</h2>
+        </div>
+        <div class="filter-pills" id="filterPills">
+          <button class="pill is-active" data-filter="all">Tudo</button>
+          <button class="pill" data-filter="tecnologia">Tecnologia</button>
+          <button class="pill" data-filter="criptomoedas">Cripto</button>
+          <button class="pill" data-filter="entretenimento">Entretenimento</button>
+          <button class="pill" data-filter="politica">Política</button>
+        </div>
+      </div>
+
+      <div class="content-layout">
+        <div class="news-list" id="latestNews" aria-live="polite"></div>
+        <aside class="sidebar">
+          <section class="sidebar-card">
+            <div class="sidebar-card__heading">
+              <span class="eyebrow">Ranking</span>
+              <h2>Mais lidas</h2>
+            </div>
+            <ol class="ranking" id="mostRead"></ol>
+          </section>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--dark">
+      <div class="container">
+        <div class="section-heading section-heading--light">
+          <div>
+            <span class="eyebrow">Explorar</span>
+            <h2>Quatro universos. Um só radar.</h2>
+          </div>
+        </div>
+        <div class="category-grid">
+          <a class="category-tile" href="/tecnologia/">
+            <span>01</span>
+            <h3>Tecnologia</h3>
+            <p>IA, software, hardware, segurança e grandes empresas.</p>
+          </a>
+          <a class="category-tile" href="/criptomoedas/">
+            <span>02</span>
+            <h3>Criptomoedas</h3>
+            <p>Bitcoin, Ethereum, ETFs, blockchain e mercado.</p>
+          </a>
+          <a class="category-tile" href="/entretenimento/">
+            <span>03</span>
+            <h3>Entretenimento</h3>
+            <p>Filmes, séries, streaming, games e cultura pop.</p>
+          </a>
+          <a class="category-tile" href="/politica/">
+            <span>04</span>
+            <h3>Política</h3>
+            <p>Eleições, Congresso, pesquisas, candidatos e decisões institucionais.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand brand--footer"><span class="brand__mark">F</span><span class="brand__text">FirstNews</span></div>
+        <p>notícias em tempo real</p>
+      </div>
+      <div>
+        <h2>Categorias</h2>
+        <a href="/tecnologia/">Tecnologia</a>
+        <a href="/criptomoedas/">Criptomoedas</a>
+        <a href="/entretenimento/">Entretenimento</a>
+        <a href="/politica/">Política</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">© <span id="year"></span> FirstNews — notícias em tempo real</div>
+  </footer>
+</body>
+</html>
