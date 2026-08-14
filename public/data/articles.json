@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T00:58:00Z",
+  "generatedAt": "2026-08-14T01:29:00Z",
   "instructions": "Este arquivo é o contrato de entrada do portal. A automação futura deve validar fontes, evitar duplicatas e adicionar apenas artigos originais com status=published.",
   "articles": [
     {
@@ -101,6 +101,12 @@
       "scores": {
         "opportunity": 89,
         "trend": 85
+      },
+      "categoryUrl": "/tecnologia/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Microsoft_logo_(2012).svg?width=1280",
+        "alt": "Logotipo da Microsoft",
+        "source": "featuredImage"
       }
     },
     {
@@ -199,6 +205,12 @@
       "scores": {
         "opportunity": 83,
         "trend": 77
+      },
+      "categoryUrl": "/tecnologia/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_South_Korea.svg?width=1280",
+        "alt": "Bandeira da Coreia do Sul",
+        "source": "featuredImage"
       }
     },
     {
@@ -300,6 +312,12 @@
       "scores": {
         "opportunity": 81,
         "trend": 74
+      },
+      "categoryUrl": "/tecnologia/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Microsoft_logo_(2012).svg?width=1280",
+        "alt": "Logotipo da Microsoft",
+        "source": "featuredImage"
       }
     },
     {
@@ -400,6 +418,12 @@
       "scores": {
         "opportunity": 91,
         "trend": 94
+      },
+      "categoryUrl": "/criptomoedas/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin.svg?width=1280",
+        "alt": "Símbolo do Bitcoin",
+        "source": "featuredImage"
       }
     },
     {
@@ -503,6 +527,12 @@
       "scores": {
         "opportunity": 84,
         "trend": 81
+      },
+      "categoryUrl": "/criptomoedas/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ethereum-icon-purple.svg?width=1280",
+        "alt": "Símbolo do Ethereum",
+        "source": "featuredImage"
       }
     },
     {
@@ -604,6 +634,12 @@
       "scores": {
         "opportunity": 78,
         "trend": 72
+      },
+      "categoryUrl": "/criptomoedas/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin.svg?width=1280",
+        "alt": "Símbolo do Bitcoin em imagem ilustrativa do mercado de ativos digitais",
+        "source": "featuredImage"
       }
     },
     {
@@ -714,6 +750,12 @@
       "scores": {
         "opportunity": 99,
         "trend": 100
+      },
+      "categoryUrl": "/politica/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Brazil_National_Congress.jpg?width=1280",
+        "alt": "Congresso Nacional em Brasília, imagem ilustrativa de política brasileira",
+        "source": "featuredImage"
       }
     },
     {
@@ -818,6 +860,12 @@
       "scores": {
         "opportunity": 96,
         "trend": 98
+      },
+      "categoryUrl": "/politica/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Brazil_National_Congress.jpg?width=1280",
+        "alt": "Congresso Nacional em Brasília",
+        "source": "featuredImage"
       }
     },
     {
@@ -923,6 +971,12 @@
       "scores": {
         "opportunity": 88,
         "trend": 91
+      },
+      "categoryUrl": "/politica/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Brazil_National_Congress.jpg?width=1280",
+        "alt": "Congresso Nacional em Brasília",
+        "source": "featuredImage"
       }
     },
     {
@@ -1029,6 +1083,12 @@
       "scores": {
         "opportunity": 95,
         "trend": 97
+      },
+      "categoryUrl": "/entretenimento/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Disney%2B_logo.svg?width=1280",
+        "alt": "Logotipo do Disney+",
+        "source": "featuredImage"
       }
     },
     {
@@ -1130,6 +1190,12 @@
       "scores": {
         "opportunity": 82,
         "trend": 80
+      },
+      "categoryUrl": "/entretenimento/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Netflix_2015_logo.svg?width=1280",
+        "alt": "Logotipo da Netflix",
+        "source": "featuredImage"
       }
     },
     {
@@ -1237,6 +1303,12 @@
       "scores": {
         "opportunity": 87,
         "trend": 88
+      },
+      "categoryUrl": "/entretenimento/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hulu_Logo.svg?width=1280",
+        "alt": "Logotipo do Hulu",
+        "source": "featuredImage"
       }
     },
     {
@@ -1303,6 +1375,12 @@
       "scores": {
         "opportunity": 76,
         "trend": 58
+      },
+      "categoryUrl": "/tecnologia/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Padel_court.jpg?width=1280",
+        "alt": "Quadra de padel usada como imagem ilustrativa de gestão de arenas esportivas",
+        "source": "featuredImage"
       }
     },
     {
@@ -1358,6 +1436,12 @@
       "scores": {
         "opportunity": 90,
         "trend": 87
+      },
+      "categoryUrl": "/politica/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Brazil_National_Congress.jpg?width=1280",
+        "alt": "Congresso Nacional em Brasília",
+        "source": "featuredImage"
       }
     },
     {
@@ -1411,6 +1495,12 @@
       "scores": {
         "opportunity": 82,
         "trend": 79
+      },
+      "categoryUrl": "/entretenimento/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Netflix_2015_logo.svg?width=1280",
+        "alt": "Logotipo da Netflix",
+        "source": "featuredImage"
       }
     },
     {
@@ -1462,6 +1552,12 @@
       "scores": {
         "opportunity": 88,
         "trend": 82
+      },
+      "categoryUrl": "/tecnologia/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/OpenAI_logo_2025_(wordmark).svg?width=1280",
+        "alt": "Logotipo da OpenAI",
+        "source": "featuredImage"
       }
     },
     {
@@ -1514,6 +1610,12 @@
       "scores": {
         "opportunity": 84,
         "trend": 73
+      },
+      "categoryUrl": "/criptomoedas/",
+      "thumbnail": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
+        "alt": "Capitólio dos Estados Unidos",
+        "source": "featuredImage"
       }
     }
   ],
@@ -1534,6 +1636,28 @@
     {
       "slug": "politica",
       "name": "Política"
+    }
+  ],
+  "navigation": [
+    {
+      "slug": "tecnologia",
+      "name": "Tecnologia",
+      "url": "/tecnologia/"
+    },
+    {
+      "slug": "criptomoedas",
+      "name": "Criptomoedas",
+      "url": "/criptomoedas/"
+    },
+    {
+      "slug": "entretenimento",
+      "name": "Entretenimento",
+      "url": "/entretenimento/"
+    },
+    {
+      "slug": "politica",
+      "name": "Política",
+      "url": "/politica/"
     }
   ]
 }

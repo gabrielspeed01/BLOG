@@ -1,29 +1,54 @@
 <!doctype html>
-<html lang="pt-BR"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Inteligência artificial, software, hardware, segurança e grandes empresas de tecnologia.">
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="IA, software, hardware, segurança, smartphones e grandes empresas.">
 <meta name="robots" content="index,follow">
 <meta property="og:site_name" content="FirstNews">
 <link rel="canonical" href="https://blog.gabriel-speed01.workers.dev/tecnologia/">
 <title>Tecnologia — FirstNews</title>
-<link rel="stylesheet" href="../assets/styles.css?v=20260810-0518">
-</head><body class="page-shell">
-<header class="site-header"><div class="topbar"><div class="container topbar__inner">
-<a class="brand" href="/" aria-label="FirstNews — notícias em tempo real"><span class="brand__mark">F</span><span class="brand__text">FirstNews</span></a>
-<nav class="main-nav main-nav--article">
-<a href="/tecnologia/" class="is-active">Tecnologia</a><a href="/criptomoedas/">Criptomoedas</a><a href="/entretenimento/">Entretenimento</a><a href="/politica/">Política</a>
-</nav></div></div></header>
+<link rel="stylesheet" href="/assets/styles.css?v=20260810-0518">
+<script defer src="/assets/app.js?v=20260814-categories"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7687887444939499" crossorigin="anonymous"></script>
+</head>
+<body class="page-shell" data-page="category" data-category="tecnologia">
+<header class="site-header">
+  <div class="topbar"><div class="container topbar__inner">
+    <a class="brand" href="/" aria-label="FirstNews — notícias em tempo real">
+      <span class="brand__mark">F</span><span class="brand__text">FirstNews</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav main-nav--article" id="mainNav" aria-label="Navegação principal"><a href="/tecnologia/" data-category-link="tecnologia">Tecnologia</a><a href="/criptomoedas/" data-category-link="criptomoedas">Criptomoedas</a><a href="/entretenimento/" data-category-link="entretenimento">Entretenimento</a><a href="/politica/" data-category-link="politica">Política</a></nav>
+  </div></div>
+</header>
+
 <main class="container section">
-<div class="section-heading"><div><span class="eyebrow">Categoria</span><h1>Tecnologia</h1><p style="max-width:760px;color:#667085">Inteligência artificial, software, hardware, segurança e grandes empresas de tecnologia.</p></div></div>
-<div class="content-layout"><div class="news-list">
-<article class="news-card">
-<a class="thumb thumb--image" href="/tecnologia/atacante-app-gestao-clubes-arenas/"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Padel_court.jpg?width=1280" alt="Atacante aposta em tecnologia para digitalizar gestão de clubes e arenas esportivas" loading="lazy"></a>
-<div><span class="eyebrow">Tecnologia</span><h3><a href="/tecnologia/atacante-app-gestao-clubes-arenas/">Atacante aposta em tecnologia para digitalizar gestão de clubes e arenas esportivas</a></h3><p>Plataforma centraliza reservas, pagamentos online, mensalidades, campanhas de CRM e recursos de acesso para gestores de quadras.</p></div>
-</article>
-<article class="news-card">
-<a class="thumb thumb--image" href="/tecnologia/openai-desacelera-astra-riscos-ciberseguranca/"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/OpenAI_logo_2025_(wordmark).svg?width=1280" alt="OpenAI desacelera modelo Astra após avaliações de cibersegurança, diz Axios" loading="lazy"></a>
-<div><span class="eyebrow">Tecnologia</span><h3><a href="/tecnologia/openai-desacelera-astra-riscos-ciberseguranca/">OpenAI desacelera modelo Astra após avaliações de cibersegurança, diz Axios</a></h3><p>Relato aponta que a empresa decidiu ampliar testes de segurança depois que avaliações internas indicaram capacidades cibernéticas avançadas no modelo ainda não lançado.</p></div>
-</article></div>
-<aside class="sidebar"><section class="sidebar-card"><span class="eyebrow">FirstNews</span><h2>Últimas de Tecnologia</h2><p>Conteúdo original baseado em fontes verificadas e URLs permanentes.</p></section></aside></div>
-</main><footer class="site-footer"><div class="container footer-bottom">© 2026 FirstNews — notícias em tempo real</div></footer>
-</body></html>
+  <div class="section-heading">
+    <div>
+      <span class="eyebrow">Categoria</span>
+      <h1>Tecnologia</h1>
+      <p style="max-width:760px;color:#667085">IA, software, hardware, segurança, smartphones e grandes empresas.</p>
+      <p id="categoryCount" class="meta" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <div class="content-layout">
+    <div class="news-list" id="latestNews" aria-live="polite">
+      <article class="skeleton"></article>
+      <article class="skeleton"></article>
+    </div>
+    <aside class="sidebar">
+      <section class="sidebar-card">
+        <div class="sidebar-card__heading"><span class="eyebrow">Categoria</span><h2>Mais lidas</h2></div>
+        <ol class="ranking" id="mostRead"></ol>
+      </section>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-bottom">© <span id="year"></span> FirstNews — notícias em tempo real</div>
+</footer>
+</body>
+</html>
