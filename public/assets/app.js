@@ -62,9 +62,15 @@ function heroCard(article, main=false) {
   </a>`;
 }
 
+function imageCredit(article) {
+  const image = article.featuredImage || {};
+  if (!image.credit) return "";
+  return `<div class="image-credit">Imagem: ${escapeHtml(image.credit)}${image.license ? ` — ${escapeHtml(image.license)}` : ""}</div>`;
+}
+
 function newsCard(article) {
   return `<article class="news-card" data-category="${escapeHtml(article.category)}">
-    ${articleThumbnail(article)}
+    <div class="news-card__media">${articleThumbnail(article)}${imageCredit(article)}</div>
     <div>
       <span class="eyebrow">${escapeHtml(categoryLabel(article.category))}</span>
       <h3><a href="${articleUrl(article)}">${escapeHtml(article.title)}</a></h3>

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-08-14T01:29:00Z",
-  "instructions": "Este arquivo é o contrato de entrada do portal. A automação futura deve validar fontes, evitar duplicatas e adicionar apenas artigos originais com status=published. Regra adicional permanente: featuredImage deve priorizar imagem contextual da notícia; evitar logotipos isolados de plataformas, serviços, partidos ou empresas como imagem principal, salvo quando a matéria tratar especificamente da identidade visual. A mesma featuredImage deve alimentar os thumbnails da home, categorias e relacionados.",
+  "instructions": "Este arquivo é o contrato de entrada do portal. A automação futura deve validar fontes, evitar duplicatas e adicionar apenas artigos originais com status=published.",
   "articles": [
     {
       "id": "tech-2026-08-13-maia-300",
@@ -38,13 +38,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/tecnologia/microsoft-maia-300-chip-ia-setembro/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/microsoft-maia-300-chip-ia-setembro.jpg",
-        "alt": "Imagem ilustrativa de chip e infraestrutura de IA",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Datacenter_Server_Racks_(22370909788).jpg?width=1280",
+        "alt": "Racks de servidores em um data center, imagem relacionada à infraestrutura usada em sistemas de inteligência artificial",
+        "source": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+        "credit": "Carl Lender / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "width": 1280,
+        "height": 853
       },
       "body": [
         {
@@ -96,9 +96,7 @@
       ],
       "generation": {
         "generatedByAi": true,
-        "reviewedByHuman": false,
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "reviewedByHuman": false
       },
       "scores": {
         "opportunity": 89,
@@ -106,8 +104,8 @@
       },
       "categoryUrl": "/tecnologia/",
       "thumbnail": {
-        "url": "/assets/news-images/microsoft-maia-300-chip-ia-setembro.jpg",
-        "alt": "Imagem ilustrativa de chip e infraestrutura de IA",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Datacenter_Server_Racks_(22370909788).jpg?width=1280",
+        "alt": "Racks de servidores em um data center, imagem relacionada à infraestrutura usada em sistemas de inteligência artificial",
         "source": "featuredImage"
       }
     },
@@ -144,13 +142,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/tecnologia/coreia-do-sul-plano-seed-tecnologia-lua-quantica/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/coreia-do-sul-plano-seed-tecnologia-lua-quantica.jpg",
-        "alt": "Imagem ilustrativa de Lua e circuito representando plano tecnológico da Coreia do Sul",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/FullMoon2010.jpg?width=1280",
+        "alt": "Lua cheia, imagem relacionada à meta sul-coreana de pouso lunar prevista no plano tecnológico SEED",
+        "source": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+        "credit": "Gregory H. Revera / Wikimedia Commons",
+        "license": "CC BY-SA",
+        "width": 1280,
+        "height": 853
       },
       "body": [
         {
@@ -202,9 +200,7 @@
       ],
       "generation": {
         "generatedByAi": true,
-        "reviewedByHuman": false,
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "reviewedByHuman": false
       },
       "scores": {
         "opportunity": 83,
@@ -212,8 +208,8 @@
       },
       "categoryUrl": "/tecnologia/",
       "thumbnail": {
-        "url": "/assets/news-images/coreia-do-sul-plano-seed-tecnologia-lua-quantica.jpg",
-        "alt": "Imagem ilustrativa de Lua e circuito representando plano tecnológico da Coreia do Sul",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/FullMoon2010.jpg?width=1280",
+        "alt": "Lua cheia, imagem relacionada à meta sul-coreana de pouso lunar prevista no plano tecnológico SEED",
         "source": "featuredImage"
       }
     },
@@ -249,13 +245,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/tecnologia/microsoft-project-perception-seguranca-agentes-ia/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/microsoft-project-perception-seguranca-agentes-ia.jpg",
-        "alt": "Imagem ilustrativa de servidores e escudo representando segurança com IA",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PDC_server_room.jpg?width=1280",
+        "alt": "Sala de servidores e infraestrutura de rede, imagem relacionada à segurança cibernética com agentes de IA",
+        "source": "https://commons.wikimedia.org/wiki/File:PDC_server_room.jpg",
+        "credit": "Johan Fredriksson (Esquilo) / Wikimedia Commons",
+        "license": "Creative Commons",
+        "width": 1280,
+        "height": 853
       },
       "body": [
         {
@@ -311,9 +307,7 @@
       ],
       "generation": {
         "generatedByAi": true,
-        "reviewedByHuman": false,
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "reviewedByHuman": false
       },
       "scores": {
         "opportunity": 81,
@@ -321,8 +315,8 @@
       },
       "categoryUrl": "/tecnologia/",
       "thumbnail": {
-        "url": "/assets/news-images/microsoft-project-perception-seguranca-agentes-ia.jpg",
-        "alt": "Imagem ilustrativa de servidores e escudo representando segurança com IA",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PDC_server_room.jpg?width=1280",
+        "alt": "Sala de servidores e infraestrutura de rede, imagem relacionada à segurança cibernética com agentes de IA",
         "source": "featuredImage"
       }
     },
@@ -360,13 +354,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/criptomoedas/bitcoin-63-mil-kospi-queda-mercados/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/bitcoin-63-mil-kospi-queda-mercados.jpg",
-        "alt": "Imagem ilustrativa de gráfico e ativo digital para matéria sobre bitcoin e mercados",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin_2026.jpg?width=1280",
+        "alt": "Representação física de bitcoin, imagem relacionada ao mercado da criptomoeda",
+        "source": "https://commons.wikimedia.org/wiki/File:Bitcoin_2026.jpg",
+        "credit": "Wald-Burger8 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "width": 1280,
+        "height": 853
       },
       "body": [
         {
@@ -419,9 +413,7 @@
       "generation": {
         "generatedByAi": true,
         "reviewedByHuman": false,
-        "editorialRisk": "medium",
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "editorialRisk": "medium"
       },
       "scores": {
         "opportunity": 91,
@@ -429,8 +421,8 @@
       },
       "categoryUrl": "/criptomoedas/",
       "thumbnail": {
-        "url": "/assets/news-images/bitcoin-63-mil-kospi-queda-mercados.jpg",
-        "alt": "Imagem ilustrativa de gráfico e ativo digital para matéria sobre bitcoin e mercados",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin_2026.jpg?width=1280",
+        "alt": "Representação física de bitcoin, imagem relacionada ao mercado da criptomoeda",
         "source": "featuredImage"
       }
     },
@@ -467,13 +459,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/criptomoedas/lido-migra-ether-validadores-ethereum-cmv2/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/lido-migra-ether-validadores-ethereum-cmv2.jpg",
-        "alt": "Imagem ilustrativa de rede blockchain e validadores",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ethereum_Cryptocurrency_Security.jpg?width=1280",
+        "alt": "Medalhão representando Ethereum ao lado de cadeado, imagem relacionada à rede e seus validadores",
+        "source": "https://commons.wikimedia.org/wiki/File:Ethereum_Cryptocurrency_Security.jpg",
+        "credit": "Bybit / Wikimedia Commons",
+        "license": "CC BY",
+        "width": 1280,
+        "height": 853
       },
       "body": [
         {
@@ -530,9 +522,7 @@
       "generation": {
         "generatedByAi": true,
         "reviewedByHuman": false,
-        "editorialRisk": "medium",
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "editorialRisk": "medium"
       },
       "scores": {
         "opportunity": 84,
@@ -540,8 +530,8 @@
       },
       "categoryUrl": "/criptomoedas/",
       "thumbnail": {
-        "url": "/assets/news-images/lido-migra-ether-validadores-ethereum-cmv2.jpg",
-        "alt": "Imagem ilustrativa de rede blockchain e validadores",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ethereum_Cryptocurrency_Security.jpg?width=1280",
+        "alt": "Medalhão representando Ethereum ao lado de cadeado, imagem relacionada à rede e seus validadores",
         "source": "featuredImage"
       }
     },
@@ -576,13 +566,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/criptomoedas/uphold-corta-17-por-cento-equipe-foco-empresas/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/uphold-corta-17-por-cento-equipe-foco-empresas.jpg",
-        "alt": "Imagem ilustrativa de escritório e mercado de ativos digitais",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Over-the-counter-crypto-exchange.jpeg?width=1280",
+        "alt": "Ambiente de negociação de criptoativos, imagem relacionada ao setor de exchanges",
+        "source": "https://commons.wikimedia.org/wiki/File:Over-the-counter-crypto-exchange.jpeg",
+        "credit": "Arutoria / Wikimedia Commons",
+        "license": "Creative Commons",
+        "width": 1280,
+        "height": 853
       },
       "body": [
         {
@@ -639,9 +629,7 @@
       "generation": {
         "generatedByAi": true,
         "reviewedByHuman": false,
-        "editorialRisk": "medium",
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "editorialRisk": "medium"
       },
       "scores": {
         "opportunity": 78,
@@ -649,8 +637,8 @@
       },
       "categoryUrl": "/criptomoedas/",
       "thumbnail": {
-        "url": "/assets/news-images/uphold-corta-17-por-cento-equipe-foco-empresas.jpg",
-        "alt": "Imagem ilustrativa de escritório e mercado de ativos digitais",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Over-the-counter-crypto-exchange.jpeg?width=1280",
+        "alt": "Ambiente de negociação de criptoativos, imagem relacionada ao setor de exchanges",
         "source": "featuredImage"
       }
     },
@@ -689,13 +677,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/politica/flavio-bolsonaro-filiacao-missao-tse-restabelece-pl/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/flavio-bolsonaro-filiacao-missao-tse-restabelece-pl.jpg",
-        "alt": "Imagem ilustrativa do cenário político brasileiro",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fl%C3%A1vio_Bolsonaro_04_2026.jpg?width=1280",
+        "alt": "Senador Flávio Bolsonaro em fotografia da Agência Senado",
+        "source": "https://commons.wikimedia.org/wiki/File:Fl%C3%A1vio_Bolsonaro_04_2026.jpg",
+        "credit": "Ton Molina / Agência Senado",
+        "license": "Uso com crédito, conforme condições da Agência Senado",
+        "width": 1280,
+        "height": 853
       },
       "body": [
         {
@@ -757,9 +745,7 @@
         "generatedByAi": true,
         "reviewedByHuman": false,
         "requiresHumanReview": true,
-        "editorialRisk": "high",
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "editorialRisk": "high"
       },
       "scores": {
         "opportunity": 99,
@@ -767,8 +753,8 @@
       },
       "categoryUrl": "/politica/",
       "thumbnail": {
-        "url": "/assets/news-images/flavio-bolsonaro-filiacao-missao-tse-restabelece-pl.jpg",
-        "alt": "Imagem ilustrativa do cenário político brasileiro",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fl%C3%A1vio_Bolsonaro_04_2026.jpg?width=1280",
+        "alt": "Senador Flávio Bolsonaro em fotografia da Agência Senado",
         "source": "featuredImage"
       }
     },
@@ -805,13 +791,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-sistema-filiacoes-apos-fraudes/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/tse-suspende-sistema-filiacoes-apos-fraudes.jpg",
-        "alt": "Imagem ilustrativa de documento e Justiça Eleitoral",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pr%C3%A9dio_do_TSE_(53783456374).jpg?width=1280",
+        "alt": "Sede do Tribunal Superior Eleitoral em Brasília",
+        "source": "https://commons.wikimedia.org/wiki/File:Pr%C3%A9dio_do_TSE_(53783456374).jpg",
+        "credit": "Luiz Roberto / Secom-TSE",
+        "license": "Conforme página do arquivo no Wikimedia Commons",
+        "width": 1280,
+        "height": 853
       },
       "body": [
         {
@@ -869,9 +855,7 @@
         "generatedByAi": true,
         "reviewedByHuman": false,
         "requiresHumanReview": true,
-        "editorialRisk": "high",
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "editorialRisk": "high"
       },
       "scores": {
         "opportunity": 96,
@@ -879,8 +863,8 @@
       },
       "categoryUrl": "/politica/",
       "thumbnail": {
-        "url": "/assets/news-images/tse-suspende-sistema-filiacoes-apos-fraudes.jpg",
-        "alt": "Imagem ilustrativa de documento e Justiça Eleitoral",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pr%C3%A9dio_do_TSE_(53783456374).jpg?width=1280",
+        "alt": "Sede do Tribunal Superior Eleitoral em Brasília",
         "source": "featuredImage"
       }
     },
@@ -918,13 +902,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-julgamento-fundo-eleitoral-pt/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/tse-suspende-julgamento-fundo-eleitoral-pt.jpg",
-        "alt": "Imagem ilustrativa de documento e tema eleitoral",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pr%C3%A9dio_do_TSE_(53783552545).jpg?width=1280",
+        "alt": "Prédio do Tribunal Superior Eleitoral em Brasília",
+        "source": "https://commons.wikimedia.org/wiki/File:Pr%C3%A9dio_do_TSE_(53783552545).jpg",
+        "credit": "Luiz Roberto / Secom-TSE",
+        "license": "Domínio público conforme página do arquivo",
+        "width": 1280,
+        "height": 853
       },
       "body": [
         {
@@ -982,9 +966,7 @@
         "generatedByAi": true,
         "reviewedByHuman": false,
         "requiresHumanReview": true,
-        "editorialRisk": "high",
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "editorialRisk": "high"
       },
       "scores": {
         "opportunity": 88,
@@ -992,8 +974,8 @@
       },
       "categoryUrl": "/politica/",
       "thumbnail": {
-        "url": "/assets/news-images/tse-suspende-julgamento-fundo-eleitoral-pt.jpg",
-        "alt": "Imagem ilustrativa de documento e tema eleitoral",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pr%C3%A9dio_do_TSE_(53783552545).jpg?width=1280",
+        "alt": "Prédio do Tribunal Superior Eleitoral em Brasília",
         "source": "featuredImage"
       }
     },
@@ -1030,13 +1012,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/entretenimento/camp-rock-3-estreia-disney-channel-disney-plus/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/camp-rock-3-estreia-disney-channel-disney-plus.jpg",
-        "alt": "Imagem ilustrativa de palco musical para matéria sobre Camp Rock 3",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/JonasBrothersSep10.jpg?width=1280",
+        "alt": "Jonas Brothers em apresentação da turnê de Camp Rock 2",
+        "source": "https://commons.wikimedia.org/wiki/File:JonasBrothersSep10.jpg",
+        "credit": "Paige's Concerts / Wikimedia Commons",
+        "license": "Creative Commons",
+        "width": 1280,
+        "height": 853
       },
       "body": [
         {
@@ -1096,9 +1078,7 @@
       ],
       "generation": {
         "generatedByAi": true,
-        "reviewedByHuman": false,
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "reviewedByHuman": false
       },
       "scores": {
         "opportunity": 95,
@@ -1106,8 +1086,8 @@
       },
       "categoryUrl": "/entretenimento/",
       "thumbnail": {
-        "url": "/assets/news-images/camp-rock-3-estreia-disney-channel-disney-plus.jpg",
-        "alt": "Imagem ilustrativa de palco musical para matéria sobre Camp Rock 3",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/JonasBrothersSep10.jpg?width=1280",
+        "alt": "Jonas Brothers em apresentação da turnê de Camp Rock 2",
         "source": "featuredImage"
       }
     },
@@ -1143,13 +1123,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/entretenimento/a-child-of-my-own-estreia-netflix-documentario/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/a-child-of-my-own-estreia-netflix-documentario.jpg",
-        "alt": "Imagem ilustrativa de cinema para matéria sobre o filme A Child of My Own",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Maite_Alberdi_at_2017_MIFF.jpg?width=1280",
+        "alt": "Diretora Maite Alberdi no Miami International Film Festival",
+        "source": "https://commons.wikimedia.org/wiki/File:Maite_Alberdi_at_2017_MIFF.jpg",
+        "credit": "Miami Film Festival / Wikimedia Commons",
+        "license": "Conforme página do arquivo no Wikimedia Commons",
+        "width": 1280,
+        "height": 853
       },
       "body": [
         {
@@ -1205,9 +1185,7 @@
       ],
       "generation": {
         "generatedByAi": true,
-        "reviewedByHuman": false,
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "reviewedByHuman": false
       },
       "scores": {
         "opportunity": 82,
@@ -1215,8 +1193,8 @@
       },
       "categoryUrl": "/entretenimento/",
       "thumbnail": {
-        "url": "/assets/news-images/a-child-of-my-own-estreia-netflix-documentario.jpg",
-        "alt": "Imagem ilustrativa de cinema para matéria sobre o filme A Child of My Own",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Maite_Alberdi_at_2017_MIFF.jpg?width=1280",
+        "alt": "Diretora Maite Alberdi no Miami International Film Festival",
         "source": "featuredImage"
       }
     },
@@ -1254,13 +1232,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/entretenimento/travis-barker-louder-than-fear-hulu-disney-plus/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/travis-barker-louder-than-fear-hulu-disney-plus.jpg",
-        "alt": "Imagem ilustrativa de bateria para documentário sobre Travis Barker",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Travis_Barker_(28132648375).jpg?width=1280",
+        "alt": "Travis Barker tocando bateria com o Blink-182",
+        "source": "https://commons.wikimedia.org/wiki/File:Travis_Barker_(28132648375).jpg",
+        "credit": "Will Fisher / Wikimedia Commons",
+        "license": "Conforme página do arquivo no Wikimedia Commons",
+        "width": 1280,
+        "height": 853
       },
       "body": [
         {
@@ -1320,9 +1298,7 @@
       ],
       "generation": {
         "generatedByAi": true,
-        "reviewedByHuman": false,
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "reviewedByHuman": false
       },
       "scores": {
         "opportunity": 87,
@@ -1330,8 +1306,8 @@
       },
       "categoryUrl": "/entretenimento/",
       "thumbnail": {
-        "url": "/assets/news-images/travis-barker-louder-than-fear-hulu-disney-plus.jpg",
-        "alt": "Imagem ilustrativa de bateria para documentário sobre Travis Barker",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Travis_Barker_(28132648375).jpg?width=1280",
+        "alt": "Travis Barker tocando bateria com o Blink-182",
         "source": "featuredImage"
       }
     },
@@ -1368,13 +1344,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/tecnologia/atacante-app-gestao-clubes-arenas/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/atacante-app-gestao-clubes-arenas.jpg",
-        "alt": "Imagem ilustrativa de quadra esportiva para matéria sobre gestão de arenas",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Padel_court.jpg?width=1280",
+        "alt": "Quadra de padel usada como imagem relacionada à gestão de clubes e arenas esportivas",
+        "source": "https://commons.wikimedia.org/wiki/File:Padel_court.jpg",
+        "credit": "Samson Ssemakadde / Wikimedia Commons",
+        "license": "CC0 1.0",
+        "width": 1280,
+        "height": 853
       },
       "body": [
         {
@@ -1394,9 +1370,7 @@
       ],
       "generation": {
         "generatedByAi": true,
-        "reviewedByHuman": false,
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "reviewedByHuman": false
       },
       "scores": {
         "opportunity": 76,
@@ -1404,8 +1378,8 @@
       },
       "categoryUrl": "/tecnologia/",
       "thumbnail": {
-        "url": "/assets/news-images/atacante-app-gestao-clubes-arenas.jpg",
-        "alt": "Imagem ilustrativa de quadra esportiva para matéria sobre gestão de arenas",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Padel_court.jpg?width=1280",
+        "alt": "Quadra de padel usada como imagem relacionada à gestão de clubes e arenas esportivas",
         "source": "featuredImage"
       }
     },
@@ -1443,13 +1417,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/politica/missao-oficializa-renan-santos-presidencia-2026/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/missao-oficializa-renan-santos-presidencia-2026.jpg",
-        "alt": "Imagem ilustrativa do cenário eleitoral brasileiro",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Renan_Santos.jpg?width=1280",
+        "alt": "Renan Santos em evento público",
+        "source": "https://commons.wikimedia.org/wiki/File:Renan_Santos.jpg",
+        "credit": "Romerito Pontes / Wikimedia Commons",
+        "license": "Conforme página do arquivo no Wikimedia Commons",
+        "width": 1280,
+        "height": 853
       },
       "body": [],
       "sources": [],
@@ -1457,9 +1431,7 @@
         "generatedByAi": true,
         "reviewedByHuman": false,
         "requiresHumanReview": true,
-        "editorialRisk": "high",
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "editorialRisk": "high"
       },
       "scores": {
         "opportunity": 90,
@@ -1467,8 +1439,8 @@
       },
       "categoryUrl": "/politica/",
       "thumbnail": {
-        "url": "/assets/news-images/missao-oficializa-renan-santos-presidencia-2026.jpg",
-        "alt": "Imagem ilustrativa do cenário eleitoral brasileiro",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Renan_Santos.jpg?width=1280",
+        "alt": "Renan Santos em evento público",
         "source": "featuredImage"
       }
     },
@@ -1506,21 +1478,19 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/entretenimento/the-last-house-netflix-wagner-moura-estreia/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/the-last-house-netflix-wagner-moura-estreia.jpg",
-        "alt": "Imagem ilustrativa de casa para thriller The Last House",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wagner_Moura-6547.jpg?width=1280",
+        "alt": "Ator Wagner Moura no Festival de Cannes de 2025",
+        "source": "https://commons.wikimedia.org/wiki/File:Wagner_Moura-6547.jpg",
+        "credit": "Harald Krichel / WikiPortraits / Wikimedia Commons",
+        "license": "Conforme página do arquivo no Wikimedia Commons",
+        "width": 1280,
+        "height": 853
       },
       "body": [],
       "sources": [],
       "generation": {
         "generatedByAi": true,
-        "reviewedByHuman": false,
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "reviewedByHuman": false
       },
       "scores": {
         "opportunity": 82,
@@ -1528,8 +1498,8 @@
       },
       "categoryUrl": "/entretenimento/",
       "thumbnail": {
-        "url": "/assets/news-images/the-last-house-netflix-wagner-moura-estreia.jpg",
-        "alt": "Imagem ilustrativa de casa para thriller The Last House",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wagner_Moura-6547.jpg?width=1280",
+        "alt": "Ator Wagner Moura no Festival de Cannes de 2025",
         "source": "featuredImage"
       }
     },
@@ -1565,21 +1535,19 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/tecnologia/openai-desacelera-astra-riscos-ciberseguranca/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/openai-desacelera-astra-riscos-ciberseguranca.jpg",
-        "alt": "Imagem ilustrativa de cibersegurança e IA",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Server_Room_(22397102849).jpg?width=1280",
+        "alt": "Sala de servidores, imagem relacionada a avaliações de cibersegurança em modelos de inteligência artificial",
+        "source": "https://commons.wikimedia.org/wiki/File:Server_Room_(22397102849).jpg",
+        "credit": "Carl Lender / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "width": 1280,
+        "height": 853
       },
       "body": [],
       "sources": [],
       "generation": {
         "generatedByAi": true,
-        "reviewedByHuman": false,
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "reviewedByHuman": false
       },
       "scores": {
         "opportunity": 88,
@@ -1587,8 +1555,8 @@
       },
       "categoryUrl": "/tecnologia/",
       "thumbnail": {
-        "url": "/assets/news-images/openai-desacelera-astra-riscos-ciberseguranca.jpg",
-        "alt": "Imagem ilustrativa de cibersegurança e IA",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Server_Room_(22397102849).jpg?width=1280",
+        "alt": "Sala de servidores, imagem relacionada a avaliações de cibersegurança em modelos de inteligência artificial",
         "source": "featuredImage"
       }
     },
@@ -1625,21 +1593,19 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/"
       },
       "featuredImage": {
-        "url": "/assets/news-images/senado-eua-avanca-clarity-act-regras-criptomoedas.jpg",
-        "alt": "Imagem ilustrativa de prédio governamental para matéria sobre regulação de criptomoedas",
-        "source": "Ilustração FirstNews",
-        "credit": "Arte original FirstNews",
-        "license": "Ilustração editorial original",
-        "width": 1200,
-        "height": 675
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
+        "alt": "Capitólio dos Estados Unidos em Washington, sede do Congresso",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Capitol_west_side.JPG",
+        "credit": "Martin Falbisoner / Wikimedia Commons",
+        "license": "CC BY-SA",
+        "width": 1280,
+        "height": 853
       },
       "body": [],
       "sources": [],
       "generation": {
         "generatedByAi": true,
-        "reviewedByHuman": false,
-        "featuredImageStyle": "contextual-illustration",
-        "avoidStandaloneLogo": true
+        "reviewedByHuman": false
       },
       "scores": {
         "opportunity": 84,
@@ -1647,8 +1613,8 @@
       },
       "categoryUrl": "/criptomoedas/",
       "thumbnail": {
-        "url": "/assets/news-images/senado-eua-avanca-clarity-act-regras-criptomoedas.jpg",
-        "alt": "Imagem ilustrativa de prédio governamental para matéria sobre regulação de criptomoedas",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
+        "alt": "Capitólio dos Estados Unidos em Washington, sede do Congresso",
         "source": "featuredImage"
       }
     }
@@ -1695,9 +1661,11 @@
     }
   ],
   "imagePolicy": {
-    "preferContextualNewsImage": true,
-    "avoidStandaloneLogos": true,
-    "logoAllowedOnlyWhenEditoriallyEssential": true,
+    "useAiGeneratedImages": false,
+    "preferPrimarySourcePressImageWhenReuseIsAllowed": true,
+    "otherwiseUseRealLicensedContextualImage": true,
+    "neverAssumeAttributionAloneGrantsReuseRights": true,
+    "showImageCreditBelowFeaturedImage": true,
     "thumbnailSource": "featuredImage"
   }
 }
