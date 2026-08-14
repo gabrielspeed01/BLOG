@@ -8,6 +8,7 @@ Portal de notícias em tempo real nas verticais Tecnologia, Criptomoedas, Entret
 - `public/data/articles.json` — fonte de verdade para artigos e listagens.
 - `public/assets/app.js` — home, categorias, busca, filtros e navegação.
 - `public/assets/styles.css` — estilos globais e responsivos.
+- `public/assets/firstnews-logo.png` — logo oficial aprovada do FirstNews.
 - `docs/NEWS_STANDARD.md` — padrão obrigatório para novas notícias.
 
 ## Desenvolvimento

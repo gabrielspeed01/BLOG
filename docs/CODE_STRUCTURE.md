@@ -13,3 +13,7 @@ A aplicação deliberadamente não possui CMS, framework ou build de frontend ne
 Não manter duplicatas de `index.html`, `articles.json`, `app.js`, `styles.css`, sitemap, RSS ou páginas de categoria na raiz do repositório.
 
 Não usar `artigo.html?slug=...` como URL pública.
+
+
+## Branding
+O branding oficial do portal usa `public/assets/firstnews-logo.png` em header, footer e favicon.

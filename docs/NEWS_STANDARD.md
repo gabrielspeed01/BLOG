@@ -57,3 +57,7 @@ Todas as notícias usam o mesmo template visual:
 - rodapé.
 
 A home e as categorias usam a mesma `featuredImage` como thumbnail, com `object-fit: cover`.
+
+
+## Identidade do portal
+Usar a logo oficial em `public/assets/firstnews-logo.png` no header, footer e favicon.
