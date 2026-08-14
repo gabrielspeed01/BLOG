@@ -1,0 +1,8 @@
+PADRÃO DE IMAGEM PARA O FIRSTNEWS
+
+A partir desta versão:
+1. Toda notícia deve usar imagem contextual ligada ao assunto.
+2. Evitar logotipos puros como imagem principal.
+3. O campo featuredImage é a fonte oficial do thumbnail.
+4. Home, categorias, relacionados e cards devem consumir a mesma featuredImage.
+5. Se não houver foto adequada, usar ilustração editorial contextual em 1200x675.
