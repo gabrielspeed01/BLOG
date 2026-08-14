@@ -1,138 +1,149 @@
 const DATA_URL = "/data/articles.json";
 
 const state = { articles: [], filter: "all", query: "", category: "" };
+const qs = (selector, root = document) => root.querySelector(selector);
+const qsa = (selector, root = document) => [...root.querySelectorAll(selector)];
 
-const qs = (s, root=document) => root.querySelector(s);
-const qsa = (s, root=document) => [...root.querySelectorAll(s)];
+const CATEGORY_LABELS = {
+  tecnologia: "Tecnologia",
+  criptomoedas: "Criptomoedas",
+  entretenimento: "Entretenimento",
+  politica: "Política"
+};
 
-function escapeHtml(value="") {
-  return String(value).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+function escapeHtml(value = "") {
+  return String(value).replace(/[&<>"']/g, char => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;"
+  })[char]);
 }
 
 function categoryLabel(category) {
-  return ({ tecnologia:"Tecnologia", criptomoedas:"Criptomoedas", entretenimento:"Entretenimento", politica:"Política" })[category] || category;
-}
-
-function displayAuthor(author="") {
-  return String(author).replace(/\bBLOG\b/g, "FirstNews");
-}
-
-function relativeDate(iso) {
-  const date = new Date(iso);
-  const diff = Math.max(0, Date.now() - date.getTime());
-  const min = Math.floor(diff/60000);
-  if (min < 60) return min <= 1 ? "agora" : `há ${min} min`;
-  const h = Math.floor(min/60);
-  if (h < 24) return `há ${h} h`;
-  const d = Math.floor(h/24);
-  return d === 1 ? "há 1 dia" : `há ${d} dias`;
+  return CATEGORY_LABELS[category] || category;
 }
 
 function articleUrl(article) {
   return article.url || `/${encodeURIComponent(article.category)}/${encodeURIComponent(article.slug)}/`;
 }
 
-function articleThumbnail(article, klass="thumb thumb--image") {
-  const image = article.featuredImage || article.thumbnail || {};
-  if (image.url) {
-    return `<a class="${klass}" href="${articleUrl(article)}" aria-label="${escapeHtml(article.title)}">
-      <img src="${escapeHtml(image.url)}"
-           alt="${escapeHtml(image.alt || article.title)}"
-           width="${image.width || 1200}"
-           height="${image.height || 675}"
-           loading="lazy">
-    </a>`;
-  }
-  return `<a class="thumb" href="${articleUrl(article)}" aria-label="${escapeHtml(article.title)}"></a>`;
+function relativeDate(iso) {
+  const date = new Date(iso);
+  const diff = Math.max(0, Date.now() - date.getTime());
+  const minutes = Math.floor(diff / 60000);
+  if (minutes < 60) return minutes <= 1 ? "agora" : `há ${minutes} min`;
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24) return `há ${hours} h`;
+  const days = Math.floor(hours / 24);
+  return days === 1 ? "há 1 dia" : `há ${days} dias`;
 }
 
-function heroCard(article, main=false) {
-  const heading = main ? "h1" : "h2";
+function heroCard(article, main = false) {
   const image = article.featuredImage || {};
-  const visual = image.url
-    ? `<img class="hero-card__image" src="${escapeHtml(image.url)}" alt="${escapeHtml(image.alt || article.title)}" width="${image.width || 1200}" height="${image.height || 675}">`
-    : `<div class="hero-card__visual"></div>`;
+  const heading = main ? "h1" : "h2";
   return `<a class="hero-card" data-category="${escapeHtml(article.category)}" href="${articleUrl(article)}">
-    ${visual}
+    ${image.url ? `<img class="hero-card__image" src="${escapeHtml(image.url)}" alt="${escapeHtml(image.alt || article.title)}" width="${image.width || 1200}" height="${image.height || 675}">` : ""}
     <div class="hero-card__content">
       <span class="tag">${escapeHtml(categoryLabel(article.category))}</span>
       <${heading}>${escapeHtml(article.title)}</${heading}>
-      <div class="meta">${escapeHtml(displayAuthor(article.author))} · ${relativeDate(article.publishedAt)}</div>
+      <div class="meta">${escapeHtml(article.author || "Redação FirstNews")} · ${relativeDate(article.publishedAt)}</div>
     </div>
   </a>`;
 }
 
-function imageCredit(article) {
-  const image = article.featuredImage || {};
-  if (!image.credit) return "";
-  return `<div class="image-credit">Imagem: ${escapeHtml(image.credit)}${image.license ? ` — ${escapeHtml(image.license)}` : ""}</div>`;
-}
-
 function newsCard(article) {
-  return `<article class="news-card" data-category="${escapeHtml(article.category)}">
-    <div class="news-card__media">${articleThumbnail(article)}${imageCredit(article)}</div>
+  const image = article.featuredImage || {};
+  return `<article class="news-card">
+    <a class="thumb thumb--image" href="${articleUrl(article)}" aria-label="${escapeHtml(article.title)}">
+      ${image.url ? `<img src="${escapeHtml(image.url)}" alt="${escapeHtml(image.alt || article.title)}" width="${image.width || 1200}" height="${image.height || 675}" loading="lazy">` : ""}
+    </a>
     <div>
       <span class="eyebrow">${escapeHtml(categoryLabel(article.category))}</span>
       <h3><a href="${articleUrl(article)}">${escapeHtml(article.title)}</a></h3>
       <p>${escapeHtml(article.summary)}</p>
-      <div class="meta">${escapeHtml(displayAuthor(article.author))} · ${relativeDate(article.publishedAt)}</div>
+      <div class="meta">${escapeHtml(article.author || "Redação FirstNews")} · ${relativeDate(article.publishedAt)}</div>
     </div>
   </article>`;
 }
 
 function filteredArticles() {
   return state.articles.filter(article => {
-    const catOk = (state.filter === "all" || article.category === state.filter) &&
-                  (!state.category || article.category === state.category);
-    const haystack = `${article.title} ${article.summary} ${(article.tags||[]).join(" ")}`.toLowerCase();
-    const qOk = !state.query || haystack.includes(state.query.toLowerCase());
-    return catOk && qOk;
+    const categoryMatches =
+      (state.filter === "all" || article.category === state.filter) &&
+      (!state.category || article.category === state.category);
+    const searchable = `${article.title} ${article.summary} ${(article.tags || []).join(" ")}`.toLowerCase();
+    const queryMatches = !state.query || searchable.includes(state.query.toLowerCase());
+    return categoryMatches && queryMatches;
   });
 }
 
-function renderNavigation() {
-  qsa("[data-category-link]").forEach(a => {
-    a.classList.toggle("is-active", a.dataset.categoryLink === state.category);
-  });
+function heroArticles(pool) {
+  if (pool.length <= 3) return pool;
+  const selected = [pool[0]];
+  const seen = new Set([pool[0].category]);
+
+  for (const article of pool.slice(1)) {
+    if (!seen.has(article.category)) {
+      selected.push(article);
+      seen.add(article.category);
+    }
+    if (selected.length === 3) break;
+  }
+
+  for (const article of pool.slice(1)) {
+    if (selected.length === 3) break;
+    if (!selected.includes(article)) selected.push(article);
+  }
+
+  return selected;
 }
 
 function renderRanking(pool) {
   const target = qs("#mostRead");
   if (!target) return;
-  const ranking = [...pool].sort((a,b)=>(b.views||0)-(a.views||0)).slice(0,5);
-  target.innerHTML = ranking.map((a,i)=>`<li>
-    <span class="ranking__number">${String(i+1).padStart(2,"0")}</span>
-    <a href="${articleUrl(a)}">${escapeHtml(a.title)}</a>
+
+  const ranking = [...pool]
+    .sort((a, b) => (b.views || 0) - (a.views || 0) || new Date(b.publishedAt) - new Date(a.publishedAt))
+    .slice(0, 5);
+
+  target.innerHTML = ranking.map((article, index) => `<li>
+    <span class="ranking__number">${String(index + 1).padStart(2, "0")}</span>
+    <a href="${articleUrl(article)}">${escapeHtml(article.title)}</a>
   </li>`).join("");
+}
+
+function renderNavigation() {
+  qsa("[data-category-link]").forEach(link => {
+    link.classList.toggle("is-active", link.dataset.categoryLink === state.category);
+  });
 }
 
 function renderHome() {
   const filtered = filteredArticles();
-  const base = (state.category || state.query) ? filtered : state.articles;
-  const hero = base.slice(0,3);
+  const heroPool = state.query || state.filter !== "all" ? filtered : state.articles;
+  const hero = heroArticles(heroPool);
 
   const heroGrid = qs("#heroGrid");
   if (heroGrid) {
     heroGrid.innerHTML = hero.length
-      ? hero.map((a,i) => heroCard(a,i===0)).join("")
+      ? hero.map((article, index) => heroCard(article, index === 0)).join("")
       : '<div class="empty-state"><h3>Nenhuma notícia encontrada</h3></div>';
   }
 
   const latest = qs("#latestNews");
   if (latest) {
     latest.innerHTML = filtered.length
-      ? filtered.slice(0,20).map(newsCard).join("")
-      : '<div class="empty-state"><h3>Nenhuma notícia encontrada</h3></div>';
+      ? filtered.slice(0, 20).map(newsCard).join("")
+      : '<div class="empty-state"><h3>Nenhuma notícia encontrada</h3><p>Tente outro filtro ou busca.</p></div>';
   }
 
   renderRanking(state.articles);
-  qsa(".pill").forEach(btn => btn.classList.toggle("is-active", btn.dataset.filter === state.filter));
-  renderNavigation();
+  qsa(".pill").forEach(button => {
+    button.classList.toggle("is-active", button.dataset.filter === state.filter);
+  });
 }
 
 function renderCategory() {
-  state.category = document.body.dataset.category || state.category;
-  const categoryArticles = state.articles.filter(a => a.category === state.category);
+  state.category = document.body.dataset.category || "";
+  const categoryArticles = state.articles.filter(article => article.category === state.category);
 
   const latest = qs("#latestNews");
   if (latest) {
@@ -142,32 +153,42 @@ function renderCategory() {
   }
 
   const count = qs("#categoryCount");
-  if (count) count.textContent = `${categoryArticles.length} ${categoryArticles.length === 1 ? "notícia publicada" : "notícias publicadas"}`;
+  if (count) {
+    count.textContent = `${categoryArticles.length} ${categoryArticles.length === 1 ? "notícia publicada" : "notícias publicadas"}`;
+  }
 
   renderRanking(categoryArticles);
   renderNavigation();
 }
 
+async function loadArticles() {
+  const response = await fetch(DATA_URL, { cache: "no-store" });
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  const payload = await response.json();
+
+  return (payload.articles || [])
+    .filter(article => article.status === "published" && !article.demo)
+    .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+}
+
 async function boot() {
-  qs("#year") && (qs("#year").textContent = new Date().getFullYear());
+  const year = qs("#year");
+  if (year) year.textContent = new Date().getFullYear();
+
+  const page = document.body.dataset.page;
+  if (page !== "home" && page !== "category") return;
 
   const params = new URLSearchParams(location.search);
-  state.category = document.body.dataset.category || params.get("categoria") || "";
   state.query = params.get("q") || "";
 
   try {
-    const response = await fetch(DATA_URL, { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const payload = await response.json();
-    state.articles = (payload.articles || [])
-      .filter(a => a.status === "published" && !a.demo)
-      .sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt));
+    state.articles = await loadArticles();
   } catch (error) {
     console.error("Falha ao carregar artigos", error);
     state.articles = [];
   }
 
-  if (document.body.dataset.page === "category") renderCategory();
+  if (page === "category") renderCategory();
   else renderHome();
 }
 
@@ -175,7 +196,13 @@ qs("#menuToggle")?.addEventListener("click", () => {
   const nav = qs("#mainNav");
   if (!nav) return;
   nav.classList.toggle("is-open");
-  qs("#menuToggle").setAttribute("aria-expanded", nav.classList.contains("is-open"));
+  qs("#menuToggle")?.setAttribute("aria-expanded", String(nav.classList.contains("is-open")));
+});
+
+qs("#mainNav")?.addEventListener("click", event => {
+  if (!event.target.closest("a")) return;
+  qs("#mainNav")?.classList.remove("is-open");
+  qs("#menuToggle")?.setAttribute("aria-expanded", "false");
 });
 
 qs("#searchButton")?.addEventListener("click", () => {
@@ -185,17 +212,16 @@ qs("#searchButton")?.addEventListener("click", () => {
   if (!panel.hidden) qs("#searchInput")?.focus();
 });
 
-qs("#searchForm")?.addEventListener("submit", e => {
-  e.preventDefault();
-  const q = qs("#searchInput")?.value.trim() || "";
-  location.href = q ? `/?q=${encodeURIComponent(q)}` : "/";
+qs("#searchForm")?.addEventListener("submit", event => {
+  event.preventDefault();
+  const query = qs("#searchInput")?.value.trim() || "";
+  location.href = query ? `/?q=${encodeURIComponent(query)}` : "/";
 });
 
-qs("#filterPills")?.addEventListener("click", e => {
-  const btn = e.target.closest("[data-filter]");
-  if (!btn) return;
-  state.filter = btn.dataset.filter;
-  state.category = "";
+qs("#filterPills")?.addEventListener("click", event => {
+  const button = event.target.closest("[data-filter]");
+  if (!button) return;
+  state.filter = button.dataset.filter;
   renderHome();
 });
 

@@ -1,100 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://blog.gabriel-speed01.workers.dev/tecnologia/microsoft-maia-300-chip-ia-setembro/</loc>
-    <news:news>
-      <news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-08-14T00:30:00Z</news:publication_date>
-      <news:title>Microsoft prepara Maia 300 para ampliar disputa por chips de IA, diz Reuters</news:title>
-    </news:news>
+    <loc>https://firstnews.com.br/tecnologia/microsoft-maia-300-chip-ia-setembro/</loc>
+    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
+    <news:publication_date>2026-08-14T00:30:00Z</news:publication_date><news:title>Microsoft prepara Maia 300 para ampliar disputa por chips de IA, diz Reuters</news:title></news:news>
   </url>
   <url>
-    <loc>https://blog.gabriel-speed01.workers.dev/tecnologia/coreia-do-sul-plano-seed-tecnologia-lua-quantica/</loc>
-    <news:news>
-      <news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-08-14T00:29:00Z</news:publication_date>
-      <news:title>Coreia do Sul lança plano tecnológico com meta de pouso na Lua e computador quântico</news:title>
-    </news:news>
+    <loc>https://firstnews.com.br/tecnologia/coreia-do-sul-plano-seed-tecnologia-lua-quantica/</loc>
+    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
+    <news:publication_date>2026-08-14T00:29:00Z</news:publication_date><news:title>Coreia do Sul lança plano tecnológico com meta de pouso na Lua e computador quântico</news:title></news:news>
   </url>
   <url>
-    <loc>https://blog.gabriel-speed01.workers.dev/tecnologia/microsoft-project-perception-seguranca-agentes-ia/</loc>
-    <news:news>
-      <news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-08-14T00:28:00Z</news:publication_date>
-      <news:title>Microsoft apresenta Project Perception para defesa cibernética com agentes de IA</news:title>
-    </news:news>
+    <loc>https://firstnews.com.br/tecnologia/microsoft-project-perception-seguranca-agentes-ia/</loc>
+    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
+    <news:publication_date>2026-08-14T00:28:00Z</news:publication_date><news:title>Microsoft apresenta Project Perception para defesa cibernética com agentes de IA</news:title></news:news>
   </url>
   <url>
-    <loc>https://blog.gabriel-speed01.workers.dev/criptomoedas/bitcoin-63-mil-kospi-queda-mercados/</loc>
-    <news:news>
-      <news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-08-14T00:27:00Z</news:publication_date>
-      <news:title>Bitcoin volta à faixa de US$ 63 mil enquanto queda na Coreia pressiona ativos de risco</news:title>
-    </news:news>
+    <loc>https://firstnews.com.br/criptomoedas/bitcoin-63-mil-kospi-queda-mercados/</loc>
+    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
+    <news:publication_date>2026-08-14T00:27:00Z</news:publication_date><news:title>Bitcoin volta à faixa de US$ 63 mil enquanto queda na Coreia pressiona ativos de risco</news:title></news:news>
   </url>
   <url>
-    <loc>https://blog.gabriel-speed01.workers.dev/criptomoedas/lido-migra-ether-validadores-ethereum-cmv2/</loc>
-    <news:news>
-      <news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-08-14T00:26:00Z</news:publication_date>
-      <news:title>Lido inicia migração de mais de 8 milhões de ETH e reduz número de validadores</news:title>
-    </news:news>
+    <loc>https://firstnews.com.br/criptomoedas/lido-migra-ether-validadores-ethereum-cmv2/</loc>
+    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
+    <news:publication_date>2026-08-14T00:26:00Z</news:publication_date><news:title>Lido inicia migração de mais de 8 milhões de ETH e reduz número de validadores</news:title></news:news>
   </url>
   <url>
-    <loc>https://blog.gabriel-speed01.workers.dev/criptomoedas/uphold-corta-17-por-cento-equipe-foco-empresas/</loc>
-    <news:news>
-      <news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-08-14T00:25:00Z</news:publication_date>
-      <news:title>Uphold corta 17% da equipe global e aumenta foco em clientes empresariais</news:title>
-    </news:news>
+    <loc>https://firstnews.com.br/criptomoedas/uphold-corta-17-por-cento-equipe-foco-empresas/</loc>
+    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
+    <news:publication_date>2026-08-14T00:25:00Z</news:publication_date><news:title>Uphold corta 17% da equipe global e aumenta foco em clientes empresariais</news:title></news:news>
   </url>
   <url>
-    <loc>https://blog.gabriel-speed01.workers.dev/politica/flavio-bolsonaro-filiacao-missao-tse-restabelece-pl/</loc>
-    <news:news>
-      <news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-08-14T00:24:00Z</news:publication_date>
-      <news:title>Flávio Bolsonaro aparece filiado ao Missão; TSE cancela registro e restabelece vínculo com PL</news:title>
-    </news:news>
+    <loc>https://firstnews.com.br/politica/flavio-bolsonaro-filiacao-missao-tse-restabelece-pl/</loc>
+    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
+    <news:publication_date>2026-08-14T00:24:00Z</news:publication_date><news:title>Flávio Bolsonaro aparece filiado ao Missão; TSE cancela registro e restabelece vínculo com PL</news:title></news:news>
   </url>
   <url>
-    <loc>https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-sistema-filiacoes-apos-fraudes/</loc>
-    <news:news>
-      <news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-08-14T00:23:00Z</news:publication_date>
-      <news:title>TSE suspende processamento de filiações após fraude contra Flávio e tentativa envolvendo Lula</news:title>
-    </news:news>
+    <loc>https://firstnews.com.br/politica/tse-suspende-sistema-filiacoes-apos-fraudes/</loc>
+    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
+    <news:publication_date>2026-08-14T00:23:00Z</news:publication_date><news:title>TSE suspende processamento de filiações após fraude contra Flávio e tentativa envolvendo Lula</news:title></news:news>
   </url>
   <url>
-    <loc>https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-julgamento-fundo-eleitoral-pt/</loc>
-    <news:news>
-      <news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-08-14T00:22:00Z</news:publication_date>
-      <news:title>TSE suspende julgamento sobre fatia do fundo eleitoral e trava parte dos repasses</news:title>
-    </news:news>
+    <loc>https://firstnews.com.br/politica/tse-suspende-julgamento-fundo-eleitoral-pt/</loc>
+    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
+    <news:publication_date>2026-08-14T00:22:00Z</news:publication_date><news:title>TSE suspende julgamento sobre fatia do fundo eleitoral e trava parte dos repasses</news:title></news:news>
   </url>
   <url>
-    <loc>https://blog.gabriel-speed01.workers.dev/entretenimento/camp-rock-3-estreia-disney-channel-disney-plus/</loc>
-    <news:news>
-      <news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-08-14T00:21:00Z</news:publication_date>
-      <news:title>Camp Rock 3 estreia com Jonas Brothers e nova geração de campistas</news:title>
-    </news:news>
+    <loc>https://firstnews.com.br/entretenimento/camp-rock-3-estreia-disney-channel-disney-plus/</loc>
+    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
+    <news:publication_date>2026-08-14T00:21:00Z</news:publication_date><news:title>Camp Rock 3 estreia com Jonas Brothers e nova geração de campistas</news:title></news:news>
   </url>
   <url>
-    <loc>https://blog.gabriel-speed01.workers.dev/entretenimento/a-child-of-my-own-estreia-netflix-documentario/</loc>
-    <news:news>
-      <news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-08-14T00:20:00Z</news:publication_date>
-      <news:title>A Child of My Own estreia na Netflix com história sobre falsa gravidez e pressão social</news:title>
-    </news:news>
+    <loc>https://firstnews.com.br/entretenimento/a-child-of-my-own-estreia-netflix-documentario/</loc>
+    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
+    <news:publication_date>2026-08-14T00:20:00Z</news:publication_date><news:title>A Child of My Own estreia na Netflix com história sobre falsa gravidez e pressão social</news:title></news:news>
   </url>
   <url>
-    <loc>https://blog.gabriel-speed01.workers.dev/entretenimento/travis-barker-louder-than-fear-hulu-disney-plus/</loc>
-    <news:news>
-      <news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-08-14T00:19:00Z</news:publication_date>
-      <news:title>Documentário de Travis Barker estreia no Hulu e Disney+ contando trajetória após acidente</news:title>
-    </news:news>
+    <loc>https://firstnews.com.br/entretenimento/travis-barker-louder-than-fear-hulu-disney-plus/</loc>
+    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
+    <news:publication_date>2026-08-14T00:19:00Z</news:publication_date><news:title>Documentário de Travis Barker estreia no Hulu e Disney+ contando trajetória após acidente</news:title></news:news>
   </url>
 </urlset>

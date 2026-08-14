@@ -1,25 +1,26 @@
-# BLOG
+# FirstNews
 
-Portal estático de notícias para Cloudflare Workers Static Assets.
+Portal de notícias em tempo real nas verticais Tecnologia, Criptomoedas, Entretenimento e Política.
+
+## Estrutura
+
+- `public/` — site publicado pela Cloudflare.
+- `public/data/articles.json` — fonte de verdade para artigos e listagens.
+- `public/assets/app.js` — home, categorias, busca, filtros e navegação.
+- `public/assets/styles.css` — estilos globais e responsivos.
+- `docs/NEWS_STANDARD.md` — padrão obrigatório para novas notícias.
+
+## Desenvolvimento
+
+```bash
+npm install
+npm run dev
+```
 
 ## Deploy
 
-O conteúdo público fica em `public/`. O arquivo `wrangler.jsonc` aponta exclusivamente para essa pasta.
+```bash
+npm run deploy
+```
 
-Configuração no Cloudflare:
-
-- Root directory: `/`
-- Build command: `None`
-- Deploy command: `npx wrangler deploy`
-- Production branch: `main`
-
-Veja `DEPLOY-CLOUDFLARE.md`.
-
-## Verticais editoriais
-
-- Tecnologia
-- Criptomoedas
-- Entretenimento
-- Política
-
-A vertical Política utiliza `/politica/` e segue regras editoriais mais rígidas para cobertura eleitoral, pesquisas, declarações, alegações e conteúdo político sensível.
+O domínio público definitivo é `https://firstnews.com.br/`.

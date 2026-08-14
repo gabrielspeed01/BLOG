@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-08-14T01:29:00Z",
-  "instructions": "Este arquivo é o contrato de entrada do portal. A automação futura deve validar fontes, evitar duplicatas e adicionar apenas artigos originais com status=published.",
   "articles": [
     {
       "id": "tech-2026-08-13-maia-300",
@@ -35,7 +34,7 @@
       "seo": {
         "title": "Microsoft prepara Maia 300, novo chip de IA para setembro",
         "description": "Microsoft pode apresentar o Maia 300 em setembro, reforçando sua estratégia de chips próprios para infraestrutura de inteligência artificial.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/tecnologia/microsoft-maia-300-chip-ia-setembro/"
+        "canonical": "https://firstnews.com.br/tecnologia/microsoft-maia-300-chip-ia-setembro/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Datacenter_Server_Racks_(22370909788).jpg?width=1280",
@@ -139,7 +138,7 @@
       "seo": {
         "title": "Coreia do Sul lança plano SEED para Lua e computação quântica",
         "description": "Coreia do Sul apresenta estratégia tecnológica com metas para pouso lunar, computador quântico, energia e biotecnologia.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/tecnologia/coreia-do-sul-plano-seed-tecnologia-lua-quantica/"
+        "canonical": "https://firstnews.com.br/tecnologia/coreia-do-sul-plano-seed-tecnologia-lua-quantica/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/FullMoon2010.jpg?width=1280",
@@ -242,7 +241,7 @@
       "seo": {
         "title": "Microsoft apresenta Project Perception para cibersegurança com IA",
         "description": "Project Perception usa agentes de IA, contexto e sinais de segurança para automatizar defesa cibernética em tempo real.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/tecnologia/microsoft-project-perception-seguranca-agentes-ia/"
+        "canonical": "https://firstnews.com.br/tecnologia/microsoft-project-perception-seguranca-agentes-ia/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PDC_server_room.jpg?width=1280",
@@ -351,7 +350,7 @@
       "seo": {
         "title": "Bitcoin volta a US$ 63 mil com queda do Kospi e aversão a risco",
         "description": "Bitcoin recua para a faixa de US$ 63 mil em sessão marcada por forte queda do mercado sul-coreano e menor apetite por risco.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/criptomoedas/bitcoin-63-mil-kospi-queda-mercados/"
+        "canonical": "https://firstnews.com.br/criptomoedas/bitcoin-63-mil-kospi-queda-mercados/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin_2026.jpg?width=1280",
@@ -456,7 +455,7 @@
       "seo": {
         "title": "Lido migra 8 milhões de ETH e consolida validadores no Ethereum",
         "description": "Lido inicia migração para Curated Module v2, consolida mais de 8 milhões de ETH e exige garantias dos operadores de nós.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/criptomoedas/lido-migra-ether-validadores-ethereum-cmv2/"
+        "canonical": "https://firstnews.com.br/criptomoedas/lido-migra-ether-validadores-ethereum-cmv2/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ethereum_Cryptocurrency_Security.jpg?width=1280",
@@ -563,7 +562,7 @@
       "seo": {
         "title": "Uphold corta 17% da equipe e reforça negócio empresarial",
         "description": "Uphold reduz 17% do quadro global e diz que vai concentrar mais recursos em serviços para bancos, fintechs e empresas.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/criptomoedas/uphold-corta-17-por-cento-equipe-foco-empresas/"
+        "canonical": "https://firstnews.com.br/criptomoedas/uphold-corta-17-por-cento-equipe-foco-empresas/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Over-the-counter-crypto-exchange.jpeg?width=1280",
@@ -674,7 +673,7 @@
       "seo": {
         "title": "Flávio aparece filiado ao Missão; TSE restabelece PL",
         "description": "Flávio Bolsonaro apareceu filiado ao Missão no sistema eleitoral; TSE cancelou o registro, restabeleceu o PL e determinou investigação.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/politica/flavio-bolsonaro-filiacao-missao-tse-restabelece-pl/"
+        "canonical": "https://firstnews.com.br/politica/flavio-bolsonaro-filiacao-missao-tse-restabelece-pl/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fl%C3%A1vio_Bolsonaro_04_2026.jpg?width=1280",
@@ -788,7 +787,7 @@
       "seo": {
         "title": "TSE suspende processamento de filiações após fraude eleitoral",
         "description": "TSE suspende temporariamente o processamento no sistema Filia após registro indevido contra Flávio Bolsonaro e tentativa envolvendo Lula.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-sistema-filiacoes-apos-fraudes/"
+        "canonical": "https://firstnews.com.br/politica/tse-suspende-sistema-filiacoes-apos-fraudes/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pr%C3%A9dio_do_TSE_(53783456374).jpg?width=1280",
@@ -899,7 +898,7 @@
       "seo": {
         "title": "TSE suspende julgamento do fundo eleitoral após pedido do PT",
         "description": "Julgamento sobre cálculo do fundo eleitoral é suspenso no TSE e parte dos repasses aos partidos fica pendente antes da campanha.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-julgamento-fundo-eleitoral-pt/"
+        "canonical": "https://firstnews.com.br/politica/tse-suspende-julgamento-fundo-eleitoral-pt/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pr%C3%A9dio_do_TSE_(53783552545).jpg?width=1280",
@@ -1009,7 +1008,7 @@
       "seo": {
         "title": "Camp Rock 3 estreia com Jonas Brothers e chega ao Disney+",
         "description": "Camp Rock 3 estreia no Disney Channel em 13 de agosto e chega ao Disney+ no dia 14, com Jonas Brothers e novos campistas.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/entretenimento/camp-rock-3-estreia-disney-channel-disney-plus/"
+        "canonical": "https://firstnews.com.br/entretenimento/camp-rock-3-estreia-disney-channel-disney-plus/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/JonasBrothersSep10.jpg?width=1280",
@@ -1120,7 +1119,7 @@
       "seo": {
         "title": "A Child of My Own estreia na Netflix em 13 de agosto",
         "description": "A Child of My Own, novo longa de Maite Alberdi, estreia na Netflix e acompanha uma falsa gravidez que se transforma em escândalo público.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/entretenimento/a-child-of-my-own-estreia-netflix-documentario/"
+        "canonical": "https://firstnews.com.br/entretenimento/a-child-of-my-own-estreia-netflix-documentario/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Maite_Alberdi_at_2017_MIFF.jpg?width=1280",
@@ -1229,7 +1228,7 @@
       "seo": {
         "title": "Travis Barker: Louder Than Fear estreia no Hulu e Disney+",
         "description": "Documentário Louder Than Fear estreia em 13 de agosto e revisita carreira de Travis Barker, acidente aéreo e recuperação.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/entretenimento/travis-barker-louder-than-fear-hulu-disney-plus/"
+        "canonical": "https://firstnews.com.br/entretenimento/travis-barker-louder-than-fear-hulu-disney-plus/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Travis_Barker_(28132648375).jpg?width=1280",
@@ -1341,7 +1340,7 @@
       "seo": {
         "title": "Atacante aposta em tecnologia para gestão de clubes e arenas",
         "description": "Atacante reúne reservas, pagamentos, recorrência, CRM e controle de acesso em uma plataforma voltada à gestão de clubes e arenas esportivas.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/tecnologia/atacante-app-gestao-clubes-arenas/"
+        "canonical": "https://firstnews.com.br/tecnologia/atacante-app-gestao-clubes-arenas/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Padel_court.jpg?width=1280",
@@ -1359,13 +1358,57 @@
         },
         {
           "type": "paragraph",
-          "text": "No site oficial, o serviço apresenta um link de vendas próprio para locações, day use, aulas e pacotes. O jogador pode escolher a opção e pagar pela internet, enquanto o gestor acompanha os horários em uma agenda centralizada."
+          "text": "No site oficial, o serviço apresenta um link de vendas próprio para locações, day use, aulas e pacotes. O jogador pode escolher a opção e pagar pela internet, enquanto o gestor acompanha os horários em uma agenda centralizada. A plataforma também informa aceitar Pix e cartão, com repasse para a conta cadastrada."
+        },
+        {
+          "type": "heading",
+          "text": "Agenda, recorrência e CRM no mesmo sistema"
+        },
+        {
+          "type": "paragraph",
+          "text": "Além das reservas avulsas, o Atacante oferece cobrança recorrente para mensalistas, pacotes e os chamados clubinhos. Os planos podem ser configurados em períodos mensais, trimestrais, semestrais ou anuais, segundo a apresentação da empresa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Outro recurso é o CRM integrado ao WhatsApp. A proposta é usar campanhas automáticas para reativar jogadores inativos e tentar preencher horários de menor procura. O Atacante afirma que parceiros com campanhas de CRM ativas em 2025 registraram, em média, 37% mais retorno de jogadores. Como se trata de uma métrica interna divulgada pela própria empresa, o número deve ser interpretado nesse contexto."
+        },
+        {
+          "type": "heading",
+          "text": "Aplicativo também mira a experiência de quem joga"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nas lojas de aplicativos, o Atacante é apresentado também como uma ferramenta para organizar times, encontrar partidas e reservar quadras. É possível criar partidas semanais ou avulsas, convidar jogadores e confirmar presença pelo aplicativo."
+        },
+        {
+          "type": "heading",
+          "text": "Controle de acesso amplia a digitalização da arena"
+        },
+        {
+          "type": "paragraph",
+          "text": "A plataforma oficial também anuncia integração com catracas e reconhecimento facial para liberar a entrada de pessoas que reservaram e pagaram. A disponibilidade desse recurso depende da compatibilidade com a catraca utilizada pelo estabelecimento."
+        },
+        {
+          "type": "heading",
+          "text": "Quanto custa"
+        },
+        {
+          "type": "paragraph",
+          "text": "Na página oficial consultada em 11 de agosto de 2026, os planos começavam em R$ 199 por mês para operações com até três quadras. Para quatro quadras ou mais, a empresa informava mensalidade de R$ 399, além de condições próprias para vendas online."
         }
       ],
       "sources": [
         {
           "name": "Atacante.App — site oficial",
           "url": "https://atacante.app/"
+        },
+        {
+          "name": "Google Play — Atacante App",
+          "url": "https://play.google.com/store/apps/details?id=app.atacante.sansiro"
+        },
+        {
+          "name": "App Store — Atacante App",
+          "url": "https://apps.apple.com/br/app/atacante-app/id1634664729"
         }
       ],
       "generation": {
@@ -1414,7 +1457,7 @@
       "seo": {
         "title": "Missão oficializa Renan Santos para Presidência em 2026",
         "description": "Partido Missão oficializou Renan Santos para a disputa presidencial de 2026; entenda a convenção e a etapa de registro no TSE.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/politica/missao-oficializa-renan-santos-presidencia-2026/"
+        "canonical": "https://firstnews.com.br/politica/missao-oficializa-renan-santos-presidencia-2026/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Renan_Santos.jpg?width=1280",
@@ -1425,8 +1468,50 @@
         "width": 1280,
         "height": 853
       },
-      "body": [],
-      "sources": [],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "O Partido Missão oficializou Renan Santos como nome da legenda para disputar a Presidência da República nas eleições de 2026. A escolha ocorreu em convenção nacional realizada em 20 de julho."
+        },
+        {
+          "type": "paragraph",
+          "text": "Renan Santos é fundador do Movimento Brasil Livre (MBL) e ocupa a presidência nacional do Partido Missão. O Tribunal Superior Eleitoral registra a legenda sob o número 14."
+        },
+        {
+          "type": "heading",
+          "text": "Convenção partidária e registro de candidatura não são a mesma etapa"
+        },
+        {
+          "type": "paragraph",
+          "text": "A oficialização em convenção define o nome escolhido pelo partido, mas a candidatura ainda passa pelo procedimento de registro perante a Justiça Eleitoral. O TSE explica que o pedido de registro é etapa indispensável para a disputa formal."
+        },
+        {
+          "type": "heading",
+          "text": "Partido Missão nasceu da trajetória política do MBL"
+        },
+        {
+          "type": "paragraph",
+          "text": "A Missão teve seu registro aprovado pelo TSE em novembro de 2025 e participa de sua primeira eleição nacional em 2026. O partido surgiu a partir de integrantes ligados ao MBL."
+        },
+        {
+          "type": "paragraph",
+          "text": "A cobertura da FirstNews trata propostas, pesquisas, declarações e decisões eleitorais com atribuição clara das fontes e sem transformar afirmações partidárias em fatos sem verificação independente."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Tribunal Superior Eleitoral — Partido Missão",
+          "url": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/partido-missao"
+        },
+        {
+          "name": "TSE — registro de candidaturas",
+          "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Junho/por-dentro-das-eleicoes-saiba-como-funciona-o-registro-de-candidaturas"
+        },
+        {
+          "name": "Agência Brasil — oficialização de Renan Santos",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/partido-missao-oficializa-renan-santos-como-candidato-presidencia"
+        }
+      ],
       "generation": {
         "generatedByAi": true,
         "reviewedByHuman": false,
@@ -1475,7 +1560,7 @@
       "seo": {
         "title": "The Last House estreia na Netflix com Wagner Moura",
         "description": "The Last House chegou à Netflix em 7 de agosto com Wagner Moura e Greta Lee no elenco; veja a premissa e quem participa do filme.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/entretenimento/the-last-house-netflix-wagner-moura-estreia/"
+        "canonical": "https://firstnews.com.br/entretenimento/the-last-house-netflix-wagner-moura-estreia/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wagner_Moura-6547.jpg?width=1280",
@@ -1486,8 +1571,38 @@
         "width": 1280,
         "height": 853
       },
-      "body": [],
-      "sources": [],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "The Last House chegou à Netflix em 7 de agosto de 2026 como uma das estreias de ficção científica do catálogo. O longa é dirigido por Louis Leterrier e tem Greta Lee e Wagner Moura entre os protagonistas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a apresentação oficial da Netflix, a história acompanha uma família que é repentinamente selada dentro da própria casa, sem uma saída aparente."
+        },
+        {
+          "type": "heading",
+          "text": "Wagner Moura integra o elenco principal"
+        },
+        {
+          "type": "paragraph",
+          "text": "A presença de Wagner Moura dá ao lançamento uma conexão direta com o público brasileiro, enquanto o filme combina thriller, ficção científica e drama familiar."
+        },
+        {
+          "type": "heading",
+          "text": "Onde assistir"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Last House está disponível na Netflix. Como ocorre com catálogos de streaming, a disponibilidade pode variar por região."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Netflix Tudum — lançamentos de filmes",
+          "url": "https://www.netflix.com/tudum/features/new-summer-movies-on-netflix-2026"
+        }
+      ],
       "generation": {
         "generatedByAi": true,
         "reviewedByHuman": false
@@ -1532,7 +1647,7 @@
       "seo": {
         "title": "OpenAI desacelera Astra após alerta de cibersegurança",
         "description": "OpenAI teria ampliado testes do modelo Astra após avaliações indicarem capacidades cibernéticas avançadas, segundo a Axios.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/tecnologia/openai-desacelera-astra-riscos-ciberseguranca/"
+        "canonical": "https://firstnews.com.br/tecnologia/openai-desacelera-astra-riscos-ciberseguranca/"
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Server_Room_(22397102849).jpg?width=1280",
@@ -1543,8 +1658,42 @@
         "width": 1280,
         "height": 853
       },
-      "body": [],
-      "sources": [],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A OpenAI desacelerou o cronograma de lançamento de um modelo de inteligência artificial chamado Astra depois que avaliações internas apontaram capacidades cibernéticas consideradas de alto risco, segundo reportagem da Axios."
+        },
+        {
+          "type": "paragraph",
+          "text": "De acordo com a publicação, a empresa decidiu ampliar testes e controles de segurança antes de disponibilizar o sistema. Como a OpenAI ainda não publicou um anúncio próprio sobre o cronograma do Astra, a informação sobre o adiamento deve permanecer atribuída à reportagem."
+        },
+        {
+          "type": "heading",
+          "text": "Por que capacidades cibernéticas viraram ponto de atenção"
+        },
+        {
+          "type": "paragraph",
+          "text": "O tema ganhou peso dentro dos laboratórios de IA porque sistemas mais capazes podem auxiliar tanto atividades defensivas quanto a exploração ofensiva de vulnerabilidades. Isso aumenta a importância de avaliações prévias e mecanismos de acesso controlado."
+        },
+        {
+          "type": "heading",
+          "text": "O que ainda não está confirmado"
+        },
+        {
+          "type": "paragraph",
+          "text": "A OpenAI não detalhou publicamente uma nova data de lançamento para o Astra. Características, disponibilidade e cronograma devem ser tratados como informações sujeitas a mudança."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Axios — reportagem sobre Astra e cibersegurança",
+          "url": "https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks"
+        },
+        {
+          "name": "OpenAI — publicações de segurança",
+          "url": "https://openai.com/news/security/"
+        }
+      ],
       "generation": {
         "generatedByAi": true,
         "reviewedByHuman": false
@@ -1590,7 +1739,7 @@
       "seo": {
         "title": "Senado dos EUA avança Clarity Act sobre criptomoedas",
         "description": "Senado dos EUA prepara nova etapa do Clarity Act, projeto que busca definir regras para o mercado de criptomoedas e ativos digitais.",
-        "canonical": "https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/"
+        "canonical": "https://firstnews.com.br/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/"
       },
       "featuredImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
@@ -1601,8 +1750,46 @@
         "width": 1280,
         "height": 853
       },
-      "body": [],
-      "sources": [],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "O Senado dos Estados Unidos deu um novo passo no processo legislativo do CLARITY Act, proposta que pretende criar uma estrutura federal mais definida para o mercado de ativos digitais."
+        },
+        {
+          "type": "paragraph",
+          "text": "A movimentação procedural não significa que o projeto já foi aprovado. Ela abre caminho para novas discussões e votações, enquanto a indústria de criptomoedas acompanha a definição de regras para tokens, corretoras e outros participantes."
+        },
+        {
+          "type": "heading",
+          "text": "O que o CLARITY Act pretende mudar"
+        },
+        {
+          "type": "paragraph",
+          "text": "A proposta busca reduzir a incerteza sobre o enquadramento regulatório de ativos digitais nos Estados Unidos, incluindo critérios para diferenciar ativos tratados como valores mobiliários daqueles enquadrados como commodities."
+        },
+        {
+          "type": "heading",
+          "text": "Projeto ainda enfrenta resistência"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apesar do avanço, integrantes do Senado apontam divergências sobre proteção de investidores, financiamento ilícito e conflitos de interesse. Por isso, o andamento do projeto não deve ser interpretado como garantia de aprovação final."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esta matéria tem caráter exclusivamente informativo e não constitui recomendação de investimento, compra ou venda de criptomoedas."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — avanço do projeto no Senado",
+          "url": "https://www.reuters.com/legal/government/us-senate-advances-landmark-crypto-bill-before-heading-august-recess-2026-08-08/"
+        },
+        {
+          "name": "U.S. Senate Committee on Banking — CLARITY Act",
+          "url": "https://www.banking.senate.gov/newsroom/majority/chairman-scott-senate-banking-committee-advance-clarity-act-in-historic-bipartisan-vote"
+        }
+      ],
       "generation": {
         "generatedByAi": true,
         "reviewedByHuman": false
@@ -1665,7 +1852,12 @@
     "preferPrimarySourcePressImageWhenReuseIsAllowed": true,
     "otherwiseUseRealLicensedContextualImage": true,
     "neverAssumeAttributionAloneGrantsReuseRights": true,
-    "showImageCreditBelowFeaturedImage": true,
+    "showCreditOnArticlePage": true,
     "thumbnailSource": "featuredImage"
+  },
+  "site": {
+    "name": "FirstNews",
+    "tagline": "notícias em tempo real",
+    "baseUrl": "https://firstnews.com.br"
   }
 }
