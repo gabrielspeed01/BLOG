@@ -1,9 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
-<title>FirstNews — notícias em tempo real</title><link>https://blog.gabriel-speed01.workers.dev/</link><description>Notícias em tempo real sobre tecnologia, criptomoedas, entretenimento e política.</description><language>pt-BR</language>
-<item><title>Atacante aposta em tecnologia para digitalizar gestão de clubes e arenas esportivas</title><link>https://blog.gabriel-speed01.workers.dev/tecnologia/atacante-app-gestao-clubes-arenas/</link><guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/tecnologia/atacante-app-gestao-clubes-arenas/</guid><description>Plataforma centraliza reservas, pagamentos online, mensalidades, campanhas de CRM e recursos de acesso para gestores de quadras.</description><pubDate>Tue, 11 Aug 2026 22:19:00 +0000</pubDate><category>Tecnologia</category></item>
-<item><title>Missão oficializa Renan Santos para disputar a Presidência em 2026</title><link>https://blog.gabriel-speed01.workers.dev/politica/missao-oficializa-renan-santos-presidencia-2026/</link><guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/politica/missao-oficializa-renan-santos-presidencia-2026/</guid><description>Partido ligado à trajetória do MBL escolheu Renan Santos em convenção nacional; registro da candidatura na Justiça Eleitoral é uma etapa própria do processo eleitoral.</description><pubDate>Mon, 10 Aug 2026 07:52:00 +0000</pubDate><category>Política</category></item>
-<item><title>The Last House estreia na Netflix com Wagner Moura e Greta Lee em thriller de ficção científica</title><link>https://blog.gabriel-speed01.workers.dev/entretenimento/the-last-house-netflix-wagner-moura-estreia/</link><guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/entretenimento/the-last-house-netflix-wagner-moura-estreia/</guid><description>Filme dirigido por Louis Leterrier chegou ao streaming em 7 de agosto e acompanha uma família que fica misteriosamente presa dentro da própria casa.</description><pubDate>Mon, 10 Aug 2026 07:51:00 +0000</pubDate><category>Entretenimento</category></item>
-<item><title>OpenAI desacelera modelo Astra após avaliações de cibersegurança, diz Axios</title><link>https://blog.gabriel-speed01.workers.dev/tecnologia/openai-desacelera-astra-riscos-ciberseguranca/</link><guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/tecnologia/openai-desacelera-astra-riscos-ciberseguranca/</guid><description>Relato aponta que a empresa decidiu ampliar testes de segurança depois que avaliações internas indicaram capacidades cibernéticas avançadas no modelo ainda não lançado.</description><pubDate>Mon, 10 Aug 2026 07:50:00 +0000</pubDate><category>Tecnologia</category></item>
-<item><title>Senado dos EUA avança Clarity Act e aproxima nova votação sobre regras para criptomoedas</title><link>https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/</link><guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/</guid><description>Movimento procedural prepara o projeto para votação após o recesso de agosto; proposta tenta definir como ativos digitais serão enquadrados e fiscalizados nos Estados Unidos.</description><pubDate>Mon, 10 Aug 2026 07:10:00 +0000</pubDate><category>Criptomoedas</category></item>
+<title>FirstNews — notícias em tempo real</title>
+<link>https://blog.gabriel-speed01.workers.dev/</link>
+<description>Tecnologia, criptomoedas, entretenimento e política.</description>
+<language>pt-BR</language>
+<lastBuildDate>Fri, 14 Aug 2026 00:58:00 GMT</lastBuildDate>
+<item>
+<title>Microsoft prepara Maia 300 para ampliar disputa por chips de IA, diz Reuters</title>
+<link>https://blog.gabriel-speed01.workers.dev/tecnologia/microsoft-maia-300-chip-ia-setembro/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/tecnologia/microsoft-maia-300-chip-ia-setembro/</guid>
+<description>Nova geração do chip próprio de inteligência artificial pode ser apresentada em setembro e reforça a estratégia da Microsoft para reduzir dependência de aceleradores de terceiros.</description>
+<pubDate>Fri, 14 Aug 2026 00:30:00 +0000</pubDate>
+<category>Tecnologia</category>
+</item>
+<item>
+<title>Coreia do Sul lança plano tecnológico com meta de pouso na Lua e computador quântico</title>
+<link>https://blog.gabriel-speed01.workers.dev/tecnologia/coreia-do-sul-plano-seed-tecnologia-lua-quantica/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/tecnologia/coreia-do-sul-plano-seed-tecnologia-lua-quantica/</guid>
+<description>Estratégia Seven Major SEED reúne metas para computação quântica, espaço, energia, biotecnologia e materiais estratégicos até a próxima década.</description>
+<pubDate>Fri, 14 Aug 2026 00:29:00 +0000</pubDate>
+<category>Tecnologia</category>
+</item>
+<item>
+<title>Microsoft apresenta Project Perception para defesa cibernética com agentes de IA</title>
+<link>https://blog.gabriel-speed01.workers.dev/tecnologia/microsoft-project-perception-seguranca-agentes-ia/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/tecnologia/microsoft-project-perception-seguranca-agentes-ia/</guid>
+<description>Sistema combina sinais de segurança, contexto e agentes especializados para detectar riscos e responder a ataques em velocidade de máquina.</description>
+<pubDate>Fri, 14 Aug 2026 00:28:00 +0000</pubDate>
+<category>Tecnologia</category>
+</item>
+<item>
+<title>Bitcoin volta à faixa de US$ 63 mil enquanto queda na Coreia pressiona ativos de risco</title>
+<link>https://blog.gabriel-speed01.workers.dev/criptomoedas/bitcoin-63-mil-kospi-queda-mercados/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/criptomoedas/bitcoin-63-mil-kospi-queda-mercados/</guid>
+<description>Criptomoeda recuou em sessão de aversão a risco, enquanto o mercado acionário sul-coreano registrou forte queda e investidores reduziram exposição.</description>
+<pubDate>Fri, 14 Aug 2026 00:27:00 +0000</pubDate>
+<category>Criptomoedas</category>
+</item>
+<item>
+<title>Lido inicia migração de mais de 8 milhões de ETH e reduz número de validadores</title>
+<link>https://blog.gabriel-speed01.workers.dev/criptomoedas/lido-migra-ether-validadores-ethereum-cmv2/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/criptomoedas/lido-migra-ether-validadores-ethereum-cmv2/</guid>
+<description>Atualização Curated Module v2 consolida validadores do protocolo e adiciona garantias em ETH para operadores profissionais.</description>
+<pubDate>Fri, 14 Aug 2026 00:26:00 +0000</pubDate>
+<category>Criptomoedas</category>
+</item>
+<item>
+<title>Uphold corta 17% da equipe global e aumenta foco em clientes empresariais</title>
+<link>https://blog.gabriel-speed01.workers.dev/criptomoedas/uphold-corta-17-por-cento-equipe-foco-empresas/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/criptomoedas/uphold-corta-17-por-cento-equipe-foco-empresas/</guid>
+<description>Plataforma de ativos digitais afirma que redução de 85 postos acompanha menor atividade de varejo e expansão de serviços para bancos, fintechs e corretoras.</description>
+<pubDate>Fri, 14 Aug 2026 00:25:00 +0000</pubDate>
+<category>Criptomoedas</category>
+</item>
+<item>
+<title>Flávio Bolsonaro aparece filiado ao Missão; TSE cancela registro e restabelece vínculo com PL</title>
+<link>https://blog.gabriel-speed01.workers.dev/politica/flavio-bolsonaro-filiacao-missao-tse-restabelece-pl/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/politica/flavio-bolsonaro-filiacao-missao-tse-restabelece-pl/</guid>
+<description>Filiação indevida ao Missão impediu temporariamente o registro da candidatura presidencial; TSE descartou invasão ao sistema e determinou investigação.</description>
+<pubDate>Fri, 14 Aug 2026 00:24:00 +0000</pubDate>
+<category>Política</category>
+</item>
+<item>
+<title>TSE suspende processamento de filiações após fraude contra Flávio e tentativa envolvendo Lula</title>
+<link>https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-sistema-filiacoes-apos-fraudes/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-sistema-filiacoes-apos-fraudes/</guid>
+<description>Sistema Filia continuará recebendo pedidos, mas o processamento foi suspenso temporariamente enquanto a Justiça Eleitoral apura tentativas de alteração indevida.</description>
+<pubDate>Fri, 14 Aug 2026 00:23:00 +0000</pubDate>
+<category>Política</category>
+</item>
+<item>
+<title>TSE suspende julgamento sobre fatia do fundo eleitoral e trava parte dos repasses</title>
+<link>https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-julgamento-fundo-eleitoral-pt/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-julgamento-fundo-eleitoral-pt/</guid>
+<description>Pedido de vista interrompeu análise de ação do PT sobre cálculo do FEFC; parcela relevante do fundo fica pendente até conclusão do julgamento.</description>
+<pubDate>Fri, 14 Aug 2026 00:22:00 +0000</pubDate>
+<category>Política</category>
+</item>
+<item>
+<title>Camp Rock 3 estreia com Jonas Brothers e nova geração de campistas</title>
+<link>https://blog.gabriel-speed01.workers.dev/entretenimento/camp-rock-3-estreia-disney-channel-disney-plus/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/entretenimento/camp-rock-3-estreia-disney-channel-disney-plus/</guid>
+<description>Terceiro filme da franquia chega ao Disney Channel em 13 de agosto e ao Disney+ no dia seguinte, reunindo Connect 3 e novos personagens.</description>
+<pubDate>Fri, 14 Aug 2026 00:21:00 +0000</pubDate>
+<category>Entretenimento</category>
+</item>
+<item>
+<title>A Child of My Own estreia na Netflix com história sobre falsa gravidez e pressão social</title>
+<link>https://blog.gabriel-speed01.workers.dev/entretenimento/a-child-of-my-own-estreia-netflix-documentario/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/entretenimento/a-child-of-my-own-estreia-netflix-documentario/</guid>
+<description>Longa de Maite Alberdi acompanha uma mulher cuja mentira sobre gravidez cresce até se tornar uma farsa pública de grandes proporções.</description>
+<pubDate>Fri, 14 Aug 2026 00:20:00 +0000</pubDate>
+<category>Entretenimento</category>
+</item>
+<item>
+<title>Documentário de Travis Barker estreia no Hulu e Disney+ contando trajetória após acidente</title>
+<link>https://blog.gabriel-speed01.workers.dev/entretenimento/travis-barker-louder-than-fear-hulu-disney-plus/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/entretenimento/travis-barker-louder-than-fear-hulu-disney-plus/</guid>
+<description>Louder Than Fear revisita ascensão do baterista do Blink-182, sobrevivência ao acidente aéreo de 2008 e processo de recuperação.</description>
+<pubDate>Fri, 14 Aug 2026 00:19:00 +0000</pubDate>
+<category>Entretenimento</category>
+</item>
+<item>
+<title>Atacante aposta em tecnologia para digitalizar gestão de clubes e arenas esportivas</title>
+<link>https://blog.gabriel-speed01.workers.dev/tecnologia/atacante-app-gestao-clubes-arenas/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/tecnologia/atacante-app-gestao-clubes-arenas/</guid>
+<description>Plataforma centraliza reservas, pagamentos online, mensalidades, campanhas de CRM e recursos de acesso para gestores de quadras.</description>
+<pubDate>Tue, 11 Aug 2026 22:19:00 +0000</pubDate>
+<category>Tecnologia</category>
+</item>
+<item>
+<title>Missão oficializa Renan Santos para disputar a Presidência em 2026</title>
+<link>https://blog.gabriel-speed01.workers.dev/politica/missao-oficializa-renan-santos-presidencia-2026/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/politica/missao-oficializa-renan-santos-presidencia-2026/</guid>
+<description>Partido ligado à trajetória do MBL escolheu Renan Santos em convenção nacional; registro da candidatura na Justiça Eleitoral é uma etapa própria do processo eleitoral.</description>
+<pubDate>Mon, 10 Aug 2026 07:52:00 +0000</pubDate>
+<category>Política</category>
+</item>
+<item>
+<title>The Last House estreia na Netflix com Wagner Moura e Greta Lee em thriller de ficção científica</title>
+<link>https://blog.gabriel-speed01.workers.dev/entretenimento/the-last-house-netflix-wagner-moura-estreia/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/entretenimento/the-last-house-netflix-wagner-moura-estreia/</guid>
+<description>Filme dirigido por Louis Leterrier chegou ao streaming em 7 de agosto e acompanha uma família que fica misteriosamente presa dentro da própria casa.</description>
+<pubDate>Mon, 10 Aug 2026 07:51:00 +0000</pubDate>
+<category>Entretenimento</category>
+</item>
+<item>
+<title>OpenAI desacelera modelo Astra após avaliações de cibersegurança, diz Axios</title>
+<link>https://blog.gabriel-speed01.workers.dev/tecnologia/openai-desacelera-astra-riscos-ciberseguranca/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/tecnologia/openai-desacelera-astra-riscos-ciberseguranca/</guid>
+<description>Relato aponta que a empresa decidiu ampliar testes de segurança depois que avaliações internas indicaram capacidades cibernéticas avançadas no modelo ainda não lançado.</description>
+<pubDate>Mon, 10 Aug 2026 07:50:00 +0000</pubDate>
+<category>Tecnologia</category>
+</item>
+<item>
+<title>Senado dos EUA avança Clarity Act e aproxima nova votação sobre regras para criptomoedas</title>
+<link>https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/</link>
+<guid isPermaLink="true">https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/</guid>
+<description>Movimento procedural prepara o projeto para votação após o recesso de agosto; proposta tenta definir como ativos digitais serão enquadrados e fiscalizados nos Estados Unidos.</description>
+<pubDate>Mon, 10 Aug 2026 07:10:00 +0000</pubDate>
+<category>Criptomoedas</category>
+</item>
 </channel></rss>

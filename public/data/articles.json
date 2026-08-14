@@ -1,8 +1,1244 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T22:49:00Z",
+  "generatedAt": "2026-08-14T00:58:00Z",
   "instructions": "Este arquivo é o contrato de entrada do portal. A automação futura deve validar fontes, evitar duplicatas e adicionar apenas artigos originais com status=published.",
   "articles": [
+    {
+      "id": "tech-2026-08-13-maia-300",
+      "sourceEventId": "microsoft-maia-300-report-2026-08-10",
+      "slug": "microsoft-maia-300-chip-ia-setembro",
+      "url": "/tecnologia/microsoft-maia-300-chip-ia-setembro/",
+      "status": "published",
+      "demo": false,
+      "category": "tecnologia",
+      "subCategory": "hardware",
+      "title": "Microsoft prepara Maia 300 para ampliar disputa por chips de IA, diz Reuters",
+      "summary": "Nova geração do chip próprio de inteligência artificial pode ser apresentada em setembro e reforça a estratégia da Microsoft para reduzir dependência de aceleradores de terceiros.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-14T00:30:00Z",
+      "updatedAt": "2026-08-14T00:30:00Z",
+      "views": 0,
+      "tags": [
+        "Microsoft",
+        "Maia 300",
+        "inteligência artificial",
+        "chips",
+        "Azure"
+      ],
+      "entities": [
+        "Microsoft",
+        "Maia",
+        "TSMC",
+        "Nvidia",
+        "Anthropic"
+      ],
+      "seo": {
+        "title": "Microsoft prepara Maia 300, novo chip de IA para setembro",
+        "description": "Microsoft pode apresentar o Maia 300 em setembro, reforçando sua estratégia de chips próprios para infraestrutura de inteligência artificial.",
+        "canonical": "https://blog.gabriel-speed01.workers.dev/tecnologia/microsoft-maia-300-chip-ia-setembro/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Microsoft_logo_(2012).svg?width=1280",
+        "alt": "Logotipo da Microsoft",
+        "source": "Wikimedia Commons / Microsoft",
+        "credit": "Microsoft",
+        "license": "Logotipo; marca registrada pode se aplicar",
+        "width": 1280,
+        "height": 478
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A Microsoft prepara uma nova etapa de sua estratégia de infraestrutura para inteligência artificial. Segundo reportagem da Reuters baseada em informações do The Information, a empresa planeja apresentar o Maia 300 no segundo semestre de 2026, possivelmente já em setembro."
+        },
+        {
+          "type": "paragraph",
+          "text": "O chip faz parte do esforço da companhia para produzir silício próprio destinado a cargas de IA em seus data centers. A estratégia busca dar à Microsoft mais controle sobre custos, disponibilidade e desempenho em um mercado hoje fortemente dependente de aceleradores da Nvidia."
+        },
+        {
+          "type": "heading",
+          "text": "Produção própria vira peça estratégica"
+        },
+        {
+          "type": "paragraph",
+          "text": "A Microsoft lançou a família Maia em 2023 e apresentou o Maia 200 em janeiro de 2026. A geração anterior utiliza processo de 3 nanômetros da TSMC e foi desenhada com grande quantidade de memória SRAM, recurso útil para workloads que precisam responder a muitas solicitações de IA em paralelo."
+        },
+        {
+          "type": "paragraph",
+          "text": "De acordo com a Reuters, a Microsoft discute capacidade de fabricação com a TSMC para centenas de milhares de unidades do Maia 300 com entrega em 2027. A empresa não confirmou os volumes citados, mas reafirmou que continua investindo em silício customizado como parte de sua estratégia de longo prazo para IA."
+        },
+        {
+          "type": "heading",
+          "text": "Concorrência vai além da Nvidia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Google e Amazon também investem há anos em chips próprios. O Google comercializa TPUs e a AWS amplia a adoção da família Trainium. Isso transforma o mercado de aceleradores em uma disputa que combina hardware, nuvem e modelos de inteligência artificial."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para clientes do Azure, a relevância do Maia 300 dependerá de fatores como disponibilidade, preço, eficiência e compatibilidade com modelos populares. A Microsoft também tenta ampliar a adoção externa de seus chips, inclusive entre grandes empresas de IA."
+        },
+        {
+          "type": "heading",
+          "text": "O que observar agora"
+        },
+        {
+          "type": "paragraph",
+          "text": "A apresentação do Maia 300 será importante para medir até onde os grandes provedores de nuvem conseguem reduzir a dependência de fornecedores externos. Mesmo com chips próprios, a demanda por GPUs e aceleradores especializados continua elevada, e a transição tende a ser gradual."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Microsoft plans to unveil next-generation AI chip in September",
+          "url": "https://www.reuters.com/business/microsoft-plans-unveil-its-new-maia-300-ai-chip-this-fall-information-reports-2026-08-10/"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 89,
+        "trend": 85
+      }
+    },
+    {
+      "id": "tech-2026-08-13-coreia-seed",
+      "sourceEventId": "south-korea-seven-seed-technology-strategy-2026-08-12",
+      "slug": "coreia-do-sul-plano-seed-tecnologia-lua-quantica",
+      "url": "/tecnologia/coreia-do-sul-plano-seed-tecnologia-lua-quantica/",
+      "status": "published",
+      "demo": false,
+      "category": "tecnologia",
+      "subCategory": "inovacao",
+      "title": "Coreia do Sul lança plano tecnológico com meta de pouso na Lua e computador quântico",
+      "summary": "Estratégia Seven Major SEED reúne metas para computação quântica, espaço, energia, biotecnologia e materiais estratégicos até a próxima década.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-14T00:29:00Z",
+      "updatedAt": "2026-08-14T00:29:00Z",
+      "views": 0,
+      "tags": [
+        "Coreia do Sul",
+        "computação quântica",
+        "Lua",
+        "tecnologia",
+        "biotecnologia"
+      ],
+      "entities": [
+        "Coreia do Sul",
+        "Lee Jae Myung",
+        "Seven Major SEED"
+      ],
+      "seo": {
+        "title": "Coreia do Sul lança plano SEED para Lua e computação quântica",
+        "description": "Coreia do Sul apresenta estratégia tecnológica com metas para pouso lunar, computador quântico, energia e biotecnologia.",
+        "canonical": "https://blog.gabriel-speed01.workers.dev/tecnologia/coreia-do-sul-plano-seed-tecnologia-lua-quantica/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_South_Korea.svg?width=1280",
+        "alt": "Bandeira da Coreia do Sul",
+        "source": "Wikimedia Commons",
+        "credit": "Government of South Korea",
+        "license": "Uso conforme página do arquivo no Wikimedia Commons",
+        "width": 1280,
+        "height": 853
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A Coreia do Sul apresentou uma estratégia nacional para criar novos motores de crescimento além de semicondutores e inteligência artificial. O plano, chamado Seven Major SEED, reúne projetos de longo prazo em computação quântica, espaço, energia, biotecnologia e materiais críticos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a Reuters, o governo sul-coreano estabeleceu metas como desenvolver um processador quântico doméstico de 100 qubits até 2029 e realizar um pouso na Lua em 2030. O país também pretende avançar em pequenos reatores modulares, fusão nuclear e tecnologias de interface cérebro-computador."
+        },
+        {
+          "type": "heading",
+          "text": "Tecnologia como política industrial"
+        },
+        {
+          "type": "paragraph",
+          "text": "A iniciativa parte da avaliação de que o atual ciclo de expansão de semicondutores e IA deve ser usado para financiar e preparar setores que podem ganhar importância econômica e estratégica na próxima década."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na área espacial, o plano prevê não apenas a missão lunar de 2030, mas também uma segunda missão em 2032 e a construção de uma rede própria de comunicações por satélite até 2035."
+        },
+        {
+          "type": "heading",
+          "text": "Energia, biotecnologia e materiais críticos"
+        },
+        {
+          "type": "paragraph",
+          "text": "A estratégia inclui a implantação comercial de pequenos reatores modulares desenvolvidos no país até 2035, além de projetos em fusão, energia solar, eólica e hidrogênio. Em biotecnologia, o governo quer combinar automação de laboratórios e inteligência artificial com novas terapias."
+        },
+        {
+          "type": "paragraph",
+          "text": "Outro eixo é a segurança da cadeia de suprimentos. A Coreia do Sul pretende ampliar estoques estratégicos e investir em materiais e equipamentos considerados críticos para a indústria."
+        },
+        {
+          "type": "heading",
+          "text": "Metas ambiciosas ainda dependem de execução"
+        },
+        {
+          "type": "paragraph",
+          "text": "Os prazos anunciados transformam o SEED em uma agenda de longo prazo, e parte dos objetivos depende de avanços científicos que ainda não estão garantidos. Mesmo assim, o plano mostra como governos estão incorporando tecnologias emergentes à política industrial e à segurança nacional."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — South Korea unveils future technology drivers",
+          "url": "https://www.reuters.com/world/asia-pacific/south-korea-unveils-future-technology-projects-targets-moon-landing-by-2030-2026-08-12/"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 83,
+        "trend": 77
+      }
+    },
+    {
+      "id": "tech-2026-08-13-project-perception",
+      "sourceEventId": "microsoft-project-perception-agentic-security-2026-07-27",
+      "slug": "microsoft-project-perception-seguranca-agentes-ia",
+      "url": "/tecnologia/microsoft-project-perception-seguranca-agentes-ia/",
+      "status": "published",
+      "demo": false,
+      "category": "tecnologia",
+      "subCategory": "ciberseguranca",
+      "title": "Microsoft apresenta Project Perception para defesa cibernética com agentes de IA",
+      "summary": "Sistema combina sinais de segurança, contexto e agentes especializados para detectar riscos e responder a ataques em velocidade de máquina.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-14T00:28:00Z",
+      "updatedAt": "2026-08-14T00:28:00Z",
+      "views": 0,
+      "tags": [
+        "Microsoft",
+        "cibersegurança",
+        "agentes de IA",
+        "Project Perception"
+      ],
+      "entities": [
+        "Microsoft",
+        "Project Perception",
+        "Microsoft Security"
+      ],
+      "seo": {
+        "title": "Microsoft apresenta Project Perception para cibersegurança com IA",
+        "description": "Project Perception usa agentes de IA, contexto e sinais de segurança para automatizar defesa cibernética em tempo real.",
+        "canonical": "https://blog.gabriel-speed01.workers.dev/tecnologia/microsoft-project-perception-seguranca-agentes-ia/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Microsoft_logo_(2012).svg?width=1280",
+        "alt": "Logotipo da Microsoft",
+        "source": "Wikimedia Commons / Microsoft",
+        "credit": "Microsoft",
+        "license": "Logotipo; marca registrada pode se aplicar",
+        "width": 1280,
+        "height": 478
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A Microsoft está reorganizando sua visão de cibersegurança para um cenário em que ataques e defesas passam a operar com agentes de inteligência artificial. O Project Perception foi apresentado pela empresa como uma arquitetura capaz de transformar grandes volumes de sinais em ações de proteção em tempo quase real."
+        },
+        {
+          "type": "paragraph",
+          "text": "A proposta é conectar telemetria, contexto de segurança, modelos e agentes especializados em um sistema que consiga perceber riscos, raciocinar sobre o ambiente e executar respostas de forma coordenada."
+        },
+        {
+          "type": "heading",
+          "text": "Contexto é a base do sistema"
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a Microsoft, agentes de segurança não podem trabalhar apenas com alertas isolados. O Project Perception tenta criar uma representação continuamente atualizada de ativos, identidades, relações, riscos e atividades de uma organização."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esse contexto seria usado pelos agentes para correlacionar eventos que, analisados separadamente, poderiam parecer pouco relevantes. A empresa afirma que o objetivo não é produzir mais alertas, mas reduzir o tempo entre detecção, entendimento e ação."
+        },
+        {
+          "type": "heading",
+          "text": "Defesa em velocidade de máquina"
+        },
+        {
+          "type": "paragraph",
+          "text": "A expansão de agentes autônomos também aumenta o risco de ataques automatizados. A Microsoft argumenta que ferramentas de defesa precisam operar em velocidade semelhante, preservando controles e mantendo humanos nas decisões que exigem julgamento."
+        },
+        {
+          "type": "paragraph",
+          "text": "A abordagem se conecta ao conceito de SOC agêntico defendido pela empresa: controles determinísticos bloqueiam ameaças conhecidas, enquanto agentes de IA fazem investigação, correlação e priorização."
+        },
+        {
+          "type": "heading",
+          "text": "O desafio passa a ser governança"
+        },
+        {
+          "type": "paragraph",
+          "text": "Automação mais profunda pode acelerar a resposta a incidentes, mas também aumenta a importância de limites de permissão, auditoria e validação. Sistemas capazes de agir automaticamente precisam ser projetados para evitar que uma conclusão errada gere ações com impacto maior."
+        },
+        {
+          "type": "paragraph",
+          "text": "O Project Perception é, portanto, tanto uma aposta tecnológica quanto uma mudança de arquitetura: a Microsoft quer que segurança deixe de ser uma sequência de alertas e se torne um ciclo contínuo de percepção, raciocínio e resposta."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Microsoft — Rethinking security for the age of AI",
+          "url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 81,
+        "trend": 74
+      }
+    },
+    {
+      "id": "crypto-2026-08-13-bitcoin-kospi",
+      "sourceEventId": "bitcoin-kospi-risk-off-2026-08-13",
+      "slug": "bitcoin-63-mil-kospi-queda-mercados",
+      "url": "/criptomoedas/bitcoin-63-mil-kospi-queda-mercados/",
+      "status": "published",
+      "demo": false,
+      "category": "criptomoedas",
+      "subCategory": "bitcoin",
+      "title": "Bitcoin volta à faixa de US$ 63 mil enquanto queda na Coreia pressiona ativos de risco",
+      "summary": "Criptomoeda recuou em sessão de aversão a risco, enquanto o mercado acionário sul-coreano registrou forte queda e investidores reduziram exposição.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-14T00:27:00Z",
+      "updatedAt": "2026-08-14T00:27:00Z",
+      "views": 0,
+      "tags": [
+        "Bitcoin",
+        "mercado cripto",
+        "Kospi",
+        "Coreia do Sul",
+        "ativos de risco"
+      ],
+      "entities": [
+        "Bitcoin",
+        "Kospi",
+        "SK Hynix",
+        "Samsung"
+      ],
+      "seo": {
+        "title": "Bitcoin volta a US$ 63 mil com queda do Kospi e aversão a risco",
+        "description": "Bitcoin recua para a faixa de US$ 63 mil em sessão marcada por forte queda do mercado sul-coreano e menor apetite por risco.",
+        "canonical": "https://blog.gabriel-speed01.workers.dev/criptomoedas/bitcoin-63-mil-kospi-queda-mercados/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin.svg?width=1280",
+        "alt": "Símbolo do Bitcoin",
+        "source": "Wikimedia Commons",
+        "credit": "Bitcoin project",
+        "license": "Domínio público / licença conforme página do arquivo",
+        "width": 1280,
+        "height": 1280
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "O bitcoin voltou à faixa de US$ 63 mil em uma sessão marcada por forte aversão a risco nos mercados globais. A queda ocorreu ao mesmo tempo em que ações sul-coreanas sofreram perdas expressivas, ampliando a cautela entre investidores."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dados acompanhados pela CoinDesk mostraram o BTC recuando cerca de 2% após o fechamento dos mercados norte-americanos, enquanto o índice Kospi registrava uma das maiores quedas recentes."
+        },
+        {
+          "type": "heading",
+          "text": "Cripto continua sensível ao humor dos mercados"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embora o bitcoin opere 24 horas por dia e não dependa diretamente de bolsas tradicionais, ele segue reagindo a mudanças rápidas no apetite por risco. Movimentos em ações de tecnologia, juros e liquidez global frequentemente influenciam a demanda por ativos digitais."
+        },
+        {
+          "type": "paragraph",
+          "text": "A correção na Coreia do Sul teve peso adicional porque o país possui um mercado cripto ativo e grandes empresas de tecnologia, como Samsung e SK Hynix, com forte participação nos índices locais."
+        },
+        {
+          "type": "heading",
+          "text": "Queda não significa relação direta"
+        },
+        {
+          "type": "paragraph",
+          "text": "A movimentação do bitcoin e a queda do Kospi aconteceram na mesma sessão, mas isso não significa que um evento tenha causado o outro. Os dois mercados podem responder simultaneamente a fatores macroeconômicos, desalavancagem e redução de exposição a risco."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para investidores, a sessão reforça a importância de acompanhar volatilidade e liquidez em vez de interpretar oscilações de curto prazo como uma tendência definitiva."
+        },
+        {
+          "type": "heading",
+          "text": "O que pode mexer com o preço"
+        },
+        {
+          "type": "paragraph",
+          "text": "Expectativas sobre juros nos Estados Unidos, desempenho de ações de tecnologia e fluxos para produtos institucionais continuam entre os fatores observados pelo mercado. Como sempre, movimentos de preço em criptomoedas podem ser rápidos e não constituem indicação de retorno futuro."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CoinDesk — Markets: Bitcoin slides as Kospi plunges",
+          "url": "https://www.coindesk.com/markets"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false,
+        "editorialRisk": "medium"
+      },
+      "scores": {
+        "opportunity": 91,
+        "trend": 94
+      }
+    },
+    {
+      "id": "crypto-2026-08-13-lido-cmv2",
+      "sourceEventId": "lido-cmv2-validator-consolidation-2026-07-27",
+      "slug": "lido-migra-ether-validadores-ethereum-cmv2",
+      "url": "/criptomoedas/lido-migra-ether-validadores-ethereum-cmv2/",
+      "status": "published",
+      "demo": false,
+      "category": "criptomoedas",
+      "subCategory": "ethereum",
+      "title": "Lido inicia migração de mais de 8 milhões de ETH e reduz número de validadores",
+      "summary": "Atualização Curated Module v2 consolida validadores do protocolo e adiciona garantias em ETH para operadores profissionais.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-14T00:26:00Z",
+      "updatedAt": "2026-08-14T00:26:00Z",
+      "views": 0,
+      "tags": [
+        "Ethereum",
+        "Lido",
+        "staking",
+        "validadores",
+        "CMv2"
+      ],
+      "entities": [
+        "Lido",
+        "Ethereum",
+        "Curated Module v2"
+      ],
+      "seo": {
+        "title": "Lido migra 8 milhões de ETH e consolida validadores no Ethereum",
+        "description": "Lido inicia migração para Curated Module v2, consolida mais de 8 milhões de ETH e exige garantias dos operadores de nós.",
+        "canonical": "https://blog.gabriel-speed01.workers.dev/criptomoedas/lido-migra-ether-validadores-ethereum-cmv2/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ethereum-icon-purple.svg?width=1280",
+        "alt": "Símbolo do Ethereum",
+        "source": "Wikimedia Commons",
+        "credit": "Ethereum community",
+        "license": "Licença conforme página do arquivo",
+        "width": 1280,
+        "height": 1280
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "O Lido iniciou uma das maiores mudanças de infraestrutura desde a versão V2 do protocolo. A atualização Curated Module v2 consolida mais de 8 milhões de ETH em uma arquitetura de validadores compatível com mudanças introduzidas no Ethereum após o Pectra."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a CoinDesk, o volume envolvido foi estimado em cerca de US$ 16,5 bilhões no momento do anúncio. O valor em dólares varia com a cotação do ether e não representa uma nova compra de ativos: trata-se de uma reorganização do ETH já utilizado em staking."
+        },
+        {
+          "type": "heading",
+          "text": "Menos validadores, menos mensagens na rede"
+        },
+        {
+          "type": "paragraph",
+          "text": "A consolidação deve reduzir o número total de validadores do Ethereum em aproximadamente um terço e diminuir a quantidade de mensagens de atestação transmitidas a cada época."
+        },
+        {
+          "type": "paragraph",
+          "text": "Isso não significa redução direta das taxas de gas nem aumento imediato da velocidade das transações. O ganho esperado está principalmente na eficiência da camada de consenso."
+        },
+        {
+          "type": "heading",
+          "text": "Operadores passam a oferecer garantia em ETH"
+        },
+        {
+          "type": "paragraph",
+          "text": "Outra mudança é a exigência de bonds para os operadores profissionais do módulo curado. Pela primeira vez, esses participantes terão capital em ETH bloqueado como garantia econômica de desempenho."
+        },
+        {
+          "type": "paragraph",
+          "text": "O Lido informou que os 34 operadores existentes devem migrar para o novo módulo. A ideia é complementar o histórico de reputação com incentivos econômicos e penalidades."
+        },
+        {
+          "type": "heading",
+          "text": "Por que isso importa para o Ethereum"
+        },
+        {
+          "type": "paragraph",
+          "text": "O staking líquido representa uma parcela relevante do ecossistema do Ethereum. Mudanças em um protocolo grande como o Lido podem afetar a distribuição de validadores e a carga operacional da rede."
+        },
+        {
+          "type": "paragraph",
+          "text": "A migração é técnica e gradual. Usuários devem evitar interpretar o valor em dólares envolvido como entrada nova de capital no mercado, já que os ativos já estavam em staking antes da consolidação."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CoinDesk — Lido begins moving $16.5 billion in staked ether",
+          "url": "https://www.coindesk.com/tech/2026/07/27/lido-begins-moving-usd16-5-billion-in-staked-ether-to-cut-validator-count-by-a-third"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false,
+        "editorialRisk": "medium"
+      },
+      "scores": {
+        "opportunity": 84,
+        "trend": 81
+      }
+    },
+    {
+      "id": "crypto-2026-08-13-uphold-cortes",
+      "sourceEventId": "uphold-cuts-workforce-17-percent-2026-07-27",
+      "slug": "uphold-corta-17-por-cento-equipe-foco-empresas",
+      "url": "/criptomoedas/uphold-corta-17-por-cento-equipe-foco-empresas/",
+      "status": "published",
+      "demo": false,
+      "category": "criptomoedas",
+      "subCategory": "exchanges",
+      "title": "Uphold corta 17% da equipe global e aumenta foco em clientes empresariais",
+      "summary": "Plataforma de ativos digitais afirma que redução de 85 postos acompanha menor atividade de varejo e expansão de serviços para bancos, fintechs e corretoras.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-14T00:25:00Z",
+      "updatedAt": "2026-08-14T00:25:00Z",
+      "views": 0,
+      "tags": [
+        "Uphold",
+        "exchanges",
+        "mercado cripto",
+        "empregos",
+        "fintech"
+      ],
+      "entities": [
+        "Uphold"
+      ],
+      "seo": {
+        "title": "Uphold corta 17% da equipe e reforça negócio empresarial",
+        "description": "Uphold reduz 17% do quadro global e diz que vai concentrar mais recursos em serviços para bancos, fintechs e empresas.",
+        "canonical": "https://blog.gabriel-speed01.workers.dev/criptomoedas/uphold-corta-17-por-cento-equipe-foco-empresas/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin.svg?width=1280",
+        "alt": "Símbolo do Bitcoin em imagem ilustrativa do mercado de ativos digitais",
+        "source": "Wikimedia Commons",
+        "credit": "Bitcoin project",
+        "license": "Domínio público / licença conforme página do arquivo",
+        "width": 1280,
+        "height": 1280
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A plataforma de ativos digitais Uphold reduziu aproximadamente 17% de sua força de trabalho global. Segundo informações divulgadas pela empresa à CoinDesk, 85 pessoas entre funcionários e contratados foram afetadas."
+        },
+        {
+          "type": "paragraph",
+          "text": "A companhia atribuiu a decisão a uma mudança de alocação de recursos: enquanto a atividade de negociação de varejo enfraqueceu, a demanda de bancos, fintechs e corretoras por infraestrutura de ativos digitais cresceu."
+        },
+        {
+          "type": "heading",
+          "text": "Empresa diz que não está deixando mercados"
+        },
+        {
+          "type": "paragraph",
+          "text": "A Uphold afirmou que não pretende fechar escritórios e continuará atendendo clientes no Reino Unido, Europa e outros mercados. O corte foi apresentado como uma recalibração após anos de expansão do quadro."
+        },
+        {
+          "type": "paragraph",
+          "text": "A estratégia mostra uma tendência importante no setor: empresas originalmente focadas no investidor de varejo tentam ampliar receitas recorrentes oferecendo infraestrutura para outras companhias."
+        },
+        {
+          "type": "heading",
+          "text": "Mercado de varejo perdeu ritmo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Períodos de menor volume de negociação costumam pressionar receitas de plataformas que dependem de taxas por transação. Em ciclos anteriores, exchanges e fintechs cripto também reduziram equipes quando o volume caiu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ao mesmo tempo, serviços empresariais podem ter contratos mais previsíveis e menor dependência de oscilações diárias do mercado."
+        },
+        {
+          "type": "heading",
+          "text": "Cortes não indicam por si só saída do setor"
+        },
+        {
+          "type": "paragraph",
+          "text": "A redução de pessoal é um sinal de ajuste operacional, mas não significa necessariamente que a empresa esteja abandonando ativos digitais. O próprio CEO Simon McLoughlin disse manter confiança de longo prazo em blockchain e cripto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para o setor, o movimento da Uphold será acompanhado como teste de uma estratégia que troca parte do crescimento de varejo por infraestrutura para instituições."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CoinDesk — Uphold cuts 17% of global headcount",
+          "url": "https://www.coindesk.com/business/2026/07/27/digital-asset-trading-platform-uphold-cuts-17-of-global-headcount-as-crypto-winter-bites"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false,
+        "editorialRisk": "medium"
+      },
+      "scores": {
+        "opportunity": 78,
+        "trend": 72
+      }
+    },
+    {
+      "id": "pol-2026-08-13-flavio-missao",
+      "sourceEventId": "flavio-bolsonaro-filiacao-indevida-missao-2026-08-13",
+      "slug": "flavio-bolsonaro-filiacao-missao-tse-restabelece-pl",
+      "url": "/politica/flavio-bolsonaro-filiacao-missao-tse-restabelece-pl/",
+      "status": "published",
+      "demo": false,
+      "category": "politica",
+      "subCategory": "eleicoes",
+      "title": "Flávio Bolsonaro aparece filiado ao Missão; TSE cancela registro e restabelece vínculo com PL",
+      "summary": "Filiação indevida ao Missão impediu temporariamente o registro da candidatura presidencial; TSE descartou invasão ao sistema e determinou investigação.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-14T00:24:00Z",
+      "updatedAt": "2026-08-14T00:24:00Z",
+      "views": 0,
+      "tags": [
+        "Flávio Bolsonaro",
+        "Partido Missão",
+        "PL",
+        "TSE",
+        "Eleições 2026"
+      ],
+      "entities": [
+        "Flávio Bolsonaro",
+        "Partido Missão",
+        "Partido Liberal",
+        "Tribunal Superior Eleitoral",
+        "Kassio Nunes Marques"
+      ],
+      "seo": {
+        "title": "Flávio aparece filiado ao Missão; TSE restabelece PL",
+        "description": "Flávio Bolsonaro apareceu filiado ao Missão no sistema eleitoral; TSE cancelou o registro, restabeleceu o PL e determinou investigação.",
+        "canonical": "https://blog.gabriel-speed01.workers.dev/politica/flavio-bolsonaro-filiacao-missao-tse-restabelece-pl/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Brazil_National_Congress.jpg?width=1280",
+        "alt": "Congresso Nacional em Brasília, imagem ilustrativa de política brasileira",
+        "source": "Wikimedia Commons",
+        "credit": "Espartaco Madureira Coelho",
+        "license": "Domínio público",
+        "width": 1280,
+        "height": 826
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "O senador Flávio Bolsonaro apareceu nesta quinta-feira, 13 de agosto, como filiado ao partido Missão no sistema da Justiça Eleitoral, embora sua candidatura à Presidência tenha sido articulada pelo PL. A alteração impediu temporariamente o registro da candidatura pela legenda original."
+        },
+        {
+          "type": "paragraph",
+          "text": "A equipe de Flávio afirmou que a filiação ao Missão foi realizada sem autorização. O próprio partido Missão também declarou ter sido vítima de fraude e disse não ter interesse na filiação do senador."
+        },
+        {
+          "type": "heading",
+          "text": "TSE restabeleceu a filiação ao PL"
+        },
+        {
+          "type": "paragraph",
+          "text": "Horas depois, o presidente do Tribunal Superior Eleitoral, ministro Kassio Nunes Marques, concedeu tutela de urgência para cancelar o registro no Missão e restabelecer a filiação de Flávio Bolsonaro ao PL."
+        },
+        {
+          "type": "paragraph",
+          "text": "Com a decisão, a situação partidária foi regularizada para permitir o prosseguimento do registro da candidatura. O prazo oficial para registros termina em 15 de agosto de 2026."
+        },
+        {
+          "type": "heading",
+          "text": "Tribunal diz que não houve invasão ao sistema"
+        },
+        {
+          "type": "paragraph",
+          "text": "Em nota divulgada sobre o caso, o TSE afirmou que a filiação não resultou de hackeamento do sistema Filia. Segundo a Corte, a operação foi realizada por alguém que possuía credenciais legítimas da legenda para efetivar filiações."
+        },
+        {
+          "type": "paragraph",
+          "text": "A afirmação não identifica quem praticou a alteração. O tribunal determinou que registros de acesso sejam preservados e que o caso seja encaminhado para investigação."
+        },
+        {
+          "type": "heading",
+          "text": "Missão e campanha divergem sobre comunicações anteriores"
+        },
+        {
+          "type": "paragraph",
+          "text": "O partido Missão afirmou que detectou irregularidades e que o gabinete do senador havia recebido alertas automáticos. A campanha de Flávio questionou a versão e classificou o episódio como uma tentativa de sabotagem."
+        },
+        {
+          "type": "paragraph",
+          "text": "As acusações ainda dependem de investigação. Por isso, é importante distinguir o fato confirmado — a existência temporária do registro de filiação — das versões sobre autoria e motivação, que permanecem sob apuração."
+        }
+      ],
+      "sources": [
+        {
+          "name": "UOL — Nunes Marques cancela filiação de Flávio no Missão e determina volta ao PL",
+          "url": "https://noticias.uol.com.br/eleicoes/2026/08/13/nunes-marques-determina-que-filiacao-de-flavio-ao-pl-seja-restabelecida.ghtm"
+        },
+        {
+          "name": "Folha de S.Paulo — TSE restabelece filiação de Flávio ao PL",
+          "url": "https://www1.folha.uol.com.br/poder/2026/08/flavio-bolsonaro-e-filiado-a-partido-missao-e-registro-de-candidatura-no-tse-atrasa.shtml"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false,
+        "requiresHumanReview": true,
+        "editorialRisk": "high"
+      },
+      "scores": {
+        "opportunity": 99,
+        "trend": 100
+      }
+    },
+    {
+      "id": "pol-2026-08-13-tse-suspende-filia",
+      "sourceEventId": "tse-suspende-processamento-filiacoes-2026-08-13",
+      "slug": "tse-suspende-sistema-filiacoes-apos-fraudes",
+      "url": "/politica/tse-suspende-sistema-filiacoes-apos-fraudes/",
+      "status": "published",
+      "demo": false,
+      "category": "politica",
+      "subCategory": "justica-eleitoral",
+      "title": "TSE suspende processamento de filiações após fraude contra Flávio e tentativa envolvendo Lula",
+      "summary": "Sistema Filia continuará recebendo pedidos, mas o processamento foi suspenso temporariamente enquanto a Justiça Eleitoral apura tentativas de alteração indevida.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-14T00:23:00Z",
+      "updatedAt": "2026-08-14T00:23:00Z",
+      "views": 0,
+      "tags": [
+        "TSE",
+        "Filia",
+        "Flávio Bolsonaro",
+        "Lula",
+        "filiação partidária"
+      ],
+      "entities": [
+        "Tribunal Superior Eleitoral",
+        "Flávio Bolsonaro",
+        "Luiz Inácio Lula da Silva"
+      ],
+      "seo": {
+        "title": "TSE suspende processamento de filiações após fraude eleitoral",
+        "description": "TSE suspende temporariamente o processamento no sistema Filia após registro indevido contra Flávio Bolsonaro e tentativa envolvendo Lula.",
+        "canonical": "https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-sistema-filiacoes-apos-fraudes/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Brazil_National_Congress.jpg?width=1280",
+        "alt": "Congresso Nacional em Brasília",
+        "source": "Wikimedia Commons",
+        "credit": "Espartaco Madureira Coelho",
+        "license": "Domínio público",
+        "width": 1280,
+        "height": 826
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "O Tribunal Superior Eleitoral suspendeu temporariamente o processamento de novas filiações partidárias no sistema Filia nesta quinta-feira, 13 de agosto. A medida foi tomada após o registro indevido de Flávio Bolsonaro no partido Missão e a identificação de outra tentativa de alteração envolvendo o presidente Luiz Inácio Lula da Silva."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a Folha de S.Paulo, o sistema continuará recebendo solicitações, mas o processamento ficará interrompido enquanto o caso é investigado e medidas de segurança são avaliadas."
+        },
+        {
+          "type": "heading",
+          "text": "Candidaturas de 2026 não dependem de novas filiações"
+        },
+        {
+          "type": "paragraph",
+          "text": "A suspensão ocorre poucos dias antes do início oficial da campanha, mas não deve impedir candidaturas por causa do prazo de filiação. Para concorrer nas eleições de 2026, candidatos precisavam cumprir a exigência de vínculo partidário meses antes."
+        },
+        {
+          "type": "paragraph",
+          "text": "No caso de Flávio Bolsonaro, o problema foi diferente: um registro posterior e não autorizado fez o sistema indicar que ele havia deixado o PL e se filiado ao Missão."
+        },
+        {
+          "type": "heading",
+          "text": "Tentativa contra Lula não foi concluída"
+        },
+        {
+          "type": "paragraph",
+          "text": "O TSE também identificou uma tentativa de alterar a filiação do presidente Lula. De acordo com a cobertura disponível, a operação não chegou a ser efetivada."
+        },
+        {
+          "type": "paragraph",
+          "text": "A existência de tentativas contra atores políticos de campos diferentes amplia a importância da investigação sobre credenciais, trilhas de auditoria e validação de filiações."
+        },
+        {
+          "type": "heading",
+          "text": "Investigação deve esclarecer origem"
+        },
+        {
+          "type": "paragraph",
+          "text": "O tribunal afirmou no caso de Flávio que não houve invasão ao sistema central do TSE, mas uso indevido de credenciais associadas a uma legenda. Essa distinção é relevante: falha de processo ou abuso de acesso legítimo exige respostas diferentes de um ataque externo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Até que a apuração seja concluída, não há base pública suficiente para atribuir autoria ou motivação às alterações. A suspensão busca limitar novos incidentes enquanto as autoridades preservam e analisam registros."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Folha de S.Paulo — TSE suspende sistema de filiações partidárias",
+          "url": "https://www1.folha.uol.com.br/colunas/painel/2026/08/tse-suspende-sistema-de-filiacoes-partidarias-apos-fraude-contra-flavio-bolsonaro.shtml"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false,
+        "requiresHumanReview": true,
+        "editorialRisk": "high"
+      },
+      "scores": {
+        "opportunity": 96,
+        "trend": 98
+      }
+    },
+    {
+      "id": "pol-2026-08-13-fundo-eleitoral",
+      "sourceEventId": "tse-fundo-eleitoral-pt-vista-2026-08-13",
+      "slug": "tse-suspende-julgamento-fundo-eleitoral-pt",
+      "url": "/politica/tse-suspende-julgamento-fundo-eleitoral-pt/",
+      "status": "published",
+      "demo": false,
+      "category": "politica",
+      "subCategory": "eleicoes",
+      "title": "TSE suspende julgamento sobre fatia do fundo eleitoral e trava parte dos repasses",
+      "summary": "Pedido de vista interrompeu análise de ação do PT sobre cálculo do FEFC; parcela relevante do fundo fica pendente até conclusão do julgamento.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-14T00:22:00Z",
+      "updatedAt": "2026-08-14T00:22:00Z",
+      "views": 0,
+      "tags": [
+        "TSE",
+        "fundo eleitoral",
+        "PT",
+        "FEFC",
+        "Eleições 2026"
+      ],
+      "entities": [
+        "Tribunal Superior Eleitoral",
+        "Partido dos Trabalhadores",
+        "FEFC",
+        "PL"
+      ],
+      "seo": {
+        "title": "TSE suspende julgamento do fundo eleitoral após pedido do PT",
+        "description": "Julgamento sobre cálculo do fundo eleitoral é suspenso no TSE e parte dos repasses aos partidos fica pendente antes da campanha.",
+        "canonical": "https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-julgamento-fundo-eleitoral-pt/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Brazil_National_Congress.jpg?width=1280",
+        "alt": "Congresso Nacional em Brasília",
+        "source": "Wikimedia Commons",
+        "credit": "Espartaco Madureira Coelho",
+        "license": "Domínio público",
+        "width": 1280,
+        "height": 826
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "O Tribunal Superior Eleitoral suspendeu o julgamento de uma ação apresentada pelo PT sobre o cálculo de distribuição do Fundo Especial de Financiamento de Campanha, o FEFC. O pedido de vista interrompeu a análise e deixou parte dos repasses aos partidos temporariamente pendente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a Folha de S.Paulo, a disputa envolve o número de cadeiras considerado no cálculo da parcela destinada ao PT e um montante de aproximadamente R$ 315 milhões."
+        },
+        {
+          "type": "heading",
+          "text": "O que o PT questiona"
+        },
+        {
+          "type": "paragraph",
+          "text": "O partido sustenta que o cálculo da representação na Câmara deveria considerar a situação do deputado Paulão, de Alagoas, após decisões judiciais relacionadas à retotalização dos votos de 2022."
+        },
+        {
+          "type": "paragraph",
+          "text": "O presidente do TSE, Kassio Nunes Marques, votou contra o pedido. Em seguida, a ministra Estela Aranha pediu vista, suspendendo a conclusão do julgamento."
+        },
+        {
+          "type": "heading",
+          "text": "Repasse fica pendente para todos os partidos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Enquanto a discussão não termina, uma parcela equivalente a 48% dos recursos do fundo permanece bloqueada para distribuição. Isso afeta todas as legendas, não apenas o PT."
+        },
+        {
+          "type": "paragraph",
+          "text": "A proximidade do início oficial da campanha aumenta o impacto operacional da indefinição, já que partidos utilizam o FEFC para financiar candidaturas e atividades eleitorais."
+        },
+        {
+          "type": "heading",
+          "text": "Valores são diferentes entre as legendas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Na distribuição atualmente calculada, o PL aparece com a maior fatia e o PT com a segunda maior. Esses números ainda podem sofrer ajustes conforme decisões da Justiça Eleitoral."
+        },
+        {
+          "type": "paragraph",
+          "text": "A suspensão não representa decisão final a favor de nenhum dos lados. O julgamento será retomado após a devolução do processo, quando os ministros poderão concluir a análise."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Folha de S.Paulo — TSE suspende julgamento sobre fundo eleitoral",
+          "url": "https://www1.folha.uol.com.br/poder/2026/08/tse-suspende-julgamento-de-acao-do-pt-para-ampliar-fundo-eleitoral-e-trava-repasse-a-todos-partidos.shtml"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false,
+        "requiresHumanReview": true,
+        "editorialRisk": "high"
+      },
+      "scores": {
+        "opportunity": 88,
+        "trend": 91
+      }
+    },
+    {
+      "id": "ent-2026-08-13-camp-rock-3",
+      "sourceEventId": "camp-rock-3-premiere-2026-08-13",
+      "slug": "camp-rock-3-estreia-disney-channel-disney-plus",
+      "url": "/entretenimento/camp-rock-3-estreia-disney-channel-disney-plus/",
+      "status": "published",
+      "demo": false,
+      "category": "entretenimento",
+      "subCategory": "filmes",
+      "title": "Camp Rock 3 estreia com Jonas Brothers e nova geração de campistas",
+      "summary": "Terceiro filme da franquia chega ao Disney Channel em 13 de agosto e ao Disney+ no dia seguinte, reunindo Connect 3 e novos personagens.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-14T00:21:00Z",
+      "updatedAt": "2026-08-14T00:21:00Z",
+      "views": 0,
+      "tags": [
+        "Camp Rock 3",
+        "Disney+",
+        "Jonas Brothers",
+        "Disney Channel"
+      ],
+      "entities": [
+        "Camp Rock 3",
+        "Jonas Brothers",
+        "Disney+",
+        "Disney Channel"
+      ],
+      "seo": {
+        "title": "Camp Rock 3 estreia com Jonas Brothers e chega ao Disney+",
+        "description": "Camp Rock 3 estreia no Disney Channel em 13 de agosto e chega ao Disney+ no dia 14, com Jonas Brothers e novos campistas.",
+        "canonical": "https://blog.gabriel-speed01.workers.dev/entretenimento/camp-rock-3-estreia-disney-channel-disney-plus/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Disney%2B_logo.svg?width=1280",
+        "alt": "Logotipo do Disney+",
+        "source": "Wikimedia Commons / Disney",
+        "credit": "Disney",
+        "license": "Logotipo; marca registrada pode se aplicar",
+        "width": 1280,
+        "height": 720
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Camp Rock está de volta. O terceiro filme da franquia estreia em 13 de agosto no Disney Channel e chega ao Disney+ no dia seguinte, retomando a história anos depois dos dois longas que marcaram uma geração de fãs do canal."
+        },
+        {
+          "type": "paragraph",
+          "text": "A nova produção traz Joe, Kevin e Nick Jonas novamente como Connect 3 e apresenta uma nova geração de campistas. A trama começa quando a banda perde o ato de abertura de uma turnê de reunião e retorna ao Camp Rock em busca de novos talentos."
+        },
+        {
+          "type": "heading",
+          "text": "Competição define quem abre a turnê"
+        },
+        {
+          "type": "paragraph",
+          "text": "Os novos personagens disputam a oportunidade de abrir os shows do Connect 3. A competição cria alianças, conflitos e romances enquanto o filme tenta equilibrar nostalgia e passagem de bastão."
+        },
+        {
+          "type": "paragraph",
+          "text": "A Disney também lançou a música One Beat Away como parte da divulgação, reforçando o foco musical que sempre definiu a franquia."
+        },
+        {
+          "type": "heading",
+          "text": "Jonas Brothers também atuam como produtores"
+        },
+        {
+          "type": "paragraph",
+          "text": "Além de voltarem ao elenco, os Jonas Brothers participam da produção executiva. O envolvimento ajuda a conectar a nova história com os personagens e a identidade dos filmes anteriores."
+        },
+        {
+          "type": "paragraph",
+          "text": "A estreia ocorre quase duas décadas depois do primeiro Camp Rock, lançado em 2008. O intervalo transforma o projeto em uma combinação de continuação e relançamento para um público mais jovem."
+        },
+        {
+          "type": "heading",
+          "text": "Onde assistir"
+        },
+        {
+          "type": "paragraph",
+          "text": "Camp Rock 3 estreia primeiro no Disney Channel em 13 de agosto. A disponibilização no Disney+ está marcada para 14 de agosto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para a Disney, o retorno da franquia também funciona como teste do interesse por propriedades do auge dos filmes musicais do Disney Channel, agora adaptadas ao consumo por streaming."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Disney+ Press — Camp Rock 3 premieres Aug. 13",
+          "url": "https://press.disneyplus.com/news/camp-rock-3-premieres-august-13-disney-channel"
+        },
+        {
+          "name": "Entertainment Weekly — Camp Rock 3 cover story",
+          "url": "https://ew.com/camp-rock-3-jonas-brothers-cover-story-exclusive-12057920"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 95,
+        "trend": 97
+      }
+    },
+    {
+      "id": "ent-2026-08-13-child-of-my-own",
+      "sourceEventId": "netflix-a-child-of-my-own-premiere-2026-08-13",
+      "slug": "a-child-of-my-own-estreia-netflix-documentario",
+      "url": "/entretenimento/a-child-of-my-own-estreia-netflix-documentario/",
+      "status": "published",
+      "demo": false,
+      "category": "entretenimento",
+      "subCategory": "streaming",
+      "title": "A Child of My Own estreia na Netflix com história sobre falsa gravidez e pressão social",
+      "summary": "Longa de Maite Alberdi acompanha uma mulher cuja mentira sobre gravidez cresce até se tornar uma farsa pública de grandes proporções.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-14T00:20:00Z",
+      "updatedAt": "2026-08-14T00:20:00Z",
+      "views": 0,
+      "tags": [
+        "Netflix",
+        "A Child of My Own",
+        "Maite Alberdi",
+        "documentário"
+      ],
+      "entities": [
+        "Netflix",
+        "A Child of My Own",
+        "Maite Alberdi"
+      ],
+      "seo": {
+        "title": "A Child of My Own estreia na Netflix em 13 de agosto",
+        "description": "A Child of My Own, novo longa de Maite Alberdi, estreia na Netflix e acompanha uma falsa gravidez que se transforma em escândalo público.",
+        "canonical": "https://blog.gabriel-speed01.workers.dev/entretenimento/a-child-of-my-own-estreia-netflix-documentario/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Netflix_2015_logo.svg?width=1280",
+        "alt": "Logotipo da Netflix",
+        "source": "Wikimedia Commons / Netflix",
+        "credit": "Netflix",
+        "license": "Logotipo; marca registrada pode se aplicar",
+        "width": 1280,
+        "height": 360
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A Netflix adiciona nesta quinta-feira, 13 de agosto, A Child of My Own ao catálogo. O longa dirigido por Maite Alberdi parte de uma mentira íntima e acompanha como ela cresce até envolver família, mídia e pressão social."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na sinopse oficial, Alejandra deseja intensamente se tornar mãe e enfrenta cobrança constante das pessoas ao redor. Ela decide fingir uma gravidez, mas o plano exige novas mentiras e se transforma em uma farsa cada vez mais difícil de sustentar."
+        },
+        {
+          "type": "heading",
+          "text": "História gira em torno das consequências da mentira"
+        },
+        {
+          "type": "paragraph",
+          "text": "O ponto central do filme não é apenas a falsa gravidez, mas o modo como expectativas sociais e familiares empurram a protagonista para uma situação sem saída aparente."
+        },
+        {
+          "type": "paragraph",
+          "text": "A narrativa acompanha o impacto da farsa sobre o marido, parentes e a própria Alejandra, até o caso ganhar dimensão pública."
+        },
+        {
+          "type": "heading",
+          "text": "Maite Alberdi retorna a temas humanos e sociais"
+        },
+        {
+          "type": "paragraph",
+          "text": "A diretora chilena é conhecida por obras que observam relações humanas e estruturas sociais com atenção a personagens comuns. A nova produção mantém esse interesse ao explorar maternidade, desejo, vergonha e pressão coletiva."
+        },
+        {
+          "type": "paragraph",
+          "text": "O elenco inclui Ana Celeste Montalvo Peña, Luisa Guzmán, Armando Espitia, Mayra Sérbulo e outros nomes latino-americanos."
+        },
+        {
+          "type": "heading",
+          "text": "Filme já está disponível"
+        },
+        {
+          "type": "paragraph",
+          "text": "A Child of My Own entrou no catálogo da Netflix em 13 de agosto. A produção integra a programação de lançamentos de verão anunciada pelo serviço."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para quem acompanha cinema latino-americano e produções de Maite Alberdi, o longa chega como uma das estreias mais peculiares da semana no streaming."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Netflix Tudum — New Summer Movies Coming to Netflix in 2026",
+          "url": "https://www.netflix.com/tudum/features/new-summer-movies-on-netflix-2026"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 82,
+        "trend": 80
+      }
+    },
+    {
+      "id": "ent-2026-08-13-travis-barker",
+      "sourceEventId": "travis-barker-louder-than-fear-premiere-2026-08-13",
+      "slug": "travis-barker-louder-than-fear-hulu-disney-plus",
+      "url": "/entretenimento/travis-barker-louder-than-fear-hulu-disney-plus/",
+      "status": "published",
+      "demo": false,
+      "category": "entretenimento",
+      "subCategory": "documentarios",
+      "title": "Documentário de Travis Barker estreia no Hulu e Disney+ contando trajetória após acidente",
+      "summary": "Louder Than Fear revisita ascensão do baterista do Blink-182, sobrevivência ao acidente aéreo de 2008 e processo de recuperação.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-14T00:19:00Z",
+      "updatedAt": "2026-08-14T00:19:00Z",
+      "views": 0,
+      "tags": [
+        "Travis Barker",
+        "Blink-182",
+        "Hulu",
+        "Disney+",
+        "documentário"
+      ],
+      "entities": [
+        "Travis Barker",
+        "Blink-182",
+        "Hulu",
+        "Disney+"
+      ],
+      "seo": {
+        "title": "Travis Barker: Louder Than Fear estreia no Hulu e Disney+",
+        "description": "Documentário Louder Than Fear estreia em 13 de agosto e revisita carreira de Travis Barker, acidente aéreo e recuperação.",
+        "canonical": "https://blog.gabriel-speed01.workers.dev/entretenimento/travis-barker-louder-than-fear-hulu-disney-plus/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hulu_Logo.svg?width=1280",
+        "alt": "Logotipo do Hulu",
+        "source": "Wikimedia Commons / Hulu",
+        "credit": "Hulu",
+        "license": "Logotipo; marca registrada pode se aplicar",
+        "width": 1280,
+        "height": 480
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Travis Barker: Louder Than Fear estreia em 13 de agosto no Hulu nos Estados Unidos e no Disney+ internacionalmente. O documentário acompanha a trajetória do baterista do Blink-182, incluindo carreira, perdas pessoais e recuperação após o acidente aéreo de 2008."
+        },
+        {
+          "type": "paragraph",
+          "text": "A produção começa antes da fama. Barker trabalhou como coletor de lixo em Laguna Beach e mais tarde entrou no Blink-182 como substituto, tornando-se um dos bateristas mais reconhecidos do pop punk."
+        },
+        {
+          "type": "heading",
+          "text": "Acidente aéreo ocupa parte central da história"
+        },
+        {
+          "type": "paragraph",
+          "text": "O acidente de 2008 quase matou o músico e teve consequências físicas e psicológicas de longo prazo. O documentário usa esse episódio como ponto de virada para discutir sobrevivência, dor e reconstrução."
+        },
+        {
+          "type": "paragraph",
+          "text": "A sinopse oficial também promete depoimentos de colaboradores, artistas e pessoas próximas ao baterista."
+        },
+        {
+          "type": "heading",
+          "text": "Produção busca mostrar o músico além do palco"
+        },
+        {
+          "type": "paragraph",
+          "text": "Louder Than Fear não se limita a uma retrospectiva da discografia do Blink-182. A proposta é construir um retrato pessoal de Barker e de como experiências traumáticas influenciaram sua vida e seu trabalho."
+        },
+        {
+          "type": "paragraph",
+          "text": "O filme é dirigido por Justin Krook e Michael Dwyer e produzido pela Media Weaver Entertainment."
+        },
+        {
+          "type": "heading",
+          "text": "Onde assistir"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nos Estados Unidos, o documentário está disponível no Hulu e no Hulu dentro do Disney+ para assinantes de pacotes compatíveis. Internacionalmente, a estreia ocorre pelo Disney+."
+        },
+        {
+          "type": "paragraph",
+          "text": "A produção chega em um momento de renovado interesse pelo pop punk e por documentários musicais que revisitam artistas centrais das décadas de 1990 e 2000."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Hulu Press — Travis Barker: Louder Than Fear",
+          "url": "https://press.hulu.com/shows/travis-barker-louder-than-fear/"
+        },
+        {
+          "name": "Disney+ Press — August 2026 schedule",
+          "url": "https://press.disneyplus.com/news/next-on-disney-plus-august-2026"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 87,
+        "trend": 88
+      }
+    },
     {
       "id": "tech-2026-08-11-atacante-app",
       "sourceEventId": "atacante-app-plataforma-gestao-arenas-2026-08-11",
@@ -51,69 +1287,13 @@
         },
         {
           "type": "paragraph",
-          "text": "No site oficial, o serviço apresenta um link de vendas próprio para locações, day use, aulas e pacotes. O jogador pode escolher a opção e pagar pela internet, enquanto o gestor acompanha os horários em uma agenda centralizada. A plataforma também informa aceitar Pix e cartão, com repasse para a conta cadastrada."
-        },
-        {
-          "type": "heading",
-          "text": "Agenda, recorrência e CRM no mesmo sistema"
-        },
-        {
-          "type": "paragraph",
-          "text": "Além das reservas avulsas, o Atacante oferece cobrança recorrente para mensalistas, pacotes e os chamados clubinhos. Os planos podem ser configurados em períodos mensais, trimestrais, semestrais ou anuais, segundo a apresentação da empresa."
-        },
-        {
-          "type": "paragraph",
-          "text": "Outro recurso é o CRM integrado ao WhatsApp. A proposta é usar campanhas automáticas para reativar jogadores inativos e tentar preencher horários de menor procura. O Atacante afirma que parceiros com campanhas de CRM ativas em 2025 registraram, em média, 37% mais retorno de jogadores. Como se trata de uma métrica interna divulgada pela própria empresa, o número deve ser interpretado nesse contexto."
-        },
-        {
-          "type": "heading",
-          "text": "Aplicativo também mira a experiência de quem joga"
-        },
-        {
-          "type": "paragraph",
-          "text": "Nas lojas de aplicativos, o Atacante é apresentado também como uma ferramenta para organizar times, encontrar partidas e reservar quadras. É possível criar partidas semanais ou avulsas, convidar jogadores e confirmar presença pelo aplicativo."
-        },
-        {
-          "type": "paragraph",
-          "text": "A versão listada na Google Play informa ainda a possibilidade de fazer check-in de day use pelo app. A ficha da loja também declara que os dados são criptografados em trânsito e que o usuário pode solicitar a exclusão dos dados coletados."
-        },
-        {
-          "type": "heading",
-          "text": "Controle de acesso amplia a digitalização da arena"
-        },
-        {
-          "type": "paragraph",
-          "text": "A plataforma oficial também anuncia integração com catracas e reconhecimento facial para liberar a entrada de pessoas que reservaram e pagaram. A disponibilidade desse recurso depende da compatibilidade com a catraca utilizada pelo estabelecimento."
-        },
-        {
-          "type": "paragraph",
-          "text": "Na prática, o conjunto de recursos coloca o Atacante em uma categoria de software de gestão vertical: em vez de oferecer apenas uma agenda genérica, o sistema é desenhado para operações esportivas como beach tennis, padel, futevôlei, futebol society, tênis e espaços multiesportivos."
-        },
-        {
-          "type": "heading",
-          "text": "Quanto custa"
-        },
-        {
-          "type": "paragraph",
-          "text": "Na página oficial consultada em 11 de agosto de 2026, os planos começam em R$ 199 por mês para operações com até três quadras. Para quatro quadras ou mais, a empresa informa mensalidade de R$ 399. Também há taxas sobre vendas online, com condições diferentes para transações recorrentes e vendas avulsas."
-        },
-        {
-          "type": "paragraph",
-          "text": "O modelo mostra como softwares especializados estão levando processos de comércio eletrônico, pagamentos e automação de relacionamento para negócios esportivos que historicamente dependem de atendimento manual. Para clubes e arenas, a promessa é reduzir tarefas operacionais e transformar horários disponíveis em inventário que pode ser vendido online."
+          "text": "No site oficial, o serviço apresenta um link de vendas próprio para locações, day use, aulas e pacotes. O jogador pode escolher a opção e pagar pela internet, enquanto o gestor acompanha os horários em uma agenda centralizada."
         }
       ],
       "sources": [
         {
-          "name": "Atacante.App — site oficial da plataforma",
+          "name": "Atacante.App — site oficial",
           "url": "https://atacante.app/"
-        },
-        {
-          "name": "Google Play — Atacante App",
-          "url": "https://play.google.com/store/apps/details?id=app.atacante.sansiro"
-        },
-        {
-          "name": "App Store — Atacante App",
-          "url": "https://apps.apple.com/br/app/atacante-app/id1634664729"
         }
       ],
       "generation": {
@@ -136,7 +1316,7 @@
       "subCategory": "eleicoes",
       "title": "Missão oficializa Renan Santos para disputar a Presidência em 2026",
       "summary": "Partido ligado à trajetória do MBL escolheu Renan Santos em convenção nacional; registro da candidatura na Justiça Eleitoral é uma etapa própria do processo eleitoral.",
-      "author": "Redação BLOG",
+      "author": "Redação FirstNews",
       "publishedAt": "2026-08-10T07:52:00Z",
       "updatedAt": "2026-08-10T07:52:00Z",
       "views": 0,
@@ -160,7 +1340,7 @@
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Brazil_National_Congress.jpg?width=1280",
-        "alt": "Congresso Nacional em Brasília, imagem ilustrativa de cobertura política brasileira",
+        "alt": "Congresso Nacional em Brasília",
         "source": "Wikimedia Commons",
         "credit": "Espartaco Madureira Coelho",
         "license": "Domínio público",
@@ -191,7 +1371,7 @@
       "subCategory": "streaming",
       "title": "The Last House estreia na Netflix com Wagner Moura e Greta Lee em thriller de ficção científica",
       "summary": "Filme dirigido por Louis Leterrier chegou ao streaming em 7 de agosto e acompanha uma família que fica misteriosamente presa dentro da própria casa.",
-      "author": "Redação BLOG",
+      "author": "Redação FirstNews",
       "publishedAt": "2026-08-10T07:51:00Z",
       "updatedAt": "2026-08-10T07:51:00Z",
       "views": 0,
@@ -214,13 +1394,13 @@
         "canonical": "https://blog.gabriel-speed01.workers.dev/entretenimento/the-last-house-netflix-wagner-moura-estreia/"
       },
       "featuredImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Netflix-Logo.png?width=1280",
-        "alt": "Logotipo da Netflix usado como imagem ilustrativa para notícia sobre The Last House",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Netflix_2015_logo.svg?width=1280",
+        "alt": "Logotipo da Netflix",
         "source": "Wikimedia Commons / Netflix",
         "credit": "Netflix",
-        "license": "CC BY 4.0 conforme página do arquivo no Wikimedia Commons",
+        "license": "Marca registrada; uso editorial ilustrativo",
         "width": 1280,
-        "height": 853
+        "height": 360
       },
       "body": [],
       "sources": [],
@@ -244,7 +1424,7 @@
       "subCategory": "inteligencia-artificial",
       "title": "OpenAI desacelera modelo Astra após avaliações de cibersegurança, diz Axios",
       "summary": "Relato aponta que a empresa decidiu ampliar testes de segurança depois que avaliações internas indicaram capacidades cibernéticas avançadas no modelo ainda não lançado.",
-      "author": "Redação BLOG",
+      "author": "Redação FirstNews",
       "publishedAt": "2026-08-10T07:50:00Z",
       "updatedAt": "2026-08-10T07:50:00Z",
       "views": 0,
@@ -266,10 +1446,10 @@
       },
       "featuredImage": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/OpenAI_logo_2025_(wordmark).svg?width=1280",
-        "alt": "Logotipo da OpenAI em fundo claro",
+        "alt": "Logotipo da OpenAI",
         "source": "Wikimedia Commons / OpenAI",
         "credit": "OpenAI",
-        "license": "Public domain text logo; marca registrada pode se aplicar",
+        "license": "Logotipo textual; marca registrada pode se aplicar",
         "width": 1280,
         "height": 345
       },
@@ -295,7 +1475,7 @@
       "subCategory": "regulacao",
       "title": "Senado dos EUA avança Clarity Act e aproxima nova votação sobre regras para criptomoedas",
       "summary": "Movimento procedural prepara o projeto para votação após o recesso de agosto; proposta tenta definir como ativos digitais serão enquadrados e fiscalizados nos Estados Unidos.",
-      "author": "Redação BLOG",
+      "author": "Redação FirstNews",
       "publishedAt": "2026-08-10T07:10:00Z",
       "updatedAt": "2026-08-10T07:10:00Z",
       "views": 0,
@@ -318,7 +1498,7 @@
       },
       "featuredImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
-        "alt": "Fachada oeste do Capitólio dos Estados Unidos, sede do Congresso em Washington",
+        "alt": "Capitólio dos Estados Unidos",
         "source": "Wikimedia Commons",
         "credit": "Martin Falbisoner",
         "license": "CC BY-SA",
@@ -334,8 +1514,7 @@
       "scores": {
         "opportunity": 84,
         "trend": 73
-      },
-      "absoluteUrl": "https://blog.gabriel-speed01.workers.dev/criptomoedas/senado-eua-avanca-clarity-act-regras-criptomoedas/"
+      }
     }
   ],
   "siteUrl": "https://blog.gabriel-speed01.workers.dev",
