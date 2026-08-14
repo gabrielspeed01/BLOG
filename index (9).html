@@ -1,138 +1,51 @@
-# Pipeline editorial e automação
-
-## Objetivo
-
-O site foi preparado para receber conteúdo automaticamente sem alterar o layout.
-
-O ponto central é:
-
-`data/articles.json`
-
-A página inicial e `artigo.html` carregam esse arquivo via JavaScript. Portanto, uma automação futura pode publicar conteúdo apenas adicionando um novo objeto validado ao array `articles`.
-
-## Fluxo futuro recomendado
-
-```text
-RSS / APIs / sites oficiais / tendências
-        ↓
-coleta de itens
-        ↓
-deduplicação
-        ↓
-agrupamento por evento
-        ↓
-Opportunity Score
-        ↓
-busca por fonte primária
-        ↓
-extração de fatos
-        ↓
-geração de rascunho original
-        ↓
-validação editorial
-        ↓
-atualização de data/articles.json
-        ↓
-commit no GitHub
-        ↓
-Cloudflare Pages faz deploy automático
-```
-
-## Contrato mínimo de um artigo
-
-```json
-{
-  "id": "uuid-ou-id-estavel",
-  "slug": "titulo-em-formato-de-url",
-  "status": "published",
-  "demo": false,
-  "category": "tecnologia",
-  "title": "Título",
-  "summary": "Resumo",
-  "author": "Redação BLOG",
-  "publishedAt": "2026-08-10T12:00:00Z",
-  "updatedAt": "2026-08-10T12:00:00Z",
-  "views": 0,
-  "tags": ["IA"],
-  "entities": ["OpenAI"],
-  "body": [
-    {"type":"paragraph","text":"Texto..."},
-    {"type":"heading","text":"Intertítulo..."}
-  ],
-  "sources": [
-    {"name":"Fonte oficial","url":"https://exemplo.com"}
-  ]
-}
-```
-
-## Regras obrigatórias para a IA futura
-
-1. Outros sites são sensores de pauta, não texto-base para paráfrase.
-2. Priorizar fontes primárias.
-3. Confirmar fatos importantes em mais de uma fonte quando necessário.
-4. Não publicar rumor como fato.
-5. Não copiar títulos, parágrafos ou estrutura de outro veículo.
-6. Armazenar as fontes utilizadas.
-7. Verificar duplicidade pelo evento, entidades e similaridade semântica.
-8. Criptomoedas devem manter caráter informativo; não gerar promessa de retorno.
-9. Cada artigo deve adicionar contexto, histórico, comparação ou explicação própria.
-10. O pipeline deve poder marcar um artigo como `draft` para revisão humana.
-
-## Arquitetura SEO atual
-
-A versão atual já utiliza páginas HTML físicas para categorias e artigos.
-
-Exemplo:
-
-`/tecnologia/openai-anuncia-produto-x/index.html`
-
-O arquivo legado `artigo.html?slug=...` existe apenas para compatibilidade e redireciona para a URL estática correspondente.
-
-Para matérias reais, o publicador deverá preencher metatags, canonical, Open Graph e JSON-LD específicos e atualizar sitemap, News sitemap, RSS, páginas de categoria e links internos.
-
-
-## Arquitetura estática de publicação (v2)
-
-`data/articles.json` é a base editorial estruturada, mas não é a página final entregue ao Google.
-
-Para cada artigo real publicado, a automação deverá:
-
-1. validar o objeto do artigo;
-2. gerar uma URL estática permanente;
-3. gerar `index.html` específico para essa URL;
-4. escrever `title`, `meta description`, canonical e Open Graph no HTML;
-5. gerar JSON-LD `NewsArticle`;
-6. atualizar a página da categoria;
-7. atualizar `sitemap.xml`;
-8. atualizar `news-sitemap.xml` com artigos das últimas 48 horas;
-9. atualizar `rss.xml`;
-10. efetuar o commit/deploy.
-
-Exemplo:
-
-```text
-data/articles.json
-      ↓
-publicador estático
-      ↓
-/tecnologia/openai-anuncia-produto-x/index.html
-      ↓
-sitemap + news sitemap + RSS
-```
-
-### Conteúdo de demonstração
-
-Os artigos demo permanecem no repositório apenas para teste visual e usam `noindex,nofollow`.
-Eles não devem entrar em sitemap, News sitemap ou RSS.
-
-### Campos adicionados ao Article schema v2
-
-- `url`
-- `subCategory`
-- `seo`
-- `featuredImage`
-- `sourceEventId`
-- `generation`
-- `scores`
-
-`sourceEventId` será usado para ligar o artigo ao `NewsEvent` que originou a pauta e reduzir publicações duplicadas.
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Julgamento sobre cálculo do fundo eleitoral é suspenso no TSE e parte dos repasses aos partidos fica pendente antes da campanha.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="FirstNews">
+<meta property="og:title" content="TSE suspende julgamento sobre fatia do fundo eleitoral e trava parte dos repasses">
+<meta property="og:description" content="Pedido de vista interrompeu análise de ação do PT sobre cálculo do FEFC; parcela relevante do fundo fica pendente até conclusão do julgamento.">
+<meta property="og:url" content="https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-julgamento-fundo-eleitoral-pt/">
+<meta property="og:image" content="https://commons.wikimedia.org/wiki/Special:Redirect/file/Brazil_National_Congress.jpg?width=1280">
+<meta property="article:published_time" content="2026-08-14T00:22:00Z">
+<meta property="article:modified_time" content="2026-08-14T00:22:00Z">
+<link rel="canonical" href="https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-julgamento-fundo-eleitoral-pt/">
+<title>TSE suspende julgamento do fundo eleitoral após pedido do PT — FirstNews</title>
+<link rel="stylesheet" href="../../assets/styles.css?v=20260810-0518">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"TSE suspende julgamento sobre fatia do fundo eleitoral e trava parte dos repasses","description":"Pedido de vista interrompeu análise de ação do PT sobre cálculo do FEFC; parcela relevante do fundo fica pendente até conclusão do julgamento.","image":["https://commons.wikimedia.org/wiki/Special:Redirect/file/Brazil_National_Congress.jpg?width=1280"],"datePublished":"2026-08-14T00:22:00Z","dateModified":"2026-08-14T00:22:00Z","author":[{"@type":"Organization","name":"Redação FirstNews","url":"https://blog.gabriel-speed01.workers.dev/"}],"publisher":{"@type":"Organization","name":"FirstNews","url":"https://blog.gabriel-speed01.workers.dev/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.gabriel-speed01.workers.dev/politica/tse-suspende-julgamento-fundo-eleitoral-pt/"},"articleSection":"Política","keywords":["TSE","fundo eleitoral","PT","FEFC","Eleições 2026"]}</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7687887444939499" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="site-header"><div class="topbar"><div class="container topbar__inner">
+<a class="brand" href="/" aria-label="FirstNews — notícias em tempo real"><span class="brand__mark">F</span><span class="brand__text">FirstNews</span></a>
+<nav class="main-nav main-nav--article"><a href="/tecnologia/">Tecnologia</a><a href="/criptomoedas/">Criptomoedas</a><a href="/entretenimento/">Entretenimento</a><a href="/politica/" class="is-active">Política</a></nav>
+</div></div></header>
+<main class="container article-shell"><article class="article-page">
+<span class="article-page__category">Política · Eleições</span>
+<h1>TSE suspende julgamento sobre fatia do fundo eleitoral e trava parte dos repasses</h1>
+<p class="article-page__lead">Pedido de vista interrompeu análise de ação do PT sobre cálculo do FEFC; parcela relevante do fundo fica pendente até conclusão do julgamento.</p>
+<div class="article-page__meta">Por Redação FirstNews · Publicado em 13/08/2026</div>
+<figure class="article-featured"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Brazil_National_Congress.jpg?width=1280" alt="Congresso Nacional em Brasília" width="1280" height="826"><figcaption>Espartaco Madureira Coelho / Wikimedia Commons — Domínio público</figcaption></figure>
+<div class="article-page__body">
+<p>O Tribunal Superior Eleitoral suspendeu o julgamento de uma ação apresentada pelo PT sobre o cálculo de distribuição do Fundo Especial de Financiamento de Campanha, o FEFC. O pedido de vista interrompeu a análise e deixou parte dos repasses aos partidos temporariamente pendente.</p>
+<p>Segundo a Folha de S.Paulo, a disputa envolve o número de cadeiras considerado no cálculo da parcela destinada ao PT e um montante de aproximadamente R$ 315 milhões.</p>
+<h2>O que o PT questiona</h2>
+<p>O partido sustenta que o cálculo da representação na Câmara deveria considerar a situação do deputado Paulão, de Alagoas, após decisões judiciais relacionadas à retotalização dos votos de 2022.</p>
+<p>O presidente do TSE, Kassio Nunes Marques, votou contra o pedido. Em seguida, a ministra Estela Aranha pediu vista, suspendendo a conclusão do julgamento.</p>
+<h2>Repasse fica pendente para todos os partidos</h2>
+<p>Enquanto a discussão não termina, uma parcela equivalente a 48% dos recursos do fundo permanece bloqueada para distribuição. Isso afeta todas as legendas, não apenas o PT.</p>
+<p>A proximidade do início oficial da campanha aumenta o impacto operacional da indefinição, já que partidos utilizam o FEFC para financiar candidaturas e atividades eleitorais.</p>
+<h2>Valores são diferentes entre as legendas</h2>
+<p>Na distribuição atualmente calculada, o PL aparece com a maior fatia e o PT com a segunda maior. Esses números ainda podem sofrer ajustes conforme decisões da Justiça Eleitoral.</p>
+<p>A suspensão não representa decisão final a favor de nenhum dos lados. O julgamento será retomado após a devolução do processo, quando os ministros poderão concluir a análise.</p>
+</div>
+<div class="article-page__source"><strong>Fontes consultadas</strong><ul><li><a href="https://www1.folha.uol.com.br/poder/2026/08/tse-suspende-julgamento-de-acao-do-pt-para-ampliar-fundo-eleitoral-e-trava-repasse-a-todos-partidos.shtml" target="_blank" rel="noopener noreferrer">Folha de S.Paulo — TSE suspende julgamento sobre fundo eleitoral</a></li></ul></div>
+</article>
+<aside class="article-aside"><div class="sidebar-card"><span class="eyebrow">Contexto</span><h2>Política</h2><p>Pedido de vista interrompeu análise de ação do PT sobre cálculo do FEFC; parcela relevante do fundo fica pendente até conclusão do julgamento.</p></div></aside>
+</main>
+<footer class="site-footer"><div class="container footer-bottom">© 2026 FirstNews — notícias em tempo real</div></footer>
+</body></html>

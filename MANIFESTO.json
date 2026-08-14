@@ -1,0 +1,71 @@
+{
+  "createdAt": "2026-08-13T21:58:00-03:00",
+  "newArticles": [
+    {
+      "category": "tecnologia",
+      "title": "Microsoft prepara Maia 300 para ampliar disputa por chips de IA, diz Reuters",
+      "url": "/tecnologia/microsoft-maia-300-chip-ia-setembro/"
+    },
+    {
+      "category": "tecnologia",
+      "title": "Coreia do Sul lança plano tecnológico com meta de pouso na Lua e computador quântico",
+      "url": "/tecnologia/coreia-do-sul-plano-seed-tecnologia-lua-quantica/"
+    },
+    {
+      "category": "tecnologia",
+      "title": "Microsoft apresenta Project Perception para defesa cibernética com agentes de IA",
+      "url": "/tecnologia/microsoft-project-perception-seguranca-agentes-ia/"
+    },
+    {
+      "category": "criptomoedas",
+      "title": "Bitcoin volta à faixa de US$ 63 mil enquanto queda na Coreia pressiona ativos de risco",
+      "url": "/criptomoedas/bitcoin-63-mil-kospi-queda-mercados/"
+    },
+    {
+      "category": "criptomoedas",
+      "title": "Lido inicia migração de mais de 8 milhões de ETH e reduz número de validadores",
+      "url": "/criptomoedas/lido-migra-ether-validadores-ethereum-cmv2/"
+    },
+    {
+      "category": "criptomoedas",
+      "title": "Uphold corta 17% da equipe global e aumenta foco em clientes empresariais",
+      "url": "/criptomoedas/uphold-corta-17-por-cento-equipe-foco-empresas/"
+    },
+    {
+      "category": "politica",
+      "title": "Flávio Bolsonaro aparece filiado ao Missão; TSE cancela registro e restabelece vínculo com PL",
+      "url": "/politica/flavio-bolsonaro-filiacao-missao-tse-restabelece-pl/"
+    },
+    {
+      "category": "politica",
+      "title": "TSE suspende processamento de filiações após fraude contra Flávio e tentativa envolvendo Lula",
+      "url": "/politica/tse-suspende-sistema-filiacoes-apos-fraudes/"
+    },
+    {
+      "category": "politica",
+      "title": "TSE suspende julgamento sobre fatia do fundo eleitoral e trava parte dos repasses",
+      "url": "/politica/tse-suspende-julgamento-fundo-eleitoral-pt/"
+    },
+    {
+      "category": "entretenimento",
+      "title": "Camp Rock 3 estreia com Jonas Brothers e nova geração de campistas",
+      "url": "/entretenimento/camp-rock-3-estreia-disney-channel-disney-plus/"
+    },
+    {
+      "category": "entretenimento",
+      "title": "A Child of My Own estreia na Netflix com história sobre falsa gravidez e pressão social",
+      "url": "/entretenimento/a-child-of-my-own-estreia-netflix-documentario/"
+    },
+    {
+      "category": "entretenimento",
+      "title": "Documentário de Travis Barker estreia no Hulu e Disney+ contando trajetória após acidente",
+      "url": "/entretenimento/travis-barker-louder-than-fear-hulu-disney-plus/"
+    }
+  ],
+  "updatedFiles": [
+    "public/data/articles.json",
+    "public/sitemap.xml",
+    "public/news-sitemap.xml",
+    "public/rss.xml"
+  ]
+}
