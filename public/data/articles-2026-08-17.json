@@ -1,0 +1,1014 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-17T20:58:00Z",
+  "articles": [
+    {
+      "id": "tech-2026-08-17-nvidia-openai-ohio",
+      "sourceEventId": "tech-2026-08-17-nvidia-openai-ohio-event",
+      "slug": "nvidia-garantia-openai-data-center-ohio",
+      "url": "/tecnologia/nvidia-garantia-openai-data-center-ohio/",
+      "status": "published",
+      "demo": false,
+      "category": "tecnologia",
+      "subCategory": "inteligencia-artificial",
+      "title": "Nvidia oferece garantia de até US$ 105 bilhões para megadata center da OpenAI em Ohio",
+      "summary": "Acordo dá suporte ao contrato de 20 anos da OpenAI com a SB Energy e inclui investimento de US$ 1,5 bilhão da Nvidia na empresa.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-17T20:58:00Z",
+      "updatedAt": "2026-08-17T20:58:00Z",
+      "views": 0,
+      "tags": [
+        "Nvidia",
+        "OpenAI",
+        "SB Energy",
+        "data centers",
+        "IA"
+      ],
+      "entities": [
+        "Nvidia",
+        "OpenAI",
+        "SB Energy",
+        "SoftBank"
+      ],
+      "seo": {
+        "title": "Nvidia oferece garantia de até US$ 105 bilhões para megadata center",
+        "description": "Acordo dá suporte ao contrato de 20 anos da OpenAI com a SB Energy e inclui investimento de US$ 1,5 bilhão da Nvidia na empresa.",
+        "canonical": "https://firstnews.com.br/tecnologia/nvidia-garantia-openai-data-center-ohio/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Datacenter_Server_Racks_(22370909788).jpg?width=1280",
+        "alt": "Racks de servidores em um data center",
+        "source": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+        "credit": "Carl Lender / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "width": 1280,
+        "height": 853
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A Nvidia concordou em oferecer uma garantia de até US$ 105 bilhões para apoiar o contrato de locação de um grande data center da OpenAI em Pike County, Ohio, desenvolvido pela SB Energy, controlada pela SoftBank."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a Reuters, a fabricante de chips também investirá US$ 1,5 bilhão na SB Energy. A primeira etapa, de 800 megawatts, é esperada para 2028, enquanto o complexo pode chegar a até 8 gigawatts de capacidade."
+        },
+        {
+          "type": "heading",
+          "text": "Infraestrutura vira parte da disputa pela IA"
+        },
+        {
+          "type": "paragraph",
+          "text": "O acordo mostra como a competição por inteligência artificial passou a envolver não apenas modelos e chips, mas também energia, financiamento e construção de data centers. A Nvidia será fornecedora exclusiva de chips para o projeto."
+        },
+        {
+          "type": "paragraph",
+          "text": "A garantia não significa que a Nvidia desembolsará automaticamente o valor total. Ela funciona como proteção para parte das obrigações de aluguel e energia caso a OpenAI não cumpra os pagamentos previstos."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Nvidia to provide up to $105 billion guarantee for OpenAI Ohio data center",
+          "url": "https://www.reuters.com/business/media-telecom/nvidia-invest-15-billion-sb-energy-under-openai-data-center-deal-2026-08-17/"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 98,
+        "trend": 98
+      },
+      "categoryUrl": "/tecnologia/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Datacenter_Server_Racks_(22370909788).jpg?width=1280",
+        "alt": "Racks de servidores em um data center",
+        "source": "featuredImage"
+      }
+    },
+    {
+      "id": "tech-2026-08-17-microsoft-infra-ia",
+      "sourceEventId": "tech-2026-08-17-microsoft-infra-ia-event",
+      "slug": "microsoft-infraestrutura-ia-gargalos-data-centers",
+      "url": "/tecnologia/microsoft-infraestrutura-ia-gargalos-data-centers/",
+      "status": "published",
+      "demo": false,
+      "category": "tecnologia",
+      "subCategory": "inteligencia-artificial",
+      "title": "Microsoft enfrenta dúvidas sobre ritmo de expansão de sua infraestrutura de IA",
+      "summary": "Investigação aponta possíveis gargalos de energia, construção e ativação de data centers; a Microsoft contesta a metodologia usada nas estimativas.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-17T20:58:00Z",
+      "updatedAt": "2026-08-17T20:58:00Z",
+      "views": 0,
+      "tags": [
+        "Microsoft",
+        "IA",
+        "data centers",
+        "chips",
+        "Azure"
+      ],
+      "entities": [
+        "Microsoft",
+        "Nvidia",
+        "Azure"
+      ],
+      "seo": {
+        "title": "Microsoft enfrenta dúvidas sobre ritmo de expansão de sua infraestr",
+        "description": "Investigação aponta possíveis gargalos de energia, construção e ativação de data centers; a Microsoft contesta a metodologia usada nas estimativas.",
+        "canonical": "https://firstnews.com.br/tecnologia/microsoft-infraestrutura-ia-gargalos-data-centers/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Server_Room_(22397102849).jpg?width=1280",
+        "alt": "Sala de servidores e infraestrutura computacional",
+        "source": "https://commons.wikimedia.org/wiki/File:Server_Room_(22397102849).jpg",
+        "credit": "Carl Lender / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "width": 1280,
+        "height": 853
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Uma investigação publicada pelo The Guardian levantou dúvidas sobre a velocidade com que a Microsoft está transformando investimentos bilionários em capacidade efetivamente operacional para inteligência artificial."
+        },
+        {
+          "type": "paragraph",
+          "text": "A reportagem compara projeções anteriores de instalação de chips com números obtidos em documentos e estimativas de capacidade elétrica, apontando possíveis atrasos em construção, conexão de energia e ativação de instalações."
+        },
+        {
+          "type": "heading",
+          "text": "Microsoft contesta as estimativas"
+        },
+        {
+          "type": "paragraph",
+          "text": "A Microsoft rejeitou a metodologia usada para estimar sua capacidade operacional e afirmou que os cálculos não representam corretamente sua infraestrutura. A divergência é importante porque data centers podem ser anunciados ou construídos antes de operar em plena capacidade."
+        },
+        {
+          "type": "paragraph",
+          "text": "O caso ilustra um dos principais limites físicos do boom de IA: mesmo com chips disponíveis, projetos dependem de rede elétrica, obras, refrigeração e integração de equipamentos."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Guardian — Are Microsoft AI plans being held back by infrastructure bottlenecks?",
+          "url": "https://www.theguardian.com/technology/2026/aug/17/are-microsofts-ai-plans-being-held-back-by-a-shortage-of-chips"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 91,
+        "trend": 91
+      },
+      "categoryUrl": "/tecnologia/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Server_Room_(22397102849).jpg?width=1280",
+        "alt": "Sala de servidores e infraestrutura computacional",
+        "source": "featuredImage"
+      }
+    },
+    {
+      "id": "tech-2026-08-17-taiwan-ciberataque-ia",
+      "sourceEventId": "tech-2026-08-17-taiwan-ciberataque-ia-event",
+      "slug": "taiwan-ciberataques-agentes-ia-governo",
+      "url": "/tecnologia/taiwan-ciberataques-agentes-ia-governo/",
+      "status": "published",
+      "demo": false,
+      "category": "tecnologia",
+      "subCategory": "ciberseguranca",
+      "title": "Taiwan confirma ciberataques contra órgãos públicos com auxílio de agentes de IA",
+      "summary": "Governo afirma que detectou campanha em julho combinando operações humanas e ferramentas de inteligência artificial contra agências públicas.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-17T20:58:00Z",
+      "updatedAt": "2026-08-17T20:58:00Z",
+      "views": 0,
+      "tags": [
+        "Taiwan",
+        "cibersegurança",
+        "agentes de IA",
+        "governo"
+      ],
+      "entities": [
+        "Taiwan",
+        "Ministério de Assuntos Digitais"
+      ],
+      "seo": {
+        "title": "Taiwan confirma ciberataques contra órgãos públicos com auxílio de ",
+        "description": "Governo afirma que detectou campanha em julho combinando operações humanas e ferramentas de inteligência artificial contra agências públicas.",
+        "canonical": "https://firstnews.com.br/tecnologia/taiwan-ciberataques-agentes-ia-governo/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PDC_server_room.jpg?width=1280",
+        "alt": "Infraestrutura de servidores usada como imagem contextual de cibersegurança",
+        "source": "https://commons.wikimedia.org/wiki/File:PDC_server_room.jpg",
+        "credit": "Johan Fredriksson (Esquilo) / Wikimedia Commons",
+        "license": "Creative Commons",
+        "width": 1280,
+        "height": 853
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Taiwan informou ter detectado em julho uma campanha de ciberataques assistidos por inteligência artificial contra órgãos governamentais. O Ministério de Assuntos Digitais disse que as unidades atingidas conseguiram responder ao incidente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a Reuters, os ataques combinaram ações humanas com agentes de IA e vieram de fontes no exterior. Alertas começaram a ser emitidos a partir de 20 de julho enquanto o governo investigava a atividade anormal."
+        },
+        {
+          "type": "heading",
+          "text": "IA acelera tarefas, mas humanos continuam no circuito"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ferramentas de IA podem acelerar reconhecimento, criação de código e automação de etapas de um ataque. Especialistas, porém, ainda destacam a presença de operadores humanos na definição dos alvos e na condução das campanhas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Taiwan registra pressão cibernética recorrente sobre infraestrutura pública e privada, o que torna o episódio relevante para a discussão sobre defesa digital em governos."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Taiwan says it was targeted in AI-driven hacking campaign",
+          "url": "https://www.reuters.com/world/china/taiwan-says-it-was-targeted-last-month-ai-driven-hacking-campaign-2026-08-13/"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 92,
+        "trend": 92
+      },
+      "categoryUrl": "/tecnologia/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PDC_server_room.jpg?width=1280",
+        "alt": "Infraestrutura de servidores usada como imagem contextual de cibersegurança",
+        "source": "featuredImage"
+      }
+    },
+    {
+      "id": "crypto-2026-08-17-tether-kpmg",
+      "sourceEventId": "crypto-2026-08-17-tether-kpmg-event",
+      "slug": "tether-kpmg-auditoria-financeira-2025",
+      "url": "/criptomoedas/tether-kpmg-auditoria-financeira-2025/",
+      "status": "published",
+      "demo": false,
+      "category": "criptomoedas",
+      "subCategory": "stablecoins",
+      "title": "Tether diz que KPMG realizou sua primeira auditoria completa das demonstrações financeiras",
+      "summary": "Empresa afirma que a KPMG dos Estados Unidos auditou as contas de 2025; o relatório completo ainda não foi divulgado publicamente.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-17T20:58:00Z",
+      "updatedAt": "2026-08-17T20:58:00Z",
+      "views": 0,
+      "tags": [
+        "Tether",
+        "USDT",
+        "KPMG",
+        "stablecoin",
+        "auditoria"
+      ],
+      "entities": [
+        "Tether",
+        "KPMG",
+        "USDT"
+      ],
+      "seo": {
+        "title": "Tether diz que KPMG realizou sua primeira auditoria completa das de",
+        "description": "Empresa afirma que a KPMG dos Estados Unidos auditou as contas de 2025; o relatório completo ainda não foi divulgado publicamente.",
+        "canonical": "https://firstnews.com.br/criptomoedas/tether-kpmg-auditoria-financeira-2025/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin_2026.jpg?width=1280",
+        "alt": "Representação física de bitcoin e ativos digitais",
+        "source": "https://commons.wikimedia.org/wiki/File:Bitcoin_2026.jpg",
+        "credit": "Wald-Burger8 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "width": 1280,
+        "height": 853
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A Tether afirmou que a KPMG dos Estados Unidos realizou uma auditoria independente completa de suas demonstrações financeiras de 2025, a primeira desse tipo anunciada pela emissora da USDT."
+        },
+        {
+          "type": "paragraph",
+          "text": "A empresa tenta há anos responder a questionamentos sobre transparência e reservas. Segundo a Reuters, o resultado integral da auditoria ainda não foi tornado público."
+        },
+        {
+          "type": "heading",
+          "text": "Auditoria completa é diferente de atestação"
+        },
+        {
+          "type": "paragraph",
+          "text": "A Tether vinha publicando relatórios periódicos de atestação sobre reservas. Uma auditoria financeira completa envolve escopo e procedimentos mais amplos, embora a avaliação concreta dependa do relatório e das demonstrações auditadas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Como a USDT é uma das maiores stablecoins do mercado, informações sobre reservas e controles financeiros têm impacto relevante para usuários, exchanges e reguladores."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Stablecoin issuer Tether says KPMG US audited its 2025 statements",
+          "url": "https://www.reuters.com/world/americas/stablecoin-issuer-tether-says-kpmg-us-has-audited-its-2025-statements-2026-08-14/"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false,
+        "editorialRisk": "medium"
+      },
+      "scores": {
+        "opportunity": 94,
+        "trend": 94
+      },
+      "categoryUrl": "/criptomoedas/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin_2026.jpg?width=1280",
+        "alt": "Representação física de bitcoin e ativos digitais",
+        "source": "featuredImage"
+      }
+    },
+    {
+      "id": "crypto-2026-08-17-wlfi-occ",
+      "sourceEventId": "crypto-2026-08-17-wlfi-occ-event",
+      "slug": "world-liberty-financial-aprovacao-condicional-banco-fiduciario",
+      "url": "/criptomoedas/world-liberty-financial-aprovacao-condicional-banco-fiduciario/",
+      "status": "published",
+      "demo": false,
+      "category": "criptomoedas",
+      "subCategory": "regulacao",
+      "title": "World Liberty Financial recebe aprovação condicional para banco fiduciário nacional nos EUA",
+      "summary": "Decisão do OCC representa uma etapa regulatória para a estrutura bancária ligada à operação de ativos digitais da empresa.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-17T20:58:00Z",
+      "updatedAt": "2026-08-17T20:58:00Z",
+      "views": 0,
+      "tags": [
+        "World Liberty Financial",
+        "OCC",
+        "banco fiduciário",
+        "cripto",
+        "regulação"
+      ],
+      "entities": [
+        "World Liberty Financial",
+        "OCC"
+      ],
+      "seo": {
+        "title": "World Liberty Financial recebe aprovação condicional para banco fid",
+        "description": "Decisão do OCC representa uma etapa regulatória para a estrutura bancária ligada à operação de ativos digitais da empresa.",
+        "canonical": "https://firstnews.com.br/criptomoedas/world-liberty-financial-aprovacao-condicional-banco-fiduciario/"
+      },
+      "featuredImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
+        "alt": "Capitólio dos Estados Unidos em Washington",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Capitol_west_side.JPG",
+        "credit": "Martin Falbisoner / Wikimedia Commons",
+        "license": "CC BY-SA",
+        "width": 1280,
+        "height": 853
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A World Liberty Financial recebeu aprovação condicional do Office of the Comptroller of the Currency para avançar com uma estrutura de banco fiduciário nacional nos Estados Unidos."
+        },
+        {
+          "type": "paragraph",
+          "text": "A aprovação condicional não equivale ao início imediato das operações. A instituição ainda precisa cumprir requisitos estabelecidos pelo regulador antes de funcionar plenamente sob o charter."
+        },
+        {
+          "type": "heading",
+          "text": "Por que o charter importa"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bancos fiduciários nacionais podem oferecer serviços de custódia e administração de ativos sob supervisão federal. Para empresas de ativos digitais, a estrutura pode aproximar operações cripto de modelos tradicionais de compliance e custódia."
+        },
+        {
+          "type": "paragraph",
+          "text": "A decisão ocorre em um ambiente de maior aproximação entre empresas de criptoativos e instituições reguladas nos Estados Unidos."
+        }
+      ],
+      "sources": [
+        {
+          "name": "OCC — Charter and licensing public materials",
+          "url": "https://www.occ.gov/topics/charters-and-licensing/public-comment/business-combination-or-merger-applications-comments.html"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false,
+        "editorialRisk": "high",
+        "requiresHumanReview": true
+      },
+      "scores": {
+        "opportunity": 86,
+        "trend": 86
+      },
+      "categoryUrl": "/criptomoedas/",
+      "thumbnail": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
+        "alt": "Capitólio dos Estados Unidos em Washington",
+        "source": "featuredImage"
+      }
+    },
+    {
+      "id": "crypto-2026-08-17-sec-regras-startups",
+      "sourceEventId": "crypto-2026-08-17-sec-regras-startups-event",
+      "slug": "sec-adia-votacao-regras-startups-cripto",
+      "url": "/criptomoedas/sec-adia-votacao-regras-startups-cripto/",
+      "status": "published",
+      "demo": false,
+      "category": "criptomoedas",
+      "subCategory": "regulacao",
+      "title": "SEC adia votação de novas regras para startups de criptomoedas",
+      "summary": "Comissão cancelou reunião que discutiria isenções regulatórias para empresas do setor captarem recursos sob regras diferentes das ofertas tradicionais.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-17T20:58:00Z",
+      "updatedAt": "2026-08-17T20:58:00Z",
+      "views": 0,
+      "tags": [
+        "SEC",
+        "startups cripto",
+        "regulação",
+        "Estados Unidos"
+      ],
+      "entities": [
+        "SEC"
+      ],
+      "seo": {
+        "title": "SEC adia votação de novas regras para startups de criptomoedas",
+        "description": "Comissão cancelou reunião que discutiria isenções regulatórias para empresas do setor captarem recursos sob regras diferentes das ofertas tradicionais.",
+        "canonical": "https://firstnews.com.br/criptomoedas/sec-adia-votacao-regras-startups-cripto/"
+      },
+      "featuredImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
+        "alt": "Capitólio dos Estados Unidos em Washington",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Capitol_west_side.JPG",
+        "credit": "Martin Falbisoner / Wikimedia Commons",
+        "license": "CC BY-SA",
+        "width": 1280,
+        "height": 853
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A Securities and Exchange Commission dos Estados Unidos cancelou uma reunião em que votaria propostas relacionadas a novas regras para empresas de criptomoedas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a Reuters, a discussão incluía possíveis isenções para captação de recursos por startups do setor, em uma tentativa de adaptar regras tradicionais de valores mobiliários a determinados modelos de ativos digitais."
+        },
+        {
+          "type": "heading",
+          "text": "Adiamento mantém incerteza"
+        },
+        {
+          "type": "paragraph",
+          "text": "O cancelamento não representa aprovação nem rejeição das propostas. O tema poderá voltar à pauta em outra data e ainda pode sofrer alterações antes de uma decisão definitiva."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para o setor, a discussão é relevante porque define custos de compliance, formas de captação e limites entre tokens, contratos de investimento e outros instrumentos financeiros."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — US securities regulator cancels meeting on crypto rules",
+          "url": "https://www.reuters.com/world/us-securities-regulator-cancels-meeting-vote-crypto-rules-2026-08-13/"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false,
+        "editorialRisk": "medium"
+      },
+      "scores": {
+        "opportunity": 88,
+        "trend": 88
+      },
+      "categoryUrl": "/criptomoedas/",
+      "thumbnail": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
+        "alt": "Capitólio dos Estados Unidos em Washington",
+        "source": "featuredImage"
+      }
+    },
+    {
+      "id": "ent-2026-08-17-xmen-elenco",
+      "sourceEventId": "ent-2026-08-17-xmen-elenco-event",
+      "slug": "marvel-novo-elenco-x-men-d23-2026",
+      "url": "/entretenimento/marvel-novo-elenco-x-men-d23-2026/",
+      "status": "published",
+      "demo": false,
+      "category": "entretenimento",
+      "subCategory": "filmes",
+      "title": "Marvel revela novo elenco dos X-Men em evento da Disney",
+      "summary": "Sadie Sink, Kit Connor, Christopher Abbott e Adam Driver estão entre os nomes anunciados para o novo filme, previsto para 2028.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-17T20:58:00Z",
+      "updatedAt": "2026-08-17T20:58:00Z",
+      "views": 0,
+      "tags": [
+        "Marvel",
+        "X-Men",
+        "Disney",
+        "Sadie Sink",
+        "Adam Driver"
+      ],
+      "entities": [
+        "Marvel",
+        "Disney",
+        "X-Men"
+      ],
+      "seo": {
+        "title": "Marvel revela novo elenco dos X-Men em evento da Disney",
+        "description": "Sadie Sink, Kit Connor, Christopher Abbott e Adam Driver estão entre os nomes anunciados para o novo filme, previsto para 2028.",
+        "canonical": "https://firstnews.com.br/entretenimento/marvel-novo-elenco-x-men-d23-2026/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cinderella_Castle_at_Magic_Kingdom.jpg?width=1280",
+        "alt": "Castelo do Magic Kingdom, imagem contextual relacionada à Disney",
+        "source": "https://commons.wikimedia.org/wiki/File:Cinderella_Castle_at_Magic_Kingdom.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "Conforme página do arquivo no Wikimedia Commons",
+        "width": 1280,
+        "height": 853
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A Marvel apresentou durante o evento D23 da Disney uma nova formação de atores para os X-Men, abrindo uma nova fase da equipe no cinema."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a Reuters, Sadie Sink foi anunciada como Jean Grey, Kit Connor como Cyclops, Christopher Abbott como Professor X e Adam Driver como Mister Sinister."
+        },
+        {
+          "type": "heading",
+          "text": "Filme está previsto para 2028"
+        },
+        {
+          "type": "paragraph",
+          "text": "A estreia foi indicada para maio de 2028. Até lá, detalhes de roteiro, produção e calendário podem mudar conforme o desenvolvimento do projeto."
+        },
+        {
+          "type": "paragraph",
+          "text": "A apresentação reforça a estratégia da Marvel de incorporar os mutantes de forma mais direta ao seu universo cinematográfico após anos de expectativa dos fãs."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Disney reveals Marvel new X-Men cast at D23",
+          "url": "https://www.reuters.com/business/media-telecom/disney-reveals-marvels-new-x-men-cast-frozen-3-d23-fan-event-2026-08-15/"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 97,
+        "trend": 97
+      },
+      "categoryUrl": "/entretenimento/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cinderella_Castle_at_Magic_Kingdom.jpg?width=1280",
+        "alt": "Castelo do Magic Kingdom, imagem contextual relacionada à Disney",
+        "source": "featuredImage"
+      }
+    },
+    {
+      "id": "ent-2026-08-17-frozen-3",
+      "sourceEventId": "ent-2026-08-17-frozen-3-event",
+      "slug": "frozen-3-novos-detalhes-estreia-2027",
+      "url": "/entretenimento/frozen-3-novos-detalhes-estreia-2027/",
+      "status": "published",
+      "demo": false,
+      "category": "entretenimento",
+      "subCategory": "filmes",
+      "title": "Frozen 3 ganha novos detalhes e mantém estreia prevista para novembro de 2027",
+      "summary": "Disney revelou novidades da história durante a D23, incluindo o casamento de Anna e elementos de uma nova ameaça para Arendelle.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-17T20:58:00Z",
+      "updatedAt": "2026-08-17T20:58:00Z",
+      "views": 0,
+      "tags": [
+        "Frozen 3",
+        "Disney",
+        "Anna",
+        "Elsa",
+        "D23"
+      ],
+      "entities": [
+        "Disney",
+        "Frozen 3"
+      ],
+      "seo": {
+        "title": "Frozen 3 ganha novos detalhes e mantém estreia prevista para novemb",
+        "description": "Disney revelou novidades da história durante a D23, incluindo o casamento de Anna e elementos de uma nova ameaça para Arendelle.",
+        "canonical": "https://firstnews.com.br/entretenimento/frozen-3-novos-detalhes-estreia-2027/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cinderella_Castle_at_Magic_Kingdom.jpg?width=1280",
+        "alt": "Castelo do Magic Kingdom, imagem contextual relacionada à Disney",
+        "source": "https://commons.wikimedia.org/wiki/File:Cinderella_Castle_at_Magic_Kingdom.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "Conforme página do arquivo no Wikimedia Commons",
+        "width": 1280,
+        "height": 853
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A Disney divulgou novos detalhes de Frozen 3 durante a D23, ampliando as primeiras informações sobre a próxima aventura de Anna, Elsa e os habitantes de Arendelle."
+        },
+        {
+          "type": "paragraph",
+          "text": "A apresentação indicou que a história incluirá o casamento de Anna e novos conflitos para o reino. A estreia segue prevista para novembro de 2027."
+        },
+        {
+          "type": "heading",
+          "text": "Franquia continua sendo prioridade para a Disney"
+        },
+        {
+          "type": "paragraph",
+          "text": "Frozen é uma das propriedades de animação mais valiosas do estúdio, com dois filmes de grande alcance global, produtos licenciados e presença constante nos parques da companhia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mais detalhes sobre elenco de voz, músicas e trama devem ser divulgados conforme a produção se aproxima do lançamento."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Disney reveals Frozen 3 details at D23",
+          "url": "https://www.reuters.com/business/media-telecom/disney-reveals-marvels-new-x-men-cast-frozen-3-d23-fan-event-2026-08-15/"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 95,
+        "trend": 95
+      },
+      "categoryUrl": "/entretenimento/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cinderella_Castle_at_Magic_Kingdom.jpg?width=1280",
+        "alt": "Castelo do Magic Kingdom, imagem contextual relacionada à Disney",
+        "source": "featuredImage"
+      }
+    },
+    {
+      "id": "ent-2026-08-17-kingdom-hearts-4",
+      "sourceEventId": "ent-2026-08-17-kingdom-hearts-4-event",
+      "slug": "kingdom-hearts-4-novo-video-serie-animada-disney",
+      "url": "/entretenimento/kingdom-hearts-4-novo-video-serie-animada-disney/",
+      "status": "published",
+      "demo": false,
+      "category": "entretenimento",
+      "subCategory": "games",
+      "title": "Kingdom Hearts 4 ganha novo vídeo e Disney prepara série animada da franquia",
+      "summary": "Square Enix mostrou nova prévia do jogo previsto para 2027, enquanto uma adaptação animada também está em desenvolvimento.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-17T20:58:00Z",
+      "updatedAt": "2026-08-17T20:58:00Z",
+      "views": 0,
+      "tags": [
+        "Kingdom Hearts 4",
+        "Disney",
+        "Square Enix",
+        "games"
+      ],
+      "entities": [
+        "Kingdom Hearts",
+        "Disney",
+        "Square Enix"
+      ],
+      "seo": {
+        "title": "Kingdom Hearts 4 ganha novo vídeo e Disney prepara série animada da",
+        "description": "Square Enix mostrou nova prévia do jogo previsto para 2027, enquanto uma adaptação animada também está em desenvolvimento.",
+        "canonical": "https://firstnews.com.br/entretenimento/kingdom-hearts-4-novo-video-serie-animada-disney/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cinderella_Castle_at_Magic_Kingdom.jpg?width=1280",
+        "alt": "Castelo do Magic Kingdom, imagem contextual relacionada à Disney",
+        "source": "https://commons.wikimedia.org/wiki/File:Cinderella_Castle_at_Magic_Kingdom.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "Conforme página do arquivo no Wikimedia Commons",
+        "width": 1280,
+        "height": 853
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Kingdom Hearts 4 recebeu uma nova prévia durante um evento da Disney, com imagens adicionais do próximo capítulo da parceria entre a Square Enix e personagens do universo Disney."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a Reuters, o jogo está previsto para 2027. A apresentação também trouxe a informação de que uma série animada baseada na franquia está em desenvolvimento."
+        },
+        {
+          "type": "heading",
+          "text": "Franquia mistura universos desde 2002"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kingdom Hearts combina personagens originais da Square Enix com mundos e figuras da Disney. A série construiu uma base global de fãs ao longo de mais de duas décadas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Datas e plataformas específicas ainda podem mudar até o lançamento, e novos detalhes devem ser apresentados pela Square Enix ao longo do desenvolvimento."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Disney and Square Enix preview Kingdom Hearts 4",
+          "url": "https://www.reuters.com/lifestyle/disney-square-enix-preview-kingdom-hearts-4-video-game-fan-convention-2026-08-16/"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 93,
+        "trend": 93
+      },
+      "categoryUrl": "/entretenimento/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cinderella_Castle_at_Magic_Kingdom.jpg?width=1280",
+        "alt": "Castelo do Magic Kingdom, imagem contextual relacionada à Disney",
+        "source": "featuredImage"
+      }
+    },
+    {
+      "id": "pol-2026-08-17-btg-nexus-lula-flavio",
+      "sourceEventId": "pol-2026-08-17-btg-nexus-lula-flavio-event",
+      "slug": "btg-nexus-lula-flavio-empate-tecnico-segundo-turno",
+      "url": "/politica/btg-nexus-lula-flavio-empate-tecnico-segundo-turno/",
+      "status": "published",
+      "demo": false,
+      "category": "politica",
+      "subCategory": "pesquisas-eleitorais",
+      "title": "BTG/Nexus mostra Lula e Flávio Bolsonaro em empate técnico no segundo turno",
+      "summary": "Pesquisa aponta Lula com 47% e Flávio Bolsonaro com 44%; diferença está dentro da margem de erro informada de dois pontos percentuais.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-17T20:58:00Z",
+      "updatedAt": "2026-08-17T20:58:00Z",
+      "views": 0,
+      "tags": [
+        "Eleições 2026",
+        "Lula",
+        "Flávio Bolsonaro",
+        "BTG/Nexus",
+        "pesquisa eleitoral"
+      ],
+      "entities": [
+        "Luiz Inácio Lula da Silva",
+        "Flávio Bolsonaro",
+        "BTG Pactual",
+        "Nexus"
+      ],
+      "seo": {
+        "title": "BTG/Nexus mostra Lula e Flávio Bolsonaro em empate técnico no segun",
+        "description": "Pesquisa aponta Lula com 47% e Flávio Bolsonaro com 44%; diferença está dentro da margem de erro informada de dois pontos percentuais.",
+        "canonical": "https://firstnews.com.br/politica/btg-nexus-lula-flavio-empate-tecnico-segundo-turno/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fl%C3%A1vio_Bolsonaro_04_2026.jpg?width=1280",
+        "alt": "Senador Flávio Bolsonaro em fotografia da Agência Senado",
+        "source": "https://commons.wikimedia.org/wiki/File:Fl%C3%A1vio_Bolsonaro_04_2026.jpg",
+        "credit": "Ton Molina / Agência Senado",
+        "license": "Uso com crédito, conforme condições da Agência Senado",
+        "width": 1280,
+        "height": 853
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Pesquisa BTG/Nexus divulgada em 17 de agosto mostra Luiz Inácio Lula da Silva com 47% e Flávio Bolsonaro com 44% em uma simulação de segundo turno da eleição presidencial."
+        },
+        {
+          "type": "paragraph",
+          "text": "Como a margem de erro informada é de dois pontos percentuais, a diferença de três pontos não permite tratar o cenário como vantagem consolidada. No primeiro turno, o levantamento registra 41% para Lula e 36% para Flávio."
+        },
+        {
+          "type": "heading",
+          "text": "Como a pesquisa foi feita"
+        },
+        {
+          "type": "paragraph",
+          "text": "Foram entrevistados 2.003 eleitores entre 14 e 16 de agosto. O levantamento informa nível de confiança de 95% e margem de erro de dois pontos percentuais."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pesquisas são retratos do momento e não previsões do resultado da eleição. Mudanças de campanha, debates e acontecimentos políticos podem alterar as preferências até a votação."
+        }
+      ],
+      "sources": [
+        {
+          "name": "UOL — pesquisas para presidente em 2026",
+          "url": "https://noticias.uol.com.br/eleicoes/2026/08/17/quem-esta-na-frente-nas-pesquisas-para-presidente-veja-numeros.ghtm"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false,
+        "editorialRisk": "high",
+        "requiresHumanReview": true
+      },
+      "scores": {
+        "opportunity": 99,
+        "trend": 99
+      },
+      "categoryUrl": "/politica/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fl%C3%A1vio_Bolsonaro_04_2026.jpg?width=1280",
+        "alt": "Senador Flávio Bolsonaro em fotografia da Agência Senado",
+        "source": "featuredImage"
+      }
+    },
+    {
+      "id": "pol-2026-08-17-inicio-campanhas",
+      "sourceEventId": "pol-2026-08-17-inicio-campanhas-event",
+      "slug": "lula-flavio-iniciam-campanhas-presidenciais-2026",
+      "url": "/politica/lula-flavio-iniciam-campanhas-presidenciais-2026/",
+      "status": "published",
+      "demo": false,
+      "category": "politica",
+      "subCategory": "eleicoes",
+      "title": "Lula e Flávio Bolsonaro iniciam campanhas presidenciais em seus redutos políticos",
+      "summary": "Lula abriu campanha em São Bernardo do Campo, enquanto Flávio Bolsonaro realizou ato em Copacabana; os dois buscam ampliar apoio entre trabalhadores.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-17T20:58:00Z",
+      "updatedAt": "2026-08-17T20:58:00Z",
+      "views": 0,
+      "tags": [
+        "Eleições 2026",
+        "Lula",
+        "Flávio Bolsonaro",
+        "campanha eleitoral"
+      ],
+      "entities": [
+        "Luiz Inácio Lula da Silva",
+        "Flávio Bolsonaro"
+      ],
+      "seo": {
+        "title": "Lula e Flávio Bolsonaro iniciam campanhas presidenciais em seus red",
+        "description": "Lula abriu campanha em São Bernardo do Campo, enquanto Flávio Bolsonaro realizou ato em Copacabana; os dois buscam ampliar apoio entre trabalhadores.",
+        "canonical": "https://firstnews.com.br/politica/lula-flavio-iniciam-campanhas-presidenciais-2026/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fl%C3%A1vio_Bolsonaro_04_2026.jpg?width=1280",
+        "alt": "Senador Flávio Bolsonaro em fotografia da Agência Senado",
+        "source": "https://commons.wikimedia.org/wiki/File:Fl%C3%A1vio_Bolsonaro_04_2026.jpg",
+        "credit": "Ton Molina / Agência Senado",
+        "license": "Uso com crédito, conforme condições da Agência Senado",
+        "width": 1280,
+        "height": 853
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Lula e Flávio Bolsonaro iniciaram suas campanhas presidenciais de 2026 com atos em locais associados às respectivas trajetórias políticas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a Reuters, Lula abriu a campanha em São Bernardo do Campo, na região do ABC paulista, enquanto Flávio realizou evento em Copacabana, no Rio de Janeiro."
+        },
+        {
+          "type": "heading",
+          "text": "Disputa pelo voto de trabalhadores"
+        },
+        {
+          "type": "paragraph",
+          "text": "As campanhas também apresentam estratégias para alcançar trabalhadores informais, autônomos e profissionais de plataformas digitais, grupos que ganharam peso nas transformações recentes do mercado de trabalho."
+        },
+        {
+          "type": "paragraph",
+          "text": "Declarações feitas em atos de campanha devem ser tratadas como posições dos candidatos e não como fatos independentes quando envolverem acusações ou promessas ainda não verificáveis."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Brazil Lula launches reelection bid",
+          "url": "https://www.reuters.com/world/americas/brazils-lula-launches-reelection-bid-aims-win-back-workers-his-workers-party-2026-08-16/"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false,
+        "editorialRisk": "high",
+        "requiresHumanReview": true
+      },
+      "scores": {
+        "opportunity": 97,
+        "trend": 97
+      },
+      "categoryUrl": "/politica/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fl%C3%A1vio_Bolsonaro_04_2026.jpg?width=1280",
+        "alt": "Senador Flávio Bolsonaro em fotografia da Agência Senado",
+        "source": "featuredImage"
+      }
+    },
+    {
+      "id": "pol-2026-08-17-durigan-fiscal",
+      "sourceEventId": "pol-2026-08-17-durigan-fiscal-event",
+      "slug": "durigan-reformas-fiscais-reta-final-dificil",
+      "url": "/politica/durigan-reformas-fiscais-reta-final-dificil/",
+      "status": "published",
+      "demo": false,
+      "category": "politica",
+      "subCategory": "economia",
+      "title": "Durigan diz que Brasil entrou na “reta final” mais difícil das reformas fiscais",
+      "summary": "Ministro citou despesas obrigatórias, emendas parlamentares, privilégios previdenciários e salários acima do teto entre os temas a enfrentar.",
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-17T20:58:00Z",
+      "updatedAt": "2026-08-17T20:58:00Z",
+      "views": 0,
+      "tags": [
+        "Dario Durigan",
+        "fiscal",
+        "Fazenda",
+        "orçamento público"
+      ],
+      "entities": [
+        "Dario Durigan",
+        "Ministério da Fazenda"
+      ],
+      "seo": {
+        "title": "Durigan diz que Brasil entrou na “reta final” mais difícil das refo",
+        "description": "Ministro citou despesas obrigatórias, emendas parlamentares, privilégios previdenciários e salários acima do teto entre os temas a enfrentar.",
+        "canonical": "https://firstnews.com.br/politica/durigan-reformas-fiscais-reta-final-dificil/"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pal%C3%A1cio_do_Planalto_GGFD8938.jpg?width=1280",
+        "alt": "Palácio do Planalto em Brasília",
+        "source": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_do_Planalto_GGFD8938.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "Conforme página do arquivo no Wikimedia Commons",
+        "width": 1280,
+        "height": 853
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "O ministro da Fazenda, Dario Durigan, afirmou que o Brasil entrou na etapa mais difícil do processo de reformas fiscais, com temas politicamente sensíveis ainda pendentes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Em entrevista repercutida pela Reuters, ele citou despesas obrigatórias, emendas parlamentares, regras previdenciárias e remunerações acima do teto do serviço público entre os pontos que exigem debate."
+        },
+        {
+          "type": "heading",
+          "text": "Ajuste depende de decisões políticas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mudanças nessas áreas passam por Congresso, Judiciário e diferentes níveis de governo. Por isso, a agenda fiscal não depende apenas de decisões administrativas do Ministério da Fazenda."
+        },
+        {
+          "type": "paragraph",
+          "text": "A discussão tende a ganhar peso na campanha de 2026, porque envolve a trajetória da dívida pública, capacidade de investimento e espaço para políticas sociais e econômicas."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Brazil minister says fiscal reforms face painful final mile",
+          "url": "https://www.reuters.com/world/americas/brazil-minister-says-fiscal-reforms-face-painful-final-mile-2026-08-17/"
+        }
+      ],
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false,
+        "editorialRisk": "high",
+        "requiresHumanReview": true
+      },
+      "scores": {
+        "opportunity": 90,
+        "trend": 90
+      },
+      "categoryUrl": "/politica/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pal%C3%A1cio_do_Planalto_GGFD8938.jpg?width=1280",
+        "alt": "Palácio do Planalto em Brasília",
+        "source": "featuredImage"
+      }
+    }
+  ]
+}
