@@ -1,0 +1,1032 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-21T05:38:00Z",
+  "articles": [
+    {
+      "id": "tech-2026-08-21-brasil-supercomputadores-ia",
+      "category": "tecnologia",
+      "subCategory": "inteligencia-artificial",
+      "slug": "brasil-investe-2-3-bilhoes-supercomputadores-inteligencia-artificial",
+      "title": "Brasil anuncia R$ 2,3 bilhões para supercomputadores e infraestrutura de inteligência artificial",
+      "summary": "Pacote divide projetos entre fornecedores e parceiros dos Estados Unidos e da China e inclui uma máquina prevista para ficar entre as dez mais potentes do mundo em IA.",
+      "tags": [
+        "inteligência artificial",
+        "supercomputadores",
+        "Brasil",
+        "FNDCT",
+        "Nvidia"
+      ],
+      "entities": [
+        "Brasil",
+        "FNDCT",
+        "Huawei",
+        "iFlytek",
+        "Nvidia"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "O governo brasileiro anunciou investimentos de cerca de R$ 2,3 bilhões para ampliar a infraestrutura nacional de inteligência artificial, com projetos de supercomputação no Rio de Janeiro e no Rio Grande do Norte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a Reuters, R$ 1,3 bilhão serão direcionados a uma infraestrutura no Rio de Janeiro em parceria com Huawei e iFlytek, voltada ao desenvolvimento de grandes modelos de linguagem. Outros R$ 1 bilhão financiarão, por licitação, um supercomputador que o governo espera colocar entre as dez máquinas mais potentes do mundo para processamento de IA."
+        },
+        {
+          "type": "heading",
+          "text": "Estratégia busca reduzir dependência tecnológica"
+        },
+        {
+          "type": "paragraph",
+          "text": "A administração federal afirma que a estratégia é evitar dependência de uma única empresa, tecnologia ou país. Autoridades citadas pela Reuters esperam que a Nvidia seja a fornecedora do equipamento a ser instalado no Rio Grande do Norte, mas a contratação depende do processo de licitação."
+        },
+        {
+          "type": "paragraph",
+          "text": "Os recursos virão do FNDCT e integram uma agenda mais ampla que inclui semicondutores baseados em RISC-V, nuvem brasileira e um centro nacional de transparência algorítmica e IA confiável."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Brazil launches AI supercomputer push, splits projects between Chinese, US firms",
+          "url": "https://www.reuters.com/world/americas/brazil-launches-ai-supercomputer-push-splits-projects-between-chinese-us-firms-2026-08-20/"
+        }
+      ],
+      "sourceEventId": "tech-2026-08-21-brasil-supercomputadores-ia-event",
+      "url": "/tecnologia/brasil-investe-2-3-bilhoes-supercomputadores-inteligencia-artificial/",
+      "status": "published",
+      "demo": false,
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-21T05:38:00Z",
+      "updatedAt": "2026-08-21T05:38:00Z",
+      "views": 0,
+      "seo": {
+        "title": "Brasil anuncia R$ 2,3 bilhões para supercomputadores e infraestru",
+        "description": "Pacote divide projetos entre fornecedores e parceiros dos Estados Unidos e da China e inclui uma máquina prevista para ficar entre as dez mais potentes do mundo",
+        "canonical": "https://firstnews.com.br/tecnologia/brasil-investe-2-3-bilhoes-supercomputadores-inteligencia-artificial/"
+      },
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 90,
+        "trend": 90
+      },
+      "categoryUrl": "/tecnologia/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PDC_server_room.jpg?width=1280",
+        "alt": "Sala de servidores de alto desempenho usada para processamento computacional",
+        "source": "featuredImage"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PDC_server_room.jpg?width=1280",
+        "alt": "Sala de servidores de alto desempenho usada para processamento computacional",
+        "source": "https://commons.wikimedia.org/wiki/File:PDC_server_room.jpg",
+        "credit": "Johan Fredriksson (Esquilo) / Wikimedia Commons",
+        "license": "Creative Commons",
+        "width": 1280,
+        "height": 853
+      }
+    },
+    {
+      "id": "tech-2026-08-21-nvidia-lpu-china",
+      "category": "tecnologia",
+      "subCategory": "hardware",
+      "slug": "nvidia-nega-chip-lpu-especifico-china-fim-ano",
+      "title": "Nvidia nega plano de lançar LPU específico para a China até o fim do ano",
+      "summary": "Empresa afirma que não vende LPUs no mercado chinês e que não existe uma versão específica para o país em seu roadmap.",
+      "tags": [
+        "Nvidia",
+        "China",
+        "LPU",
+        "chips",
+        "IA"
+      ],
+      "entities": [
+        "Nvidia",
+        "China",
+        "Groq",
+        "Huawei"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A Nvidia negou nesta quinta-feira uma reportagem segundo a qual prepararia uma unidade de processamento de linguagem, ou LPU, adaptada especificamente para clientes chineses e com remessas previstas até o fim de 2026."
+        },
+        {
+          "type": "paragraph",
+          "text": "Em declaração reproduzida pela Reuters, a empresa afirmou que não possui vendas de LPU na China atualmente e que não há um produto desse tipo específico para o país em seu roadmap."
+        },
+        {
+          "type": "heading",
+          "text": "Mercado chinês continua sob restrições"
+        },
+        {
+          "type": "paragraph",
+          "text": "A discussão ocorre em meio às limitações dos Estados Unidos sobre exportações de chips avançados. Washington autorizou vendas limitadas do H200 para empresas chinesas selecionadas, enquanto produtos de próxima geração seguem sujeitos a restrições."
+        },
+        {
+          "type": "paragraph",
+          "text": "A Nvidia também enfrenta concorrência crescente da Huawei no mercado doméstico chinês. Em maio, Jensen Huang afirmou que a companhia havia cedido grande parte desse mercado de chips de IA à rival local."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Nvidia denies report it is rolling out China AI chip by year-end",
+          "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20/"
+        }
+      ],
+      "sourceEventId": "tech-2026-08-21-nvidia-lpu-china-event",
+      "url": "/tecnologia/nvidia-nega-chip-lpu-especifico-china-fim-ano/",
+      "status": "published",
+      "demo": false,
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-21T05:37:00Z",
+      "updatedAt": "2026-08-21T05:37:00Z",
+      "views": 0,
+      "seo": {
+        "title": "Nvidia nega plano de lançar LPU específico para a China até o fim",
+        "description": "Empresa afirma que não vende LPUs no mercado chinês e que não existe uma versão específica para o país em seu roadmap.",
+        "canonical": "https://firstnews.com.br/tecnologia/nvidia-nega-chip-lpu-especifico-china-fim-ano/"
+      },
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 89,
+        "trend": 89
+      },
+      "categoryUrl": "/tecnologia/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Semiconductor_Wafer_of_Microelectronics.jpg?width=1280",
+        "alt": "Wafer de semicondutores usado na fabricação de chips",
+        "source": "featuredImage"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Semiconductor_Wafer_of_Microelectronics.jpg?width=1280",
+        "alt": "Wafer de semicondutores usado na fabricação de chips",
+        "source": "https://commons.wikimedia.org/wiki/File:Semiconductor_Wafer_of_Microelectronics.jpg",
+        "credit": "DrHughManning / Wikimedia Commons",
+        "license": "Creative Commons",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "id": "tech-2026-08-21-google-marvell-ia",
+      "category": "tecnologia",
+      "subCategory": "hardware",
+      "slug": "google-marvell-acordo-chips-ia-opcao-participacao-12-bilhoes",
+      "title": "Google amplia parceria com Marvell em chips de IA e recebe opção de participação de US$ 12,2 bilhões",
+      "summary": "Acordo envolve tecnologias ligadas aos TPUs do Google e pode gerar até US$ 120 bilhões em receita para a Marvell até 2033 se metas forem atingidas.",
+      "tags": [
+        "Google",
+        "Marvell",
+        "TPU",
+        "chips de IA",
+        "data centers"
+      ],
+      "entities": [
+        "Google",
+        "Alphabet",
+        "Marvell",
+        "Broadcom"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A Marvell vai ampliar seu papel no desenvolvimento da infraestrutura de chips personalizados do Google, em um acordo que inclui uma opção para a empresa de tecnologia comprar até 58,97 milhões de ações da fabricante de semicondutores."
+        },
+        {
+          "type": "paragraph",
+          "text": "De acordo com a Reuters, o exercício integral dos warrants ao preço previsto equivaleria a cerca de US$ 12,2 bilhões. A estrutura está vinculada a metas de compras e pode representar até aproximadamente US$ 120 bilhões em receita para a Marvell até o ano fiscal de 2033."
+        },
+        {
+          "type": "heading",
+          "text": "TPUs ganham peso na infraestrutura de IA"
+        },
+        {
+          "type": "paragraph",
+          "text": "A parceria cobre tecnologias usadas ao redor dos TPUs do Google, incluindo processamento, armazenamento e movimentação de dados em redes. O avanço dos chips próprios é uma forma de grandes empresas de nuvem buscarem alternativas aos aceleradores mais caros da Nvidia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analistas ouvidos pela Reuters interpretaram o movimento como uma diversificação da cadeia de fornecedores do Google, e não necessariamente como uma substituição completa da Broadcom."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Marvell gives Google option to buy $12.2 billion stake in custom AI chip deal",
+          "url": "https://www.reuters.com/technology/marvell-grants-google-122-billion-stock-warrant-custom-chip-deal-2026-08-19/"
+        }
+      ],
+      "sourceEventId": "tech-2026-08-21-google-marvell-ia-event",
+      "url": "/tecnologia/google-marvell-acordo-chips-ia-opcao-participacao-12-bilhoes/",
+      "status": "published",
+      "demo": false,
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-21T05:36:00Z",
+      "updatedAt": "2026-08-21T05:36:00Z",
+      "views": 0,
+      "seo": {
+        "title": "Google amplia parceria com Marvell em chips de IA e recebe opção ",
+        "description": "Acordo envolve tecnologias ligadas aos TPUs do Google e pode gerar até US$ 120 bilhões em receita para a Marvell até 2033 se metas forem atingidas.",
+        "canonical": "https://firstnews.com.br/tecnologia/google-marvell-acordo-chips-ia-opcao-participacao-12-bilhoes/"
+      },
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 88,
+        "trend": 88
+      },
+      "categoryUrl": "/tecnologia/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Semiconductor_Wafer_of_Microelectronics.jpg?width=1280",
+        "alt": "Wafer de semicondutores, componente central da fabricação de processadores",
+        "source": "featuredImage"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Semiconductor_Wafer_of_Microelectronics.jpg?width=1280",
+        "alt": "Wafer de semicondutores, componente central da fabricação de processadores",
+        "source": "https://commons.wikimedia.org/wiki/File:Semiconductor_Wafer_of_Microelectronics.jpg",
+        "credit": "DrHughManning / Wikimedia Commons",
+        "license": "Creative Commons",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "id": "crypto-2026-08-21-bitcoin-70k",
+      "category": "criptomoedas",
+      "subCategory": "bitcoin",
+      "slug": "bitcoin-supera-70-mil-alivio-treasuries-acoes-cripto",
+      "title": "Bitcoin supera US$ 70 mil com alívio nos Treasuries e alta de ações ligadas a cripto",
+      "summary": "Maior criptomoeda voltou acima de US$ 70 mil pela primeira vez desde junho, enquanto Ether e empresas do setor também avançaram.",
+      "tags": [
+        "Bitcoin",
+        "Ether",
+        "Treasuries",
+        "Coinbase",
+        "mercado cripto"
+      ],
+      "entities": [
+        "Bitcoin",
+        "Ethereum",
+        "Coinbase",
+        "Strategy",
+        "Circle"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "O bitcoin voltou a superar US$ 70 mil nesta quinta-feira, alcançando seu maior nível desde junho em meio a uma recuperação mais ampla dos ativos de risco."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo a Reuters, a criptomoeda avançava 3,48%, a US$ 71.505, enquanto o Ether subia 2,46%, para US$ 2.272. A melhora ocorreu após o Tesouro dos Estados Unidos anunciar aumento das recompras de títulos de longo prazo, movimento interpretado como um sinal de apoio à liquidez depois da forte alta dos rendimentos."
+        },
+        {
+          "type": "heading",
+          "text": "Ações do setor também avançam"
+        },
+        {
+          "type": "paragraph",
+          "text": "Coinbase, Strategy, Canaan e Circle registraram ganhos na mesma sessão. Analistas citados pela Reuters também apontaram fechamento de posições vendidas como um fator adicional para a aceleração do movimento."
+        },
+        {
+          "type": "paragraph",
+          "text": "O avanço diário não elimina a volatilidade do mercado: o bitcoin ainda acumulava queda relevante no ano e permanecia abaixo do recorde registrado em 2025. Esta matéria é informativa e não constitui recomendação de investimento."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Crypto shares climb after Treasury's doubled buybacks boost risk assets",
+          "url": "https://www.reuters.com/legal/government/bitcoin-crypto-shares-climb-after-trump-pushes-clarity-act-2026-08-20/"
+        }
+      ],
+      "sourceEventId": "crypto-2026-08-21-bitcoin-70k-event",
+      "url": "/criptomoedas/bitcoin-supera-70-mil-alivio-treasuries-acoes-cripto/",
+      "status": "published",
+      "demo": false,
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-21T05:35:00Z",
+      "updatedAt": "2026-08-21T05:35:00Z",
+      "views": 0,
+      "seo": {
+        "title": "Bitcoin supera US$ 70 mil com alívio nos Treasuries e alta de açõ",
+        "description": "Maior criptomoeda voltou acima de US$ 70 mil pela primeira vez desde junho, enquanto Ether e empresas do setor também avançaram.",
+        "canonical": "https://firstnews.com.br/criptomoedas/bitcoin-supera-70-mil-alivio-treasuries-acoes-cripto/"
+      },
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 90,
+        "trend": 90
+      },
+      "categoryUrl": "/criptomoedas/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin_2026.jpg?width=1280",
+        "alt": "Representação física de bitcoin e ativos digitais",
+        "source": "featuredImage"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin_2026.jpg?width=1280",
+        "alt": "Representação física de bitcoin e ativos digitais",
+        "source": "https://commons.wikimedia.org/wiki/File:Bitcoin_2026.jpg",
+        "credit": "Wald-Burger8 / Wikimedia Commons",
+        "license": "Creative Commons-SA 4.0",
+        "width": 1280,
+        "height": 853
+      }
+    },
+    {
+      "id": "crypto-2026-08-21-bitcoin-etfs-517m",
+      "category": "criptomoedas",
+      "subCategory": "bitcoin",
+      "slug": "etfs-bitcoin-eua-517-milhoes-entradas-maior-fluxo-maio",
+      "title": "ETFs de bitcoin nos EUA recebem US$ 517 milhões e registram maior entrada em três meses e meio",
+      "summary": "Oito dos 12 fundos à vista tiveram fluxo positivo, liderados pelo IBIT da BlackRock, segundo dados reunidos pelo The Block.",
+      "tags": [
+        "Bitcoin",
+        "ETFs",
+        "BlackRock",
+        "IBIT",
+        "fluxo institucional"
+      ],
+      "entities": [
+        "Bitcoin",
+        "BlackRock",
+        "Fidelity",
+        "Ark 21Shares"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Os ETFs de bitcoin à vista negociados nos Estados Unidos registraram US$ 517,19 milhões em entradas líquidas na quarta-feira, o maior fluxo diário desde 4 de maio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segundo o The Block, oito dos 12 fundos tiveram entradas. O IBIT, da BlackRock, liderou com US$ 284,7 milhões, seguido pelo ARKB, de Ark e 21Shares, com US$ 77,7 milhões, e pelo FBTC, da Fidelity, com US$ 62,4 milhões."
+        },
+        {
+          "type": "heading",
+          "text": "Fluxo acompanha recuperação do mercado"
+        },
+        {
+          "type": "paragraph",
+          "text": "O movimento coincidiu com a retomada do bitcoin para níveis não vistos em meses. Analistas citados pelo veículo associaram a volta do fluxo institucional à melhora das condições de liquidez e ao anúncio de expansão das recompras de títulos pelo Tesouro americano."
+        },
+        {
+          "type": "paragraph",
+          "text": "Um dia de forte entrada não garante continuidade do movimento. Os fluxos de ETFs podem variar rapidamente conforme juros, geopolítica e apetite por risco. Esta matéria não constitui recomendação financeira."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Block — Spot bitcoin ETFs report $517 million in net inflows, largest in 3.5 months",
+          "url": "https://www.theblock.co/news/markets/2026-08-20-us-bitcoin-etf-517-million-inflows-412291"
+        }
+      ],
+      "sourceEventId": "crypto-2026-08-21-bitcoin-etfs-517m-event",
+      "url": "/criptomoedas/etfs-bitcoin-eua-517-milhoes-entradas-maior-fluxo-maio/",
+      "status": "published",
+      "demo": false,
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-21T05:34:00Z",
+      "updatedAt": "2026-08-21T05:34:00Z",
+      "views": 0,
+      "seo": {
+        "title": "ETFs de bitcoin nos EUA recebem US$ 517 milhões e registram maior",
+        "description": "Oito dos 12 fundos à vista tiveram fluxo positivo, liderados pelo IBIT da BlackRock, segundo dados reunidos pelo The Block.",
+        "canonical": "https://firstnews.com.br/criptomoedas/etfs-bitcoin-eua-517-milhoes-entradas-maior-fluxo-maio/"
+      },
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 89,
+        "trend": 89
+      },
+      "categoryUrl": "/criptomoedas/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin_2026.jpg?width=1280",
+        "alt": "Representação de bitcoin, ativo acompanhado por ETFs à vista nos Estados Unidos",
+        "source": "featuredImage"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin_2026.jpg?width=1280",
+        "alt": "Representação de bitcoin, ativo acompanhado por ETFs à vista nos Estados Unidos",
+        "source": "https://commons.wikimedia.org/wiki/File:Bitcoin_2026.jpg",
+        "credit": "Wald-Burger8 / Wikimedia Commons",
+        "license": "Creative Commons-SA 4.0",
+        "width": 1280,
+        "height": 853
+      }
+    },
+    {
+      "id": "crypto-2026-08-21-cftc-comite-inovacao",
+      "category": "criptomoedas",
+      "subCategory": "regulacao",
+      "slug": "cftc-comite-inovacao-cripto-ia-mercados-previsao",
+      "title": "CFTC reúne comitê de inovação para discutir cripto, IA e mercados de previsão",
+      "summary": "Comitê consultivo da reguladora americana inclui ativos digitais, blockchain, inteligência artificial e novas tecnologias entre seus temas formais.",
+      "tags": [
+        "CFTC",
+        "regulação",
+        "blockchain",
+        "IA",
+        "ativos digitais"
+      ],
+      "entities": [
+        "CFTC",
+        "Innovation Advisory Committee"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A Commodity Futures Trading Commission dos Estados Unidos reuniu nesta quinta-feira seu Innovation Advisory Committee, grupo criado para aconselhar a agência sobre mudanças tecnológicas nos mercados financeiros."
+        },
+        {
+          "type": "paragraph",
+          "text": "A carta oficial do comitê inclui entre os temas de trabalho ativos digitais, blockchain, inteligência artificial, cibersegurança e outras tecnologias emergentes. As recomendações do grupo têm caráter consultivo e não equivalem, por si só, a novas regras."
+        },
+        {
+          "type": "heading",
+          "text": "Regulação cripto está em fase de mudanças"
+        },
+        {
+          "type": "paragraph",
+          "text": "A reunião ocorre enquanto a divisão de competências entre a CFTC e a SEC continua no centro do debate americano sobre ativos digitais. O Congresso ainda discute uma legislação mais ampla para definir quando tokens devem ser tratados como commodities ou valores mobiliários."
+        },
+        {
+          "type": "paragraph",
+          "text": "Como o comitê é consultivo, propostas discutidas precisam passar pelos processos formais da CFTC antes de produzir efeitos regulatórios."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CFTC — Amended Charter of the Innovation Advisory Committee",
+          "url": "https://www.cftc.gov/media/13366/IAC_Charter030326/download"
+        }
+      ],
+      "sourceEventId": "crypto-2026-08-21-cftc-comite-inovacao-event",
+      "url": "/criptomoedas/cftc-comite-inovacao-cripto-ia-mercados-previsao/",
+      "status": "published",
+      "demo": false,
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-21T05:33:00Z",
+      "updatedAt": "2026-08-21T05:33:00Z",
+      "views": 0,
+      "seo": {
+        "title": "CFTC reúne comitê de inovação para discutir cripto, IA e mercados",
+        "description": "Comitê consultivo da reguladora americana inclui ativos digitais, blockchain, inteligência artificial e novas tecnologias entre seus temas formais.",
+        "canonical": "https://firstnews.com.br/criptomoedas/cftc-comite-inovacao-cripto-ia-mercados-previsao/"
+      },
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 88,
+        "trend": 88
+      },
+      "categoryUrl": "/criptomoedas/",
+      "thumbnail": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
+        "alt": "Capitólio dos Estados Unidos em Washington, contexto da agenda regulatória americana",
+        "source": "featuredImage"
+      },
+      "featuredImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
+        "alt": "Capitólio dos Estados Unidos em Washington, contexto da agenda regulatória americana",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Capitol_west_side.JPG",
+        "credit": "Martin Falbisoner / Wikimedia Commons",
+        "license": "Creative Commons-SA",
+        "width": 1280,
+        "height": 853
+      }
+    },
+    {
+      "id": "ent-2026-08-21-outer-banks-s5",
+      "category": "entretenimento",
+      "subCategory": "streaming",
+      "slug": "outer-banks-temporada-5-estreia-netflix-final-pogues",
+      "title": "Outer Banks estreia 5ª e última temporada na Netflix com despedida dos Pogues",
+      "summary": "Temporada final chegou em 20 de agosto com dez episódios e retoma a história após a perda de JJ e a busca pelo Blue Crown.",
+      "tags": [
+        "Outer Banks",
+        "Netflix",
+        "streaming",
+        "séries"
+      ],
+      "entities": [
+        "Outer Banks",
+        "Netflix"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A quinta e última temporada de Outer Banks estreou na Netflix em 20 de agosto, encerrando a aventura dos Pogues iniciada em 2020."
+        },
+        {
+          "type": "paragraph",
+          "text": "O Media Center oficial da Netflix informa que a temporada tem dez episódios de aproximadamente uma hora. A história encontra John B, Sarah, Kiara, Pope e Cleo em seu limite após a morte de JJ, ainda perseguidos por Chandler Groff, Dalia e os Corsários."
+        },
+        {
+          "type": "heading",
+          "text": "Última corrida pelo Blue Crown"
+        },
+        {
+          "type": "paragraph",
+          "text": "A nova etapa combina a busca por vingança com a tentativa de recuperar o futuro do grupo. Rafe volta a integrar a dinâmica dos protagonistas em uma aliança difícil, enquanto o Blue Crown permanece no centro do conflito."
+        },
+        {
+          "type": "paragraph",
+          "text": "A plataforma também promoveu uma despedida com o elenco antes da estreia, reforçando que a quinta temporada encerra oficialmente a série."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Netflix Media Center — Outer Banks",
+          "url": "https://media.netflix.com/en/only-on-netflix/80236318"
+        },
+        {
+          "name": "Netflix Tudum — Outer Banks Season 5",
+          "url": "https://www.netflix.com/tudum/articles/outer-banks-season-5-trailer"
+        }
+      ],
+      "sourceEventId": "ent-2026-08-21-outer-banks-s5-event",
+      "url": "/entretenimento/outer-banks-temporada-5-estreia-netflix-final-pogues/",
+      "status": "published",
+      "demo": false,
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-21T05:32:00Z",
+      "updatedAt": "2026-08-21T05:32:00Z",
+      "views": 0,
+      "seo": {
+        "title": "Outer Banks estreia 5ª e última temporada na Netflix com despedid",
+        "description": "Temporada final chegou em 20 de agosto com dez episódios e retoma a história após a perda de JJ e a busca pelo Blue Crown.",
+        "canonical": "https://firstnews.com.br/entretenimento/outer-banks-temporada-5-estreia-netflix-final-pogues/"
+      },
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 90,
+        "trend": 90
+      },
+      "categoryUrl": "/entretenimento/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Outer_Banks_-_Beach.jpg?width=1280",
+        "alt": "Praia de Outer Banks, na Carolina do Norte, cenário que inspira o universo da série",
+        "source": "featuredImage"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Outer_Banks_-_Beach.jpg?width=1280",
+        "alt": "Praia de Outer Banks, na Carolina do Norte, cenário que inspira o universo da série",
+        "source": "https://commons.wikimedia.org/wiki/File:Outer_Banks_-_Beach.jpg",
+        "credit": "Jarek Tuszyński / Wikimedia Commons",
+        "license": "Creative Commons-SA 3.0",
+        "width": 1280,
+        "height": 857
+      }
+    },
+    {
+      "id": "ent-2026-08-21-lion-disney",
+      "category": "entretenimento",
+      "subCategory": "streaming",
+      "slug": "lion-disney-plus-kio-documentario-jon-favreau",
+      "title": "LION chega ao Disney+ acompanhando quatro anos da vida de um leão no Quênia",
+      "summary": "Série documental produzida por Jon Favreau e Mike Gunton acompanha Kio da infância à vida adulta na região de Maasai Mara.",
+      "tags": [
+        "LION",
+        "Disney+",
+        "National Geographic",
+        "Jon Favreau",
+        "documentário"
+      ],
+      "entities": [
+        "Disney+",
+        "National Geographic",
+        "Jon Favreau",
+        "Kio"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A série documental LION chegou ao Disney+ em 20 de agosto com uma proposta incomum: acompanhar a trajetória real de um único leão ao longo de quatro anos."
+        },
+        {
+          "type": "paragraph",
+          "text": "A página oficial do Disney+ descreve a produção como a história de Kio, um filhote que cresce enfrentando perda, exílio e rivais até se tornar um líder. O projeto tem produção executiva de Jon Favreau e Mike Gunton, da BBC Studios Natural History Unit."
+        },
+        {
+          "type": "heading",
+          "text": "Produção acompanha o mesmo animal por anos"
+        },
+        {
+          "type": "paragraph",
+          "text": "A equipe registrou a vida de Kio na região de Maasai Mara, no Quênia, buscando combinar linguagem cinematográfica com observação de história natural. A produção foi exibida inicialmente no National Geographic e disponibilizada no streaming no dia seguinte."
+        },
+        {
+          "type": "paragraph",
+          "text": "A trilha envolve o grupo Bleeding Fingers Music, ligado a Hans Zimmer, e a série é apresentada como um evento documental em quatro partes."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Disney+ — Lion",
+          "url": "https://www.disneyplus.com/whats-on/series/lion"
+        },
+        {
+          "name": "Disney+ Press — Next on Disney+ and Hulu: August 2026",
+          "url": "https://press.disneyplus.com/news/next-on-disney-plus-august-2026"
+        }
+      ],
+      "sourceEventId": "ent-2026-08-21-lion-disney-event",
+      "url": "/entretenimento/lion-disney-plus-kio-documentario-jon-favreau/",
+      "status": "published",
+      "demo": false,
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-21T05:31:00Z",
+      "updatedAt": "2026-08-21T05:31:00Z",
+      "views": 0,
+      "seo": {
+        "title": "LION chega ao Disney+ acompanhando quatro anos da vida de um leão",
+        "description": "Série documental produzida por Jon Favreau e Mike Gunton acompanha Kio da infância à vida adulta na região de Maasai Mara.",
+        "canonical": "https://firstnews.com.br/entretenimento/lion-disney-plus-kio-documentario-jon-favreau/"
+      },
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 89,
+        "trend": 89
+      },
+      "categoryUrl": "/entretenimento/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lion_waiting_in_Namibia.jpg?width=1280",
+        "alt": "Leão africano em ambiente natural",
+        "source": "featuredImage"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lion_waiting_in_Namibia.jpg?width=1280",
+        "alt": "Leão africano em ambiente natural",
+        "source": "https://commons.wikimedia.org/wiki/File:Lion_waiting_in_Namibia.jpg",
+        "credit": "Kevin Pluck / Wikimedia Commons",
+        "license": "Creative Commons 2.0",
+        "width": 1280,
+        "height": 853
+      }
+    },
+    {
+      "id": "ent-2026-08-21-microdramas-hollywood",
+      "category": "entretenimento",
+      "subCategory": "streaming",
+      "slug": "microdramas-verticais-crescem-hollywood-reelshort",
+      "title": "Microdramas verticais crescem em Hollywood e atraem investimento de grandes estúdios",
+      "summary": "Séries com episódios de menos de dois minutos avançam no celular e formam um mercado estimado em US$ 1,5 bilhão nos Estados Unidos.",
+      "tags": [
+        "microdramas",
+        "Hollywood",
+        "ReelShort",
+        "vídeo vertical",
+        "streaming"
+      ],
+      "entities": [
+        "ReelShort",
+        "GoodShort",
+        "NBCUniversal",
+        "Fox"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Os microdramas — séries gravadas verticalmente, com episódios que normalmente duram de cerca de 45 segundos a dois minutos — estão ganhando espaço na indústria americana de entretenimento."
+        },
+        {
+          "type": "paragraph",
+          "text": "Reportagem da Reuters estima que o segmento já movimente cerca de US$ 1,5 bilhão nos Estados Unidos e possa chegar a US$ 2 bilhões no próximo ano. Aplicativos como ReelShort e GoodShort ajudaram a popularizar o formato, originado na China."
+        },
+        {
+          "type": "heading",
+          "text": "Estúdios tradicionais começam a testar o formato"
+        },
+        {
+          "type": "paragraph",
+          "text": "NBCUniversal e Fox estão entre as empresas que passaram a investir ou experimentar produções verticais. O custo mais baixo e a velocidade de produção tornam o modelo atraente em um momento de redução de encomendas tradicionais em Hollywood."
+        },
+        {
+          "type": "paragraph",
+          "text": "Algumas produtoras também usam ferramentas de inteligência artificial em partes do processo, embora roteiros e uso da imagem de atores continuem sujeitos a decisões criativas e contratuais."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Microdramas boom in a shrinking Hollywood as studios chase a TikTok audience",
+          "url": "https://www.reuters.com/business/media-telecom/microdramas-boom-shrinking-hollywood-studios-chase-tiktok-audience-2026-08-18/"
+        }
+      ],
+      "sourceEventId": "ent-2026-08-21-microdramas-hollywood-event",
+      "url": "/entretenimento/microdramas-verticais-crescem-hollywood-reelshort/",
+      "status": "published",
+      "demo": false,
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-21T05:30:00Z",
+      "updatedAt": "2026-08-21T05:30:00Z",
+      "views": 0,
+      "seo": {
+        "title": "Microdramas verticais crescem em Hollywood e atraem investimento ",
+        "description": "Séries com episódios de menos de dois minutos avançam no celular e formam um mercado estimado em US$ 1,5 bilhão nos Estados Unidos.",
+        "canonical": "https://firstnews.com.br/entretenimento/microdramas-verticais-crescem-hollywood-reelshort/"
+      },
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 88,
+        "trend": 88
+      },
+      "categoryUrl": "/entretenimento/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hand_holding_smartphone_with_blank_white_screen.jpg?width=1280",
+        "alt": "Pessoa segurando smartphone na vertical, formato usado por microdramas",
+        "source": "featuredImage"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hand_holding_smartphone_with_blank_white_screen.jpg?width=1280",
+        "alt": "Pessoa segurando smartphone na vertical, formato usado por microdramas",
+        "source": "https://commons.wikimedia.org/wiki/File:Hand_holding_smartphone_with_blank_white_screen.jpg",
+        "credit": "Santeri Viinamäki / Wikimedia Commons",
+        "license": "Creative Commons-SA 4.0",
+        "width": 1280,
+        "height": 961
+      }
+    },
+    {
+      "id": "pol-2026-08-21-pesquisa-sp-tarcisio-haddad",
+      "category": "politica",
+      "subCategory": "pesquisas-eleitorais",
+      "slug": "pesquisa-parana-governo-sp-tarcisio-50-haddad-33-8",
+      "title": "Pesquisa para o governo de SP mostra Tarcísio com 50% e Haddad com 33,8%",
+      "summary": "Levantamento Paraná Pesquisas ouviu 1.680 eleitores em 80 municípios; margem de erro é de 2,4 pontos percentuais e confiança de 95%.",
+      "tags": [
+        "Eleições 2026",
+        "São Paulo",
+        "Tarcísio de Freitas",
+        "Fernando Haddad",
+        "Paraná Pesquisas"
+      ],
+      "entities": [
+        "Tarcísio de Freitas",
+        "Fernando Haddad",
+        "Paraná Pesquisas"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Tarcísio de Freitas aparece com 50% das intenções de voto para o governo de São Paulo em pesquisa estimulada do Paraná Pesquisas divulgada nesta semana. Fernando Haddad registra 33,8%."
+        },
+        {
+          "type": "paragraph",
+          "text": "O levantamento ouviu 1.680 eleitores em 80 municípios entre 16 e 18 de agosto. A margem de erro informada é de 2,4 pontos percentuais, para mais ou para menos, com nível de confiança de 95%. A pesquisa está registrada no TSE sob o número SP-08913/2026."
+        },
+        {
+          "type": "heading",
+          "text": "Cenário espontâneo e rejeição"
+        },
+        {
+          "type": "paragraph",
+          "text": "Na pesquisa espontânea, Tarcísio tem 29,1% e Haddad 12%, enquanto 51,8% não souberam ou não quiseram responder. Em uma simulação de segundo turno, os percentuais são 53% para Tarcísio e 36,9% para Haddad."
+        },
+        {
+          "type": "paragraph",
+          "text": "O levantamento também mediu rejeição: Haddad aparece com 44,3% e Tarcísio com 27,4%. Pesquisas representam um retrato do período de coleta e não uma previsão do resultado da eleição."
+        }
+      ],
+      "sources": [
+        {
+          "name": "UOL — Pesquisa de intenção de voto para governador de SP",
+          "url": "https://noticias.uol.com.br/eleicoes/2026/08/19/pesquisa-de-intencao-de-voto-para-governador-de-sp-veja-ultimo-levantamento.ghtm"
+        }
+      ],
+      "sourceEventId": "pol-2026-08-21-pesquisa-sp-tarcisio-haddad-event",
+      "url": "/politica/pesquisa-parana-governo-sp-tarcisio-50-haddad-33-8/",
+      "status": "published",
+      "demo": false,
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-21T05:29:00Z",
+      "updatedAt": "2026-08-21T05:29:00Z",
+      "views": 0,
+      "seo": {
+        "title": "Pesquisa para o governo de SP mostra Tarcísio com 50% e Haddad co",
+        "description": "Levantamento Paraná Pesquisas ouviu 1.680 eleitores em 80 municípios; margem de erro é de 2,4 pontos percentuais e confiança de 95%.",
+        "canonical": "https://firstnews.com.br/politica/pesquisa-parana-governo-sp-tarcisio-50-haddad-33-8/"
+      },
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 90,
+        "trend": 90
+      },
+      "categoryUrl": "/politica/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Palácio_dos_Bandeirantes.jpg?width=1280",
+        "alt": "Palácio dos Bandeirantes, sede do governo do estado de São Paulo",
+        "source": "featuredImage"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Palácio_dos_Bandeirantes.jpg?width=1280",
+        "alt": "Palácio dos Bandeirantes, sede do governo do estado de São Paulo",
+        "source": "https://commons.wikimedia.org/wiki/File:Palácio_dos_Bandeirantes.jpg",
+        "credit": "Alexandre Carvalho / Governo do Estado de São Paulo / Wikimedia Commons",
+        "license": "Creative Commons",
+        "width": 1280,
+        "height": 808
+      }
+    },
+    {
+      "id": "pol-2026-08-21-carmen-lucia-primeira-turma",
+      "category": "politica",
+      "subCategory": "justica",
+      "slug": "carmen-lucia-eleita-presidente-primeira-turma-stf",
+      "title": "Cármen Lúcia é eleita para presidir a Primeira Turma do STF a partir de setembro",
+      "summary": "Ministra assumirá o comando do colegiado em 30 de setembro, substituindo Flávio Dino na presidência da turma.",
+      "tags": [
+        "STF",
+        "Cármen Lúcia",
+        "Primeira Turma",
+        "Flávio Dino"
+      ],
+      "entities": [
+        "Cármen Lúcia",
+        "STF",
+        "Flávio Dino"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A ministra Cármen Lúcia foi eleita para presidir a Primeira Turma do Supremo Tribunal Federal e deverá assumir a função em 30 de setembro."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ela substituirá Flávio Dino, atual presidente do colegiado. Segundo o UOL, a ministra agradeceu a confiança dos colegas e destacou o aprendizado acumulado com integrantes que já comandaram a turma."
+        },
+        {
+          "type": "heading",
+          "text": "Composição da Primeira Turma"
+        },
+        {
+          "type": "paragraph",
+          "text": "A página institucional do STF lista atualmente Flávio Dino, Cármen Lúcia, Alexandre de Moraes e Cristiano Zanin como integrantes da Primeira Turma."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cármen Lúcia integra o Supremo desde 2006 e foi a segunda mulher a ocupar uma cadeira na Corte, depois de Ellen Gracie."
+        }
+      ],
+      "sources": [
+        {
+          "name": "UOL — Ministra Cármen Lúcia é eleita para presidir a 1ª Turma do STF",
+          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/19/ministra-carmen-lucia-e-eleita-para-presidir-a-1-turma-do-stf.ghtm"
+        },
+        {
+          "name": "STF — Turmas",
+          "url": "https://portal.stf.jus.br/textos/verTexto.asp?servico=sobreStfComposicaoTurma"
+        }
+      ],
+      "sourceEventId": "pol-2026-08-21-carmen-lucia-primeira-turma-event",
+      "url": "/politica/carmen-lucia-eleita-presidente-primeira-turma-stf/",
+      "status": "published",
+      "demo": false,
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-21T05:28:00Z",
+      "updatedAt": "2026-08-21T05:28:00Z",
+      "views": 0,
+      "seo": {
+        "title": "Cármen Lúcia é eleita para presidir a Primeira Turma do STF a par",
+        "description": "Ministra assumirá o comando do colegiado em 30 de setembro, substituindo Flávio Dino na presidência da turma.",
+        "canonical": "https://firstnews.com.br/politica/carmen-lucia-eleita-presidente-primeira-turma-stf/"
+      },
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 89,
+        "trend": 89
+      },
+      "categoryUrl": "/politica/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Supremo_Tribunal_Federal_building_in_Brasilia_-_DSC00283.JPG?width=1280",
+        "alt": "Edifício do Supremo Tribunal Federal em Brasília",
+        "source": "featuredImage"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Supremo_Tribunal_Federal_building_in_Brasilia_-_DSC00283.JPG?width=1280",
+        "alt": "Edifício do Supremo Tribunal Federal em Brasília",
+        "source": "https://commons.wikimedia.org/wiki/File:Supremo_Tribunal_Federal_building_in_Brasilia_-_DSC00283.JPG",
+        "credit": "Daderot / Wikimedia Commons",
+        "license": "CC0",
+        "width": 1280,
+        "height": 960
+      }
+    },
+    {
+      "id": "pol-2026-08-21-durigan-fiscal-lula",
+      "category": "politica",
+      "subCategory": "economia",
+      "slug": "durigan-diz-novo-governo-lula-mantera-arcabouco-fiscal",
+      "title": "Durigan diz que novo mandato de Lula manteria arcabouço fiscal e controle de gastos",
+      "summary": "Ministro da Fazenda afirma que eventual novo mandato buscaria repetir esforço fiscal e continuar ajustes de despesas em diálogo com o Congresso.",
+      "tags": [
+        "Dario Durigan",
+        "Lula",
+        "arcabouço fiscal",
+        "economia",
+        "Eleições 2026"
+      ],
+      "entities": [
+        "Dario Durigan",
+        "Luiz Inácio Lula da Silva",
+        "Ministério da Fazenda",
+        "Congresso Nacional"
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "O ministro da Fazenda, Dario Durigan, afirmou nesta quinta-feira que um eventual novo mandato do presidente Luiz Inácio Lula da Silva manteria o atual arcabouço fiscal, combinando controle de gastos e recuperação de receitas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Em entrevista à CBN reproduzida pela Reuters, Durigan disse que o governo realizou esforço fiscal equivalente a cerca de 2% do PIB no mandato atual e estaria preparado para um esforço de magnitude semelhante."
+        },
+        {
+          "type": "heading",
+          "text": "Ministro cita redução de despesas obrigatórias"
+        },
+        {
+          "type": "paragraph",
+          "text": "Durigan afirmou que ajustes discutidos com o Congresso devem reduzir despesas obrigatórias em aproximadamente R$ 10 bilhões em 2027. Ele também defendeu continuidade do diálogo institucional e ampliação da base de receitas de forma que classificou como justa."
+        },
+        {
+          "type": "paragraph",
+          "text": "As declarações representam a posição do ministro sobre uma eventual continuidade do governo e não substituem propostas formais de campanha ou decisões futuras do Congresso. A eleição presidencial ocorre em 2026."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters — Brazil to keep fiscal framework, spending restraint under new Lula term, minister says",
+          "url": "https://www.reuters.com/world/americas/brazil-keep-fiscal-framework-spending-restraint-under-new-lula-term-minister-2026-08-20/"
+        }
+      ],
+      "sourceEventId": "pol-2026-08-21-durigan-fiscal-lula-event",
+      "url": "/politica/durigan-diz-novo-governo-lula-mantera-arcabouco-fiscal/",
+      "status": "published",
+      "demo": false,
+      "author": "Redação FirstNews",
+      "publishedAt": "2026-08-21T05:27:00Z",
+      "updatedAt": "2026-08-21T05:27:00Z",
+      "views": 0,
+      "seo": {
+        "title": "Durigan diz que novo mandato de Lula manteria arcabouço fiscal e ",
+        "description": "Ministro da Fazenda afirma que eventual novo mandato buscaria repetir esforço fiscal e continuar ajustes de despesas em diálogo com o Congresso.",
+        "canonical": "https://firstnews.com.br/politica/durigan-diz-novo-governo-lula-mantera-arcabouco-fiscal/"
+      },
+      "generation": {
+        "generatedByAi": true,
+        "reviewedByHuman": false
+      },
+      "scores": {
+        "opportunity": 88,
+        "trend": 88
+      },
+      "categoryUrl": "/politica/",
+      "thumbnail": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PALÁCIO_DO_PLANALTO.jpg?width=1280",
+        "alt": "Palácio do Planalto em Brasília, sede do Poder Executivo federal",
+        "source": "featuredImage"
+      },
+      "featuredImage": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PALÁCIO_DO_PLANALTO.jpg?width=1280",
+        "alt": "Palácio do Planalto em Brasília, sede do Poder Executivo federal",
+        "source": "https://commons.wikimedia.org/wiki/File:PALÁCIO_DO_PLANALTO.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "Creative Commons",
+        "width": 1280,
+        "height": 772
+      }
+    }
+  ]
+}

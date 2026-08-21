@@ -1,4 +1,4 @@
-const DATA_URL="/data/articles.json";const EXTRA_DATA_URLS=["/data/articles-2026-08-17.json","/data/articles-2026-08-19.json"];
+const DATA_URL="/data/articles.json";const EXTRA_DATA_URLS=["/data/articles-2026-08-17.json","/data/articles-2026-08-19.json","/data/articles-2026-08-21.json"];
 const state={articles:[],filter:"all",query:"",category:""};const qs=(s,r=document)=>r.querySelector(s);const qsa=(s,r=document)=>[...r.querySelectorAll(s)];
 const CATEGORY_LABELS={tecnologia:"Tecnologia",criptomoedas:"Criptomoedas",entretenimento:"Entretenimento",politica:"Política"};
 function escapeHtml(v=""){return String(v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"})[c])}function categoryLabel(c){return CATEGORY_LABELS[c]||c}function articleUrl(a){return a.url||`/${encodeURIComponent(a.category)}/${encodeURIComponent(a.slug)}/`}

@@ -1,63 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  <url>
-    <loc>https://firstnews.com.br/tecnologia/microsoft-maia-300-chip-ia-setembro/</loc>
-    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-    <news:publication_date>2026-08-14T00:30:00Z</news:publication_date><news:title>Microsoft prepara Maia 300 para ampliar disputa por chips de IA, diz Reuters</news:title></news:news>
-  </url>
-  <url>
-    <loc>https://firstnews.com.br/tecnologia/coreia-do-sul-plano-seed-tecnologia-lua-quantica/</loc>
-    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-    <news:publication_date>2026-08-14T00:29:00Z</news:publication_date><news:title>Coreia do Sul lança plano tecnológico com meta de pouso na Lua e computador quântico</news:title></news:news>
-  </url>
-  <url>
-    <loc>https://firstnews.com.br/tecnologia/microsoft-project-perception-seguranca-agentes-ia/</loc>
-    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-    <news:publication_date>2026-08-14T00:28:00Z</news:publication_date><news:title>Microsoft apresenta Project Perception para defesa cibernética com agentes de IA</news:title></news:news>
-  </url>
-  <url>
-    <loc>https://firstnews.com.br/criptomoedas/bitcoin-63-mil-kospi-queda-mercados/</loc>
-    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-    <news:publication_date>2026-08-14T00:27:00Z</news:publication_date><news:title>Bitcoin volta à faixa de US$ 63 mil enquanto queda na Coreia pressiona ativos de risco</news:title></news:news>
-  </url>
-  <url>
-    <loc>https://firstnews.com.br/criptomoedas/lido-migra-ether-validadores-ethereum-cmv2/</loc>
-    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-    <news:publication_date>2026-08-14T00:26:00Z</news:publication_date><news:title>Lido inicia migração de mais de 8 milhões de ETH e reduz número de validadores</news:title></news:news>
-  </url>
-  <url>
-    <loc>https://firstnews.com.br/criptomoedas/uphold-corta-17-por-cento-equipe-foco-empresas/</loc>
-    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-    <news:publication_date>2026-08-14T00:25:00Z</news:publication_date><news:title>Uphold corta 17% da equipe global e aumenta foco em clientes empresariais</news:title></news:news>
-  </url>
-  <url>
-    <loc>https://firstnews.com.br/politica/flavio-bolsonaro-filiacao-missao-tse-restabelece-pl/</loc>
-    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-    <news:publication_date>2026-08-14T00:24:00Z</news:publication_date><news:title>Flávio Bolsonaro aparece filiado ao Missão; TSE cancela registro e restabelece vínculo com PL</news:title></news:news>
-  </url>
-  <url>
-    <loc>https://firstnews.com.br/politica/tse-suspende-sistema-filiacoes-apos-fraudes/</loc>
-    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-    <news:publication_date>2026-08-14T00:23:00Z</news:publication_date><news:title>TSE suspende processamento de filiações após fraude contra Flávio e tentativa envolvendo Lula</news:title></news:news>
-  </url>
-  <url>
-    <loc>https://firstnews.com.br/politica/tse-suspende-julgamento-fundo-eleitoral-pt/</loc>
-    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-    <news:publication_date>2026-08-14T00:22:00Z</news:publication_date><news:title>TSE suspende julgamento sobre fatia do fundo eleitoral e trava parte dos repasses</news:title></news:news>
-  </url>
-  <url>
-    <loc>https://firstnews.com.br/entretenimento/camp-rock-3-estreia-disney-channel-disney-plus/</loc>
-    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-    <news:publication_date>2026-08-14T00:21:00Z</news:publication_date><news:title>Camp Rock 3 estreia com Jonas Brothers e nova geração de campistas</news:title></news:news>
-  </url>
-  <url>
-    <loc>https://firstnews.com.br/entretenimento/a-child-of-my-own-estreia-netflix-documentario/</loc>
-    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-    <news:publication_date>2026-08-14T00:20:00Z</news:publication_date><news:title>A Child of My Own estreia na Netflix com história sobre falsa gravidez e pressão social</news:title></news:news>
-  </url>
-  <url>
-    <loc>https://firstnews.com.br/entretenimento/travis-barker-louder-than-fear-hulu-disney-plus/</loc>
-    <news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication>
-    <news:publication_date>2026-08-14T00:19:00Z</news:publication_date><news:title>Documentário de Travis Barker estreia no Hulu e Disney+ contando trajetória após acidente</news:title></news:news>
-  </url>
+  <url><loc>https://firstnews.com.br/tecnologia/brasil-investe-2-3-bilhoes-supercomputadores-inteligencia-artificial/</loc><news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-08-21T05:38:00Z</news:publication_date><news:title>Brasil anuncia R$ 2,3 bilhões para supercomputadores e infraestrutura de inteligência artificial</news:title></news:news></url>
+  <url><loc>https://firstnews.com.br/tecnologia/nvidia-nega-chip-lpu-especifico-china-fim-ano/</loc><news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-08-21T05:37:00Z</news:publication_date><news:title>Nvidia nega plano de lançar LPU específico para a China até o fim do ano</news:title></news:news></url>
+  <url><loc>https://firstnews.com.br/tecnologia/google-marvell-acordo-chips-ia-opcao-participacao-12-bilhoes/</loc><news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-08-21T05:36:00Z</news:publication_date><news:title>Google amplia parceria com Marvell em chips de IA e recebe opção de participação de US$ 12,2 bilhões</news:title></news:news></url>
+  <url><loc>https://firstnews.com.br/criptomoedas/bitcoin-supera-70-mil-alivio-treasuries-acoes-cripto/</loc><news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-08-21T05:35:00Z</news:publication_date><news:title>Bitcoin supera US$ 70 mil com alívio nos Treasuries e alta de ações ligadas a cripto</news:title></news:news></url>
+  <url><loc>https://firstnews.com.br/criptomoedas/etfs-bitcoin-eua-517-milhoes-entradas-maior-fluxo-maio/</loc><news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-08-21T05:34:00Z</news:publication_date><news:title>ETFs de bitcoin nos EUA recebem US$ 517 milhões e registram maior entrada em três meses e meio</news:title></news:news></url>
+  <url><loc>https://firstnews.com.br/criptomoedas/cftc-comite-inovacao-cripto-ia-mercados-previsao/</loc><news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-08-21T05:33:00Z</news:publication_date><news:title>CFTC reúne comitê de inovação para discutir cripto, IA e mercados de previsão</news:title></news:news></url>
+  <url><loc>https://firstnews.com.br/entretenimento/outer-banks-temporada-5-estreia-netflix-final-pogues/</loc><news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-08-21T05:32:00Z</news:publication_date><news:title>Outer Banks estreia 5ª e última temporada na Netflix com despedida dos Pogues</news:title></news:news></url>
+  <url><loc>https://firstnews.com.br/entretenimento/lion-disney-plus-kio-documentario-jon-favreau/</loc><news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-08-21T05:31:00Z</news:publication_date><news:title>LION chega ao Disney+ acompanhando quatro anos da vida de um leão no Quênia</news:title></news:news></url>
+  <url><loc>https://firstnews.com.br/entretenimento/microdramas-verticais-crescem-hollywood-reelshort/</loc><news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-08-21T05:30:00Z</news:publication_date><news:title>Microdramas verticais crescem em Hollywood e atraem investimento de grandes estúdios</news:title></news:news></url>
+  <url><loc>https://firstnews.com.br/politica/pesquisa-parana-governo-sp-tarcisio-50-haddad-33-8/</loc><news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-08-21T05:29:00Z</news:publication_date><news:title>Pesquisa para o governo de SP mostra Tarcísio com 50% e Haddad com 33,8%</news:title></news:news></url>
+  <url><loc>https://firstnews.com.br/politica/carmen-lucia-eleita-presidente-primeira-turma-stf/</loc><news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-08-21T05:28:00Z</news:publication_date><news:title>Cármen Lúcia é eleita para presidir a Primeira Turma do STF a partir de setembro</news:title></news:news></url>
+  <url><loc>https://firstnews.com.br/politica/durigan-diz-novo-governo-lula-mantera-arcabouco-fiscal/</loc><news:news><news:publication><news:name>FirstNews</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-08-21T05:27:00Z</news:publication_date><news:title>Durigan diz que novo mandato de Lula manteria arcabouço fiscal e controle de gastos</news:title></news:news></url>
 </urlset>
