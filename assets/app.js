@@ -1,166 +1,19 @@
-const DATA_URL = "./data/articles.json";
-
-const state = { articles: [], filter: "all", query: "", category: "" };
-
-const qs = (s, root=document) => root.querySelector(s);
-const qsa = (s, root=document) => [...root.querySelectorAll(s)];
-
-function escapeHtml(value="") {
-  return String(value).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
-}
-
-function categoryLabel(category) {
-  return ({ tecnologia:"Tecnologia", criptomoedas:"Criptomoedas", entretenimento:"Entretenimento" })[category] || category;
-}
-
-function relativeDate(iso) {
-  const date = new Date(iso);
-  const diff = Math.max(0, Date.now() - date.getTime());
-  const min = Math.floor(diff/60000);
-  if (min < 60) return min <= 1 ? "agora" : `há ${min} min`;
-  const h = Math.floor(min/60);
-  if (h < 24) return `há ${h} h`;
-  const d = Math.floor(h/24);
-  return d === 1 ? "há 1 dia" : `há ${d} dias`;
-}
-
-function articleUrl(article) {
-  return `./artigo.html?slug=${encodeURIComponent(article.slug)}`;
-}
-
-function badge(article) {
-  return article.demo ? '<span class="demo-badge">DEMONSTRAÇÃO</span>' : "";
-}
-
-function heroCard(article, main=false) {
-  const heading = main ? "h1" : "h2";
-  return `<a class="hero-card" data-category="${escapeHtml(article.category)}" href="${articleUrl(article)}">
-    <div class="hero-card__visual"></div>
-    <div class="hero-card__content">
-      <span class="tag">${escapeHtml(categoryLabel(article.category))}</span>${badge(article)}
-      <${heading}>${escapeHtml(article.title)}</${heading}>
-      <div class="meta">${escapeHtml(article.author)} · ${relativeDate(article.publishedAt)}</div>
-    </div>
-  </a>`;
-}
-
-function newsCard(article) {
-  const klass = article.category === "criptomoedas" ? "thumb--crypto" : article.category === "entretenimento" ? "thumb--ent" : "";
-  return `<article class="news-card">
-    <a class="thumb ${klass}" data-letter="${escapeHtml(categoryLabel(article.category).slice(0,1))}" href="${articleUrl(article)}" aria-label="${escapeHtml(article.title)}"></a>
-    <div>
-      <span class="eyebrow">${escapeHtml(categoryLabel(article.category))}</span>${badge(article)}
-      <h3><a href="${articleUrl(article)}">${escapeHtml(article.title)}</a></h3>
-      <p>${escapeHtml(article.summary)}</p>
-      <div class="meta">${escapeHtml(article.author)} · ${relativeDate(article.publishedAt)}</div>
-    </div>
-  </article>`;
-}
-
-function filteredArticles() {
-  return state.articles.filter(article => {
-    const catOk = (state.filter === "all" || article.category === state.filter) &&
-                  (!state.category || article.category === state.category);
-    const haystack = `${article.title} ${article.summary} ${(article.tags||[]).join(" ")}`.toLowerCase();
-    const qOk = !state.query || haystack.includes(state.query.toLowerCase());
-    return catOk && qOk;
-  });
-}
-
-function renderHome() {
-  const filtered = filteredArticles();
-  const base = (state.category || state.query) ? filtered : state.articles;
-  const hero = base.slice(0,3);
-  qs("#heroGrid").innerHTML = hero.length
-    ? hero.map((a,i) => heroCard(a,i===0)).join("")
-    : '<div class="empty-state"><h3>Nenhuma notícia encontrada</h3><p>O pipeline ainda não adicionou conteúdo para este filtro.</p></div>';
-
-  qs("#latestNews").innerHTML = filtered.length
-    ? filtered.slice(0,12).map(newsCard).join("")
-    : '<div class="empty-state"><h3>Nenhuma notícia encontrada</h3><p>Tente outra busca ou categoria.</p></div>';
-
-  const ranking = [...state.articles].sort((a,b)=>(b.views||0)-(a.views||0)).slice(0,5);
-  qs("#mostRead").innerHTML = ranking.map((a,i)=>`<li><span class="ranking__number">${String(i+1).padStart(2,"0")}</span><a href="${articleUrl(a)}">${escapeHtml(a.title)}</a></li>`).join("");
-
-  qsa(".pill").forEach(btn => btn.classList.toggle("is-active", btn.dataset.filter === state.filter));
-  qsa("[data-category-link]").forEach(a => a.classList.toggle("is-active", a.dataset.categoryLink === state.category));
-}
-
-function renderArticle() {
-  const slug = new URLSearchParams(location.search).get("slug");
-  const article = state.articles.find(a => a.slug === slug);
-  if (!article) {
-    qs("#articleContent").innerHTML = '<div class="empty-state"><h3>Notícia não encontrada</h3><p>Ela pode ter sido removida ou ainda não foi publicada.</p><p><a href="./">Voltar para a página inicial</a></p></div>';
-    return;
-  }
-
-  document.title = `${article.title} — BLOG`;
-  let meta = qs('meta[name="description"]');
-  if (meta) meta.setAttribute("content", article.summary);
-
-  const body = (article.body || []).map(block => {
-    if (block.type === "heading") return `<h2>${escapeHtml(block.text)}</h2>`;
-    return `<p>${escapeHtml(block.text)}</p>`;
-  }).join("");
-
-  qs("#articleContent").innerHTML = `
-    <span class="article-page__category">${escapeHtml(categoryLabel(article.category))}</span>${badge(article)}
-    <h1>${escapeHtml(article.title)}</h1>
-    <p class="article-page__lead">${escapeHtml(article.summary)}</p>
-    <div class="article-page__meta">Por ${escapeHtml(article.author)} · ${new Date(article.publishedAt).toLocaleString("pt-BR")}</div>
-    <div class="article-page__body">${body}</div>
-    ${article.sources?.length ? `<div class="article-page__source"><strong>Fontes utilizadas:</strong><br>${article.sources.map(s => `<a href="${escapeHtml(s.url)}" rel="nofollow noopener" target="_blank">${escapeHtml(s.name)}</a>`).join("<br>")}</div>` : ""}
-  `;
-
-  const related = state.articles.filter(a => a.slug !== article.slug && a.category === article.category).slice(0,5);
-  qs("#relatedNews").innerHTML = related.map(a => `<a class="related-item" href="${articleUrl(a)}">${escapeHtml(a.title)}</a>`).join("");
-}
-
-async function boot() {
-  qs("#year") && (qs("#year").textContent = new Date().getFullYear());
-
-  const params = new URLSearchParams(location.search);
-  state.category = params.get("categoria") || "";
-  state.query = params.get("q") || "";
-
-  try {
-    const response = await fetch(DATA_URL, { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const payload = await response.json();
-    state.articles = (payload.articles || []).filter(a => a.status === "published").sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt));
-  } catch (error) {
-    console.error("Falha ao carregar artigos", error);
-    state.articles = [];
-  }
-
-  if (document.body.dataset.page === "article") renderArticle();
-  else renderHome();
-}
-
-qs("#menuToggle")?.addEventListener("click", () => {
-  const nav = qs("#mainNav");
-  nav.classList.toggle("is-open");
-  qs("#menuToggle").setAttribute("aria-expanded", nav.classList.contains("is-open"));
-});
-
-qs("#searchButton")?.addEventListener("click", () => {
-  const panel = qs("#searchPanel");
-  panel.hidden = !panel.hidden;
-  if (!panel.hidden) qs("#searchInput").focus();
-});
-
-qs("#searchForm")?.addEventListener("submit", e => {
-  e.preventDefault();
-  const q = qs("#searchInput").value.trim();
-  location.href = q ? `./?q=${encodeURIComponent(q)}` : "./";
-});
-
-qs("#filterPills")?.addEventListener("click", e => {
-  const btn = e.target.closest("[data-filter]");
-  if (!btn) return;
-  state.filter = btn.dataset.filter;
-  state.category = "";
-  renderHome();
-});
-
+const DATA_URL = "/articles.json";
+const state={articles:[],filter:"all",query:"",category:""};
+const qs=(s,r=document)=>r.querySelector(s);
+const qsa=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=(v="")=>String(v).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
+function categoryLabel(c){return({tecnologia:"Tecnologia",criptomoedas:"Criptomoedas",entretenimento:"Entretenimento",politica:"Política"})[c]||c}
+function relativeDate(iso){const d=new Date(iso),diff=Math.max(0,Date.now()-d.getTime()),m=Math.floor(diff/60000);if(m<60)return m<=1?"agora":`há ${m} min`;const h=Math.floor(m/60);if(h<24)return `há ${h} h`;const days=Math.floor(h/24);return days===1?"há 1 dia":`há ${days} dias`}
+function articleUrl(a){return a.url||`/${encodeURIComponent(a.category)}/${encodeURIComponent(a.slug)}/`}
+function img(a){return a.featuredImage?.url||""}
+function heroCard(a,main=false){const h=main?"h1":"h2",image=img(a);return `<a class="hero-card" data-category="${esc(a.category)}" href="${esc(articleUrl(a))}"><div class="hero-card__visual"${image?` style="background-image:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.55)),url('${esc(image)}');background-size:cover;background-position:center"`:""}></div><div class="hero-card__content"><span class="tag">${esc(categoryLabel(a.category))}</span><${h}>${esc(a.title)}</${h}><div class="meta">${esc(a.author)} · ${relativeDate(a.publishedAt)}</div></div></a>`}
+function newsCard(a){const image=img(a);return `<article class="news-card"><a class="thumb" href="${esc(articleUrl(a))}" aria-label="${esc(a.title)}"${image?` style="background-image:url('${esc(image)}');background-size:cover;background-position:center"`:""}></a><div><span class="eyebrow">${esc(categoryLabel(a.category))}</span><h3><a href="${esc(articleUrl(a))}">${esc(a.title)}</a></h3><p>${esc(a.summary)}</p><div class="meta">${esc(a.author)} · ${relativeDate(a.publishedAt)}</div></div></article>`}
+function filtered(){return state.articles.filter(a=>{const cat=(state.filter==="all"||a.category===state.filter)&&(!state.category||a.category===state.category);const hay=`${a.title} ${a.summary} ${(a.tags||[]).join(" ")}`.toLowerCase();return cat&&(!state.query||hay.includes(state.query.toLowerCase()))})}
+function renderHome(){const f=filtered(),base=(state.category||state.query)?f:state.articles,hero=base.slice(0,3);qs("#heroGrid").innerHTML=hero.length?hero.map((a,i)=>heroCard(a,i===0)).join(""):'<div class="empty-state"><h3>Nenhuma notícia encontrada</h3></div>';qs("#latestNews").innerHTML=f.length?f.slice(0,18).map(newsCard).join(""):'<div class="empty-state"><h3>Nenhuma notícia encontrada</h3></div>';const rank=[...state.articles].sort((a,b)=>(b.views||0)-(a.views||0)).slice(0,5);qs("#mostRead").innerHTML=rank.map((a,i)=>`<li><span class="ranking__number">${String(i+1).padStart(2,"0")}</span><a href="${esc(articleUrl(a))}">${esc(a.title)}</a></li>`).join("");qsa(".pill").forEach(b=>b.classList.toggle("is-active",b.dataset.filter===state.filter))}
+async function boot(){qs("#year")&&(qs("#year").textContent=new Date().getFullYear());const p=new URLSearchParams(location.search);state.category=p.get("categoria")||"";state.query=p.get("q")||"";try{const r=await fetch(DATA_URL,{cache:"no-store"});if(!r.ok)throw new Error(`HTTP ${r.status}`);const j=await r.json();state.articles=(j.articles||[]).filter(a=>a.status==="published"&&!a.demo).sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt));renderHome()}catch(e){console.error(e);qs("#latestNews").innerHTML='<div class="empty-state"><h3>Não foi possível carregar as notícias.</h3></div>'}}
+qs("#menuToggle")?.addEventListener("click",()=>{const n=qs("#mainNav");n.classList.toggle("is-open");qs("#menuToggle").setAttribute("aria-expanded",n.classList.contains("is-open"))});
+qs("#searchButton")?.addEventListener("click",()=>{const p=qs("#searchPanel");p.hidden=!p.hidden;if(!p.hidden)qs("#searchInput").focus()});
+qs("#searchForm")?.addEventListener("submit",e=>{e.preventDefault();const q=qs("#searchInput").value.trim();location.href=q?`/?q=${encodeURIComponent(q)}`:"/"});
+qs("#filterPills")?.addEventListener("click",e=>{const b=e.target.closest("[data-filter]");if(!b)return;state.filter=b.dataset.filter;state.category="";renderHome()});
 boot();
